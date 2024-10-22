@@ -1,0 +1,82 @@
+{
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcomeBack": "مرحبًا بعودتك!",
+    "overviewDescription": "إليك نظرة سريعة على نشاط منصتك.",
+    "viewCourses": "عرض الدورات",
+    "courses": "الدورات",
+    "students": "الطلاب",
+    "instructors": "المعلمين",
+    "score": "النتيجة",
+    "resources": "الموارد",
+    "noResources": "لا توجد موارد متاحة",
+    "loading": "جار التحميل...",
+    "accountCreated": "تم إنشاء الحساب",
+    "maxSize": "الحجم الأقصى",
+    "yearsOld": "سنوات",
+    "edit": "تعديل",
+    "cancel": "إلغاء",
+    "saveChanges": "حفظ التغييرات",
+    "createLibrary": "إنشاء مكتبة",
+    "uploadResource": "تحميل المورد",
+    "deleteLibrary": "حذف المكتبة",
+    "deleteResource": "حذف المورد",
+    "selectType": "اختر النوع",
+    "selectFile": "حدد المكتبة والملف المراد تحميله",
+    "fileSizeExceeds": "حجم الملف يتجاوز الحد الأقصى المسموح به، قم باستخراج الملف أو الاتصال بالمسؤول",
+    "uploadSuccess": "تم تحميل المورد بنجاح",
+    "uploadError": "فشل تحميل المورد",
+    "deleteLibrarySuccess": "تم حذف المكتبة بنجاح",
+    "deleteResourceSuccess": "تم حذف المورد بنجاح",
+    "fetchLibrariesError": "فشل تحميل المكتبات",
+    "responsableFormation": "مدير التدريب",
+    "updateMaxSize": "تحديث الحجم الأقصى",
+    "newMaxSize": "الحجم الأقصى الجديد (بـ MB)",
+    "classesDetails": "تفاصيل الفصول"
+  },
+  "sidebar": {
+    "dashboard": "لوحة التحكم",
+    "courses": "الدورات",
+    "sessions": "الجلسات",
+    "sections": "الأقسام",
+    "calendar": "التقويم",
+    "classes": "الفصول",
+    "libraries": "المكتبات",
+    "verification": "التحقق",
+    "approvals": "الموافقات"
+  },
+  "notifications": {
+    "newMessageFrom": "رسالة جديدة من {{name}}",
+    "newMessage": "رسالة جديدة",
+    "newQuizNotification": "إشعار اختبار جديد!"
+  },
+  "buttons": {
+    "showMore": "عرض المزيد",
+    "showLess": "عرض أقل",
+    "edit": "تعديل",
+    "cancel": "إلغاء",
+    "saveChanges": "حفظ التغييرات",
+    "createLibrary": "إنشاء مكتبة",
+    "uploadResource": "تحميل المورد",
+    "deleteLibrary": "حذف المكتبة",
+    "deleteResource": "حذف المورد"
+  },
+  "tooltips": {
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "gender": "الجنس",
+    "cin": "الرقم التعريفي",
+    "age": "العمر"
+  },
+  "placeholders": {
+    "enterNewMaxSize": "أدخل الحجم الأقصى الجديد"
+  },
+  "charts":{
+    "coursesCreated": "الدورات المنشأة",
+    "studentsOverTime": "الطلاب مع مرور الوقت",
+    "instructorsOverTime": "المعلمين مع مرور الوقت",
+    "evaluationsOverTime": "التقييمات مع مرور الوقت",
+    "combinedActivityChart": "الرسم البياني للنشاط المشترك",
+    "coursesCreatedByMonth": "الدورات التي تم إنشاؤها حسب الشهر"
+  }
+}

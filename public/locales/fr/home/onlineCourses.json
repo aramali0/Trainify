@@ -1,0 +1,13 @@
+{
+  "loading": "Chargement...",
+  "error": {
+    "fetchCourses": "Échec du chargement des cours."
+  },
+  "discoverNew": "Découvrez de nouveaux",
+  "ourOnlineCourses": "Nos cours en ligne",
+  "lessons": "Leçons",
+  "students": "Étudiants",
+  "allLevels": "Tous niveaux",
+  "free": "Gratuit",
+  "unknownFormateur": "Formateur inconnu"
+}

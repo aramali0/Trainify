@@ -1,0 +1,11 @@
+{
+    "quizResult": {
+        "title": "Quiz Result",
+        "correctResponses": "Correct Responses",
+        "score": "Score"
+    },
+    "loading": "Loading...",
+    "error": {
+        "loadingResult": "Failed to load quiz result"
+    }
+}

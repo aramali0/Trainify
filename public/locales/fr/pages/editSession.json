@@ -1,0 +1,25 @@
+{
+    "editSession": "Modifier la session",
+    "name": "Nom",
+    "sessionDate": "Date de session",
+    "duration": "Durée (minutes)",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "course": "Cours",
+    "loading": "Chargement des cours...",
+    "errors": {
+        "loadSessionFailed": "Échec du chargement des détails de la session",
+        "loadCoursesFailed": "Échec du chargement des cours",
+        "nameRequired": "Le nom est requis.",
+        "nameInvalid": "Le nom ne doit contenir que des lettres et des espaces.",
+        "sessionDateRequired": "La date de session est requise.",
+        "durationInvalid": "La durée doit être un nombre positif.",
+        "startDateRequired": "La date de début est requise.",
+        "endDateRequired": "La date de fin est requise.",
+        "endDateInvalid": "La date de fin doit être après la date de début.",
+        "courseRequired": "Le cours est requis.",
+        "updateSessionFailed": "Échec de la mise à jour de la session"
+    },
+    "sessionUpdated": "Session mise à jour avec succès",
+    "updateSession": "Mettre à jour la session"
+}

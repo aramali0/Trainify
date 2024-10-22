@@ -1,0 +1,7 @@
+{
+    "notFound": {
+        "oops": "Oups! Page non trouvée",
+        "message": "Oups! Il semble que vous êtes perdu. La page que vous cherchiez n'a pas pu être trouvée. Ne vous inquiétez pas, cela arrive même aux meilleurs.",
+        "backToHome": "Retour à l'accueil"
+    }
+}

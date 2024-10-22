@@ -1,0 +1,21 @@
+{
+  "sidebar": {
+    "dashboard": "لوحة التحكم",
+    "courses": "الدورات",
+    "sessions": "الجلسات",
+    "sections": "الأقسام",
+    "calendar": "التقويم",
+    "classes": "الفصول",
+    "libraries": "المكتبات",
+    "verification": "التحقق",
+    "approvals": "الموافقات"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم"
+  },
+  "notifications": {
+    "newMessageFrom": "رسالة جديدة من {{name}}",
+    "newMessage": "رسالة جديدة",
+    "newQuizNotification": "إشعار اختبار جديد!"
+  }
+}

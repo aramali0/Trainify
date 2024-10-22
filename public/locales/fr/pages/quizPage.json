@@ -1,0 +1,16 @@
+{
+    "quiz": {
+        "title": "Quiz",
+        "loadError": "Échec du chargement des questions",
+        "submitSuccess": "Quiz soumis avec succès",
+        "submitError": "Échec de la soumission du quiz",
+        "selectError": "Veuillez sélectionner une réponse avant de continuer.",
+        "timeTaken": "Temps pris",
+        "question": "Question",
+        "of": "de",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "reviewAndSubmit": "Réviser et Soumettre",
+        "submitted": "Quiz soumis"
+    }
+}

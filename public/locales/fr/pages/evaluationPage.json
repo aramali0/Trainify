@@ -1,0 +1,16 @@
+{
+  "title": "Liste des évaluations",
+  "filterBySection": "Filtrer par section",
+  "selectSection": "Sélectionnez une section",
+  "filterByQuiz": "Filtrer par quiz",
+  "selectQuiz": "Sélectionnez un quiz",
+  "loading": "Chargement des évaluations...",
+  "score": "Score",
+  "date": "Date",
+  "time": "Temps pris",
+  "participant": "Participant",
+  "noEvaluations": "Aucune évaluation trouvée",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "correction": "Voir la correction"
+}

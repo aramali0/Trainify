@@ -1,0 +1,21 @@
+{
+  "missionSubtitle": "Our Mission",
+  "missionTitle": "Your Path to Success",
+  "missionDescription": "Our mission is to provide high-quality education that leads to success in your chosen career path. Join us and start your journey today.",
+  "classesComplete": "350",
+  "classesCompleteText": "Classes Completed",
+  "libraryBooks": "20",
+  "libraryBooksText": "Library Books",
+  "certifiedTeachers": "50",
+  "certifiedTeachersText": "Certified Teachers",
+  "applyNow": "Apply Now",
+  "inquiryNow": "Inquire Now",
+  "successMessage": "Your message has been sent successfully.",
+  "errorMessage": "There was an error sending your message.",
+  "namePlaceholder": "Your Name",
+  "emailPlaceholder": "Your Email",
+  "subjectPlaceholder": "Subject",
+  "phonePlaceholder": "Your Phone Number",
+  "messagePlaceholder": "Your Message",
+  "submitButton": "Submit"
+}

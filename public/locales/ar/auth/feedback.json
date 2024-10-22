@@ -1,0 +1,23 @@
+{
+  "feedback": {
+    "title": "تقديم ملاحظات",
+    "organization": "المنظمة",
+    "organizationPlaceholder": "أدخل منظمتك",
+    "platformExperience": "تجربة المنصة",
+    "platformExperiencePlaceholder": "صف تجربتك مع المنصة",
+    "satisfactionLevel": "مستوى الرضا",
+    "selectSatisfaction": "اختر مستوى الرضا",
+    "verySatisfied": "راضٍ جداً",
+    "satisfied": "راضٍ",
+    "neutral": "محايد",
+    "dissatisfied": "غير راضٍ",
+    "veryDissatisfied": "غير راضٍ جداً",
+    "remarks": "ملاحظات",
+    "additionalCommentsPlaceholder": "تعليقات إضافية",
+    "submitButton": "تقديم الملاحظات",
+    "successMessage": "تم تقديم الملاحظات بنجاح!",
+    "errorMessage": "فشل تقديم الملاحظات. يرجى المحاولة مرة أخرى."
+  }
+}
+
+

@@ -1,0 +1,7 @@
+{
+    "Calendar": "Calendar",
+    "Unavailable": "Unavailable",
+    "Failed to fetch events": "Failed to fetch events",
+    "Failed to submit unavailable time": "Failed to submit unavailable time",
+    "Failed to delete unavailable time": "Failed to delete unavailable time"
+}

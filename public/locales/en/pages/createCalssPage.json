@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "createClass": "Create Class"
+    },
+    "labels": {
+        "classTitle": "Class Title",
+        "selectParticipants": "Select Participants",
+        "selectCourses": "Select Courses"
+    },
+    "buttons": {
+        "createClass": "Create Class"
+    },
+    "messages": {
+        "classCreated": "Class created successfully",
+        "classCreationFailed": "Failed to create class",
+        "classTitleEmpty": "Class title cannot be empty",
+        "classTitleInvalid": "Title must contain only letters and spaces.",
+        "participantsRequired": "At least one participant must be selected",
+        "coursesRequired": "At least one course must be selected"
+    },
+    "placeholders": {
+        "classTitle": "Enter class title"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "eventList": "Liste des événements",
+  "noEvents": "Aucun événement disponible.",
+  "createEvent": "Créer un événement",
+  "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet événement ?",
+  "date": "Date:",
+  "location": "Emplacement:"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Télécharger un certificat",
+  "selectParticipant": "Sélectionner un participant",
+  "loadingParticipants": "Chargement des participants...",
+  "selectPlaceholder": "Sélectionnez un participant...",
+  "uploadFile": "Télécharger le certificat",
+  "upload": "Télécharger",
+  "fetchError": "Échec du chargement des participants",
+  "selectError": "Veuillez sélectionner un participant et un fichier à télécharger.",
+  "uploadSuccess": "Certificat téléchargé avec succès",
+  "uploadError": "Échec du téléchargement du certificat"
+}

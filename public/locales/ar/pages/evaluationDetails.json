@@ -1,0 +1,12 @@
+{
+    "evaluationDetails": "تفاصيل التقييم",
+    "evaluationId": "معرف التقييم",
+    "type": "النوع",
+    "createdAt": "تاريخ الإنشاء",
+    "score": "الدرجة",
+    "fetchError": "فشل في تحميل التقييمات",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "الصفحة",
+    "of": "من"
+}

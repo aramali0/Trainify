@@ -1,0 +1,13 @@
+{
+  "login": {
+    "title": "تسجيل الدخول",
+    "subtitle": "! سعيدون بعودتك",
+    "emailLabel": "عنوان البريد الإلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "submitButton": "تسجيل الدخول",
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+    "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة"
+  }
+}

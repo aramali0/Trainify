@@ -1,0 +1,26 @@
+{
+    "titles": {
+        "addEnterprise": "إضافة مؤسسة"
+    },
+    "labels": {
+        "logo": "الشعار",
+        "commercialName": "الاسم التجاري",
+        "rcNumber": "رقم السجل التجاري",
+        "cnssNumber": "رقم الضمان الاجتماعي",
+        "ifNumber": "رقم التعريف الضريبي",
+        "tpNumber": "رقم الضرائب",
+        "numberOfEmployees": "عدد الموظفين"
+    },
+    "errors": {
+        "required": "{{field}} مطلوب.",
+        "invalidCharacters": "يمكن أن يحتوي {{field}} على أحرف فقط.",
+        "mustBeNumeric": "يجب أن يكون {{field}} عددياً."
+    },
+    "messages": {
+        "success": "تمت إضافة المؤسسة بنجاح.",
+        "error": "فشل في إضافة المؤسسة."
+    },
+    "buttons": {
+        "saveEnterprise": "حفظ المؤسسة"
+    }
+}

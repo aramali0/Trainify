@@ -1,0 +1,17 @@
+{
+  "searchPlaceholder": "ابحث بالاسم...",
+  "allRoles": "كل الأدوار",
+  "participants": "المشاركين",
+  "formateurs": "المدربين",
+  "responsableFormation": "مسؤول التكوين",
+  "usersForEnterprise": "المستخدمون للمؤسسة",
+  "allUsers": "جميع المستخدمين",
+  "previous": "السابق",
+  "next": "التالي",
+  "userDeleted": "تم حذف المستخدم بنجاح!",
+  "userBlocked": "تم حظر المستخدم بنجاح!",
+  "userUnblocked": "تم إلغاء حظر المستخدم بنجاح!",
+  "fetchError": "فشل في جلب المستخدمين",
+  "deleteError": "فشل في حذف المستخدم",
+  "blockError": "فشل في حظر المستخدم"
+}

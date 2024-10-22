@@ -1,0 +1,22 @@
+{
+    "addSession": "Add New Session",
+    "name": "Name",
+    "duration": "Duration (minutes)",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "course": "Course",
+    "loading": "Loading courses...",
+    "addSessionButton": "Add Session",
+    "sessionAdded": "Session added successfully",
+    "sessionFailed": "Failed to add session",
+    "loadFailed": "Failed to load courses",
+    "errors": {
+        "nameRequired": "Name is required.",
+        "nameInvalid": "Name must contain only letters, numbers, spaces, and the characters - _ . ,",
+        "durationInvalid": "Duration must be a positive number.",
+        "startDateRequired": "Start Date is required.",
+        "endDateRequired": "End Date is required.",
+        "endDateInvalid": "End Date must be after Start Date.",
+        "courseRequired": "Course is required."
+    }
+}

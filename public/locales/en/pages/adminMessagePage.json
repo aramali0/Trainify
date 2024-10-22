@@ -1,0 +1,9 @@
+{
+  "submittedMessages": "Submitted Messages",
+  "writeYourResponse": "Write your response here...",
+  "submitResponse": "Submit Response",
+  "responseSubmitted": "Response submitted",
+  "errorFetchingMessages": "Error fetching messages:",
+  "errorSubmittingResponse": "Error submitting response:",
+  "direction": "ltr"
+}

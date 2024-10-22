@@ -1,0 +1,23 @@
+{
+    "editEntreprise": "Modifier l'entreprise",
+    "rcLabel": "N° RC",
+    "cnssLabel": "N° CNSS",
+    "ifLabel": "N° IF",
+    "tpLabel": "N° TP",
+    "employeesLabel": "Employés",
+    "settingsTitle": "Paramètres",
+    "showQuizResult": "Afficher le résultat du quiz",
+    "showQuizCorrection": "Afficher la correction du quiz",
+    "showExcelMethode": "Afficher la méthode Excel",
+    "responsablesButton": "Responsables",
+    "participantButton": "Participant",
+    "formateursButton": "Formateurs",
+    "errors": {
+        "updateFailed": "Échec de la mise à jour de {{attribute}}. Veuillez réessayer."
+    },
+    "attributes": {
+        "showQuizResult": "Résultat du quiz",
+        "showQuizCorrection": "Correction du quiz",
+        "showExcelMethode": "Méthode Excel"
+    }
+}

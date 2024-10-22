@@ -1,0 +1,39 @@
+{
+  "add_responsable": {
+    "title": "Ajouter un nouvel utilisateur",
+    "description": "Remplissez les détails ci-dessous pour créer un nouvel utilisateur.",
+    "matricule": "ID Matricule",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "phone": "Numéro de téléphone",
+    "age": "Âge",
+    "cin": "CIN",
+    "upload_image": "Télécharger l'image de profil",
+    "no_image": "Pas d'image",
+    "gender": "Genre",
+    "male": "Homme",
+    "female": "Femme",
+    "submit": "Soumettre",
+    "errors": {
+      "matricule_required": "Le matricule est obligatoire",
+      "first_name_required": "Le prénom est obligatoire",
+      "first_name_letters": "Le prénom ne doit contenir que des lettres",
+      "last_name_required": "Le nom est obligatoire",
+      "last_name_letters": "Le nom ne doit contenir que des lettres",
+      "email_required": "L'adresse e-mail est obligatoire",
+      "email_invalid": "Veuillez entrer une adresse e-mail valide",
+      "password_required": "Le mot de passe est obligatoire",
+      "password_short": "Le mot de passe doit comporter au moins 8 caractères",
+      "phone_required": "Le numéro de téléphone est obligatoire",
+      "phone_invalid": "Veuillez entrer un numéro de téléphone valide",
+      "age_required": "L'âge est obligatoire",
+      "age_invalid": "L'âge doit être un nombre valide",
+      "cin_invalid": "Le CIN doit être au format 'AB123456789'",
+      "image_size": "La taille de l'image ne doit pas dépasser 2 Mo"
+    },
+    "addUserSuccess": "Utilisateur ajouté avec succès",
+    "addUserError": "Erreur lors de l'ajout de l'utilisateur"
+  }
+}

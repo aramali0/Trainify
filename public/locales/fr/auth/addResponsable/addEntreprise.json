@@ -1,0 +1,41 @@
+{
+  "addEntreprise": {
+    "title": "Ajouter une entreprise",
+    "fields": {
+      "logo": "Logo",
+      "commercialName": "Nom commercial",
+      "rcNumber": "Numéro RC",
+      "cnssNumber": "Numéro CNSS",
+      "ifNumber": "Numéro IF",
+      "tpNumber": "Numéro TP",
+      "numberOfEmployees": "Nombre d'employés",
+      "hierarchicalUnits": "Unités hiérarchiques",
+      "parentUnit": "Unité parente",
+      "unitName": "Nom de l'unité",
+      "unitType": "Type d'unité",
+      "addUnit": "Ajouter une unité",
+      "removeUnit": "Supprimer une unité",
+      "submit": "Soumettre",
+      "parentUnitInfo":"Si l'unité n'a pas de parent, laissez-la comme \"Pas de parent (unité racine)\".",
+      "success":"Entreprise ajoutée avec succès",
+      "error":"Erreur lors de l'ajout de l'entreprise",
+      "responsables": "Responsables",
+      "selectResponsables": "Sélectionnez des responsables",
+      "noParent": "Pas de parent (unité racine)",
+      "selectParentOrLeaveEmpty": "Sélectionnez une unité parente ou laissez vide comme 'Pas de parent (unité racine)'"
+    },
+    "validation": {
+      "commercialNameRequired": "Le nom commercial est requis",
+      "rcNumberRequired": "Le numéro RC est requis",
+      "cnssNumberRequired": "Le numéro CNSS est requis",
+      "ifNumberRequired": "Le numéro IF est requis",
+      "tpNumberRequired": "Le numéro TP est requis",
+      "numberOfEmployeesRequired": "Le nombre d'employés est requis",
+      "numericOnly": "doit être numérique",
+      "lettersOnly": "ne peut contenir que des lettres et des espaces",
+      "imageTooLarge": "La taille de l'image ne doit pas dépasser 2 Mo",
+      "unitSelfParentError": "Une unité ne peut pas être son propre parent",
+      "unitSameTypeParentError": "Une unité ne peut pas avoir un parent du même type"
+    }
+  }
+}

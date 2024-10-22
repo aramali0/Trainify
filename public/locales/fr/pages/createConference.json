@@ -1,0 +1,15 @@
+{
+  "createConference": "Créer une conférence",
+  "title": "Titre",
+  "platform": "Plateforme",
+  "url": "URL",
+  "startTime": "Heure de début",
+  "creating": "Création...",
+  "titleError": "Le titre ne peut pas être vide",
+  "titleValidationError": "Le titre doit contenir uniquement des lettres et des espaces.",
+  "platformError": "La plateforme ne peut pas être vide",
+  "platformValidationError": "La plateforme doit contenir uniquement des lettres et des espaces.",
+  "urlError": "Veuillez entrer une URL valide",
+  "startTimeError": "L'heure de début ne peut pas être vide",
+  "startTimeFutureError": "L'heure de début doit être dans le futur"
+}

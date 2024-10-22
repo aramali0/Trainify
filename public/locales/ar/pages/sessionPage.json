@@ -1,0 +1,48 @@
+{
+    "titles": {
+        "courses": "الدورات",
+        "sessions": "الجلسات"
+    },
+    "buttons": {
+        "createCourse": "إنشاء دورة",
+        "updateCourse": "تحديث الدورة",
+        "favorite": "إضافة إلى المفضلة",
+        "unfavorite": "إزالة من المفضلة",
+        "sendRequest": "إرسال الطلب",
+        "showSessions": "عرض الجلسات",
+        "showLibrary": "عرض المكتبة",
+        "createSession": "إنشاء جلسة"
+    },
+    "filters": {
+        "allSessions": "جميع الجلسات",
+        "futureSessions": "الجلسات المستقبلية",
+        "pastSessions": "الجلسات الماضية",
+        "ongoingSessions": "الجلسات الجارية"
+    },
+    "messages": {
+        "loading": "جار التحميل...",
+        "requestSentSuccessfully": "تم إرسال الطلب بنجاح",
+        "noSessionsAvailable": "لا توجد جلسات متاحة."
+    },
+    "errors": {
+        "failedToLoadCourses": "فشل في تحميل الدورات",
+        "errorSendingRequest": "حدث خطأ أثناء إرسال الطلب",
+        "noSessionsAvailable": "لا توجد جلسات متاحة",
+        "failedToLoadSessions": "فشل في تحميل الجلسات"
+    },
+    "course": {
+        "altImage": "صورة الدورة",
+        "sessions": "الجلسات",
+        "duration": "المدة",
+        "hours": "ساعات",
+        "language": "اللغة",
+        "createdAt": "تاريخ الإنشاء",
+        "lastUpdated": "آخر تحديث"
+    },
+    "session": {
+        "title": "العنوان",
+        "description": "الوصف",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء"
+    }
+}

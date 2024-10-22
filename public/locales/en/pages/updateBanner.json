@@ -1,0 +1,36 @@
+{
+    "titles": {
+        "updateBanner": "Update Banner"
+    },
+    "buttons": {
+        "updateBanner": "Update Banner"
+    },
+    "labels": {
+        "previewImage": "Preview Image",
+        "backgroundImage": "Background Image",
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "link1Href": "Link 1 Href",
+        "link1Text": "Link 1 Text",
+        "link2Href": "Link 2 Href",
+        "link2Text": "Link 2 Text"
+    },
+    "errors": {
+        "imageTooLarge": "Image must be less than 2MB.",
+        "invalidTitle": "Title can only contain letters, numbers, spaces, and . , ! ?",
+        "invalidSubtitle": "Subtitle can only contain letters, numbers, spaces, and . , ! ?",
+        "invalidLink1Text": "Link 1 text can only contain letters, numbers, spaces, and . , ! ?",
+        "invalidLink2Text": "Link 2 text can only contain letters, numbers, spaces, and . , ! ?",
+        "invalidLinkHref": "Link {{linkNumber}} must be a valid URL.",
+        "failedToLoadBanner": "Failed to load banner data.",
+        "failedToUpdateBanner": "Failed to update banner."
+    },
+    "messages": {
+        "bannerUpdatedSuccessfully": "Banner updated successfully!"
+    },
+    "aria": {
+        "backgroundImage": "Background Image",
+        "editBanner": "Edit Banner",
+        "deleteBanner": "Delete Banner"
+    }
+}

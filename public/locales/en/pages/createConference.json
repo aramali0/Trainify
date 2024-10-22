@@ -1,0 +1,15 @@
+{
+  "createConference": "Create Conference",
+  "title": "Title",
+  "platform": "Platform",
+  "url": "URL",
+  "startTime": "Start Time",
+  "creating": "Creating...",
+  "titleError": "Title cannot be empty",
+  "titleValidationError": "Title must contain only letters and spaces.",
+  "platformError": "Platform cannot be empty",
+  "platformValidationError": "Platform must contain only letters and spaces.",
+  "urlError": "Please enter a valid URL",
+  "startTimeError": "Start time cannot be empty",
+  "startTimeFutureError": "Start time must be in the future"
+}

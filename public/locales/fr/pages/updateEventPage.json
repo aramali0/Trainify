@@ -1,0 +1,18 @@
+{
+  "updateEvent": "Mettre à jour l'événement",
+  "title": "Titre",
+  "description": "Description",
+  "date": "Date",
+  "location": "Emplacement",
+  "eventImage": "Image de l'événement",
+  "eventUpdated": "Événement mis à jour avec succès",
+  "eventUpdateFailed": "Échec de la mise à jour de l'événement",
+  "titleValidation": "Le titre ne peut contenir que des lettres, des chiffres, des espaces et des signes de ponctuation basiques.",
+  "descriptionValidation": "La description ne peut contenir que des lettres, des chiffres, des espaces et des signes de ponctuation basiques.",
+  "locationValidation": "L'emplacement ne peut contenir que des lettres, des chiffres, des espaces et des signes de ponctuation basiques.",
+  "datePast": "La date ne peut pas être dans le passé.",
+  "imageValidation": "Seules les images JPEG, PNG et GIF sont autorisées.",
+  "imageSizeLimit": "La taille du fichier image doit être inférieure à 5 Mo.",
+  "errorFetchingEvent": "Erreur lors de la récupération de l'événement",
+  "direction": "ltr"
+}

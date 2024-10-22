@@ -1,0 +1,23 @@
+{
+  "createEvent": "Créer un Événement",
+  "titleEn": "Titre de l'Événement (Anglais)",
+  "descriptionEn": "Description de l'Événement (Anglais)",
+  "titleFr": "Titre de l'Événement (Français)",
+  "descriptionFr": "Description de l'Événement (Français)",
+  "titleAr": "Titre de l'Événement (Arabe)",
+  "descriptionAr": "Description de l'Événement (Arabe)",
+  "date": "Date",
+  "location": "Lieu",
+  "image": "Image de l'Événement",
+  "submit": "Soumettre",
+  "titleValidation": "Le titre est requis.",
+  "descriptionValidation": "La description est requise.",
+  "dateValidation": "La date est requise.",
+  "locationValidation": "Le lieu est requis.",
+  "imageValidation": "L'image est requise.",
+  "eventCreated": "Événement créé avec succès!",
+  "eventCreationFailed": "Échec de la création de l'événement. Veuillez réessayer.",
+  "formError": "Veuillez remplir tous les champs.",
+  "datePast": "La date ne peut pas être dans le passé.",
+  "imageSizeLimit": "La taille de l'image doit être inférieure à 2 Mo."
+}

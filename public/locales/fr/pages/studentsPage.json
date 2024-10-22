@@ -1,0 +1,13 @@
+{
+  "participants": "Participants",
+  "showMore": "Voir Plus",
+  "showLess": "Voir Moins",
+  "yearsOld": "ans",
+  "loadFailed": "Échec du chargement des étudiants",
+  "selectUnit": "Sélectionner l'unité",
+  "noStudents": "Aucun étudiant trouvé.",
+  "gender": {
+    "male": "Homme",
+    "female": "Femme"
+  }
+}

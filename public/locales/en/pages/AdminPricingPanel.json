@@ -1,0 +1,35 @@
+{
+    "adminPricingPanel": {
+        "title": "Admin Pricing Panel",
+        "addNewPlan": "Add New Plan",
+        "editPricingPlan": "Edit Pricing Plan",
+        "addPricingPlan": "Add New Pricing Plan",
+        "planName": "Plan Name",
+        "price": "Price",
+        "per": "Per",
+        "link": "Link",
+        "features": "Features (comma separated)",
+        "popular": "Popular",
+        "updatePlan": "Update Plan",
+        "addPlan": "Add Plan",
+        "successUpdate": "Plan updated successfully",
+        "successAdd": "Plan added successfully",
+        "successDelete": "Plan deleted successfully",
+        "errorFetching": "Error fetching pricing plans:",
+        "errorSaving": "Failed to save plan.",
+        "planValidation": "Plan name must contain only letters and spaces.",
+        "perValidation": "Plan per must contain only letters and spaces.",
+        "priceValidation": "Price must be a valid number, e.g., 10 or 10.99",
+        "featuresValidation": "Features must be characters separated by commas.",
+        "linkValidation": "Link must be a valid URL starting with http or https.",
+        "delete": "Delete",
+        "planNameFr": "Plan Name (French)",
+        "planNameAr": "Plan Name (Arabic)",
+        "featuresFr": "Features (French)",
+        "featuresAr": "Features (Arabic)",
+        "featuresEn": "Features (English)",
+        "planNameEn": "Plan Name (English)"
+
+
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "dashboardAdmin": {
+    "welcomeBack": "أهلا بك من جديد!",
+    "overviewDescription": "إليك نظرة عامة على تقدم المنصة.",
+    "viewCourses": "عرض الدورات",
+    "courses": "الدورات",
+    "entreprises": "الشركات",
+    "allUsers": "جميع المستخدمين",
+    "resources": "الموارد",
+    "usersRegistered": "المستخدمين المسجلين",
+    "usersRegisteredByMonth": "المستخدمين المسجلين شهريًا",
+    "usersRegisteredByDay": "المستخدمين المسجلين يوميًا",
+    "onlineUsers": "المستخدمين المتصلين",
+    "onlineUsersCount": "حاليًا {{count}} مستخدم متصل",
+    "previous": "السابق",
+    "next": "التالي",
+    "imageError": "خطأ في تحميل الصورة",
+    "monthly": "شهريًا",
+    "daily": "يوميًا"
+  }
+}

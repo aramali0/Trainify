@@ -1,0 +1,13 @@
+{
+  "codeVerification": {
+    "title": "Vérification du code",
+    "description": "Veuillez entrer le code envoyé à votre e-mail.",
+    "verificationCode": "Code de vérification",
+    "verifyButton": "Vérifier le code",
+    "resendButton": "Renvoyer le code",
+    "popupMessage": "Attendez l'acceptation du Responsable de Formation",
+    "successMessage": "Code renvoyé avec succès",
+    "errorMessage": "Échec de la vérification du code",
+    "successVerificationMessage": "Vérification réussie !"
+  }
+}

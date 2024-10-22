@@ -1,0 +1,22 @@
+{
+    "addSession": "إضافة جلسة جديدة",
+    "name": "الاسم",
+    "duration": "المدة (بالدقائق)",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "course": "الدورة",
+    "loading": "جاري تحميل الدورات...",
+    "addSessionButton": "إضافة جلسة",
+    "sessionAdded": "تمت إضافة الجلسة بنجاح",
+    "sessionFailed": "فشل في إضافة الجلسة",
+    "loadFailed": "فشل في تحميل الدورات",
+    "errors": {
+        "nameRequired": "الاسم مطلوب.",
+        "nameInvalid": "يجب أن يحتوي الاسم على حروف وأرقام ومسافات فقط وأيضًا على الأحرف - _ . ,",
+        "durationInvalid": "يجب أن تكون المدة عددًا موجبًا.",
+        "startDateRequired": "تاريخ البدء مطلوب.",
+        "endDateRequired": "تاريخ الانتهاء مطلوب.",
+        "endDateInvalid": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء.",
+        "courseRequired": "الدورة مطلوبة."
+    }
+}

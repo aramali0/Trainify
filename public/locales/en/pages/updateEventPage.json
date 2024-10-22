@@ -1,0 +1,18 @@
+{
+  "updateEvent": "Update Event",
+  "title": "Title",
+  "description": "Description",
+  "date": "Date",
+  "location": "Location",
+  "eventImage": "Event Image",
+  "eventUpdated": "Event updated successfully",
+  "eventUpdateFailed": "Failed to update event",
+  "titleValidation": "Title can only contain letters, numbers, spaces, and basic punctuation.",
+  "descriptionValidation": "Description can only contain letters, numbers, spaces, and basic punctuation.",
+  "locationValidation": "Location can only contain letters, numbers, spaces, and basic punctuation.",
+  "datePast": "Date cannot be in the past.",
+  "imageValidation": "Only JPEG, PNG, and GIF images are allowed.",
+  "imageSizeLimit": "Image file size should be less than 5MB.",
+  "errorFetchingEvent": "Error fetching event",
+  "direction": "ltr"
+}

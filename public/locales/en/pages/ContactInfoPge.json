@@ -1,0 +1,15 @@
+{
+  "updateContactInformation": "Update Contact Information",
+  "email": "Email",
+  "location": "Location",
+  "phone": "Phone",
+  "contactInfoUpdated": "Contact information updated successfully",
+  "invalidEmail": "Please enter a valid email address.",
+  "invalidPhone": "Phone number should contain only numbers.",
+  "invalidLocation": "Location should contain only letters, numbers, commas, periods, and spaces.",
+  "errorFetchingContactInfo": "Error fetching contact info:",
+  "errorUpdatingContactInfo": "Error updating contact info:",
+  "failedToUpdateContactInfo": "Failed to update contact information",
+  "direction": "ltr",
+  "update": "Update"
+}

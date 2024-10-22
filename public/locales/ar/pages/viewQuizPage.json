@@ -1,0 +1,12 @@
+{
+"viewQuiz": {
+            "title": "الاختبار",
+            "editQuiz": "تعديل الاختبار",
+            "loading": "جاري تحميل الاختبار...",
+            "noQuestions": "لا توجد أسئلة متاحة"
+        },
+        "errors": {
+            "failedToLoadQuestions": "فشل في تحميل الأسئلة",
+            "failedToLoadOptions": "فشل في تحميل الخيارات"
+        }
+    }

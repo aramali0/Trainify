@@ -1,0 +1,13 @@
+{
+  "login": {
+    "title": "Connexion",
+    "subtitle": "Heureux de vous revoir!",
+    "emailLabel": "Adresse e-mail",
+    "passwordLabel": "Mot de passe",
+    "rememberMe": "Souviens-toi de moi",
+    "forgotPassword": "Mot de passe oublié?",
+    "submitButton": "Connexion",
+    "invalidEmail": "Veuillez entrer une adresse e-mail valide.",
+    "invalidCredentials": "Email ou mot de passe invalide"
+  }
+}

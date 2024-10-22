@@ -1,0 +1,23 @@
+{
+  "header": {
+    "createLibrary": "Créer une nouvelle bibliothèque"
+  },
+  "placeholder": {
+    "libraryName": "Nom de la bibliothèque"
+  },
+  "button": {
+    "createLibrary": "Créer une bibliothèque",
+    "creating": "Création en cours..."
+  },
+  "validation": {
+    "emptyLibraryName": "Le nom de la bibliothèque ne peut pas être vide",
+    "invalidLibraryName": "Le nom de la bibliothèque ne peut contenir que des lettres, des espaces et des tirets",
+    "libraryNameLength": "Le nom de la bibliothèque doit contenir entre 3 et 50 caractères"
+  },
+  "success": {
+    "libraryCreated": "Bibliothèque créée avec succès"
+  },
+  "error": {
+    "libraryCreationFailed": "Échec de la création de la bibliothèque"
+  }
+}

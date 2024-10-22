@@ -1,0 +1,12 @@
+{
+    "adminFeedbackView": {
+        "title": "التعليقات المقدمة",
+        "organization": "المنظمة",
+        "formateur": "المدرب",
+        "platformExperience": "تجربة المنصة",
+        "satisfactionLevel": "مستوى الرضا",
+        "remarks": "الملاحظات",
+        "loadingError": "فشل في تحميل التعليقات. يرجى المحاولة مرة أخرى.",
+        "formateurLoadError": "فشل في تحميل المدرب. يرجى المحاولة مرة أخرى."
+    }
+}

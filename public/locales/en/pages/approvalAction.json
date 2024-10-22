@@ -1,0 +1,31 @@
+{
+    "actionType": {
+        "COURSE": "Course",
+        "CLASS": "Class",
+        "LIBRARY": "Library",
+        "QUIZ": "Quiz",
+        "RESOURCE": "Resource"
+    },
+    "requestId": "Request ID",
+    "createdOn": "Created on",
+    "approve": "Approve",
+    "reject":"Reject",
+    "requestUpdate": "Request Update",
+    "showDetails": "Show Details",
+    "chargeFormationNotFound": "Charge de Formation: Not found",
+    "comment": "Comment",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "pending":"Pending Approval Actions",
+    "loadingRequests": "Loading Approval Actions...",
+    "noPendingRequests": "No pending approval actions",
+    "courses": "Courses",
+    "participants": "Participants",
+    "close": "Close",
+    "course": "Course",
+    "resourceType": "Resource Type",
+    "library": "Library",
+    "loadingDetails": "Loading details...",
+    "enterComment": "Enter your Comment here..."
+
+}

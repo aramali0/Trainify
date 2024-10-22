@@ -1,0 +1,17 @@
+{
+  "searchPlaceholder": "Rechercher par nom...",
+  "allRoles": "Tous les rôles",
+  "participants": "Participants",
+  "formateurs": "Formateurs",
+  "responsableFormation": "Responsable de Formation",
+  "usersForEnterprise": "Utilisateurs pour l'entreprise",
+  "allUsers": "Tous les utilisateurs",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "userDeleted": "Utilisateur supprimé avec succès!",
+  "userBlocked": "Utilisateur bloqué avec succès!",
+  "userUnblocked": "Utilisateur débloqué avec succès!",
+  "fetchError": "Échec de la récupération des utilisateurs",
+  "deleteError": "Échec de la suppression de l'utilisateur",
+  "blockError": "Échec du blocage de l'utilisateur"
+}

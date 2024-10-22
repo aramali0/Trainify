@@ -1,0 +1,36 @@
+{
+    "titles": {
+        "updateBanner": "Mettre à jour la bannière"
+    },
+    "buttons": {
+        "updateBanner": "Mettre à jour la bannière"
+    },
+    "labels": {
+        "previewImage": "Aperçu de l'image",
+        "backgroundImage": "Image de fond",
+        "title": "Titre",
+        "subtitle": "Sous-titre",
+        "link1Href": "Lien 1 Href",
+        "link1Text": "Texte du lien 1",
+        "link2Href": "Lien 2 Href",
+        "link2Text": "Texte du lien 2"
+    },
+    "errors": {
+        "imageTooLarge": "L'image doit être inférieure à 2 Mo.",
+        "invalidTitle": "Le titre ne peut contenir que des lettres, des chiffres, des espaces et . , ! ?",
+        "invalidSubtitle": "Le sous-titre ne peut contenir que des lettres, des chiffres, des espaces et . , ! ?",
+        "invalidLink1Text": "Le texte du lien 1 ne peut contenir que des lettres, des chiffres, des espaces et . , ! ?",
+        "invalidLink2Text": "Le texte du lien 2 ne peut contenir que des lettres, des chiffres, des espaces et . , ! ?",
+        "invalidLinkHref": "Le lien {{linkNumber}} doit être une URL valide.",
+        "failedToLoadBanner": "Échec du chargement des données de la bannière.",
+        "failedToUpdateBanner": "Échec de la mise à jour de la bannière."
+    },
+    "messages": {
+        "bannerUpdatedSuccessfully": "Bannière mise à jour avec succès !"
+    },
+    "aria": {
+        "backgroundImage": "Image de fond",
+        "editBanner": "Modifier la bannière",
+        "deleteBanner": "Supprimer la bannière"
+    }
+}

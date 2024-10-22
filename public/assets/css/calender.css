@@ -1,0 +1,35 @@
+/* src/styles/calendar.css */
+.rbc-calendar {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.rbc-header {
+    background-color: #4a90e2;
+    /* Header background color */
+    color: white;
+    font-weight: bold;
+}
+
+.rbc-day-bg {
+    background-color: #f0f4f8;
+    /* Day background color */
+}
+
+.rbc-selected {
+    background-color: #e4e4e4;
+    /* Selected day background color */
+}
+
+.rbc-event {
+    background-color: #ff5722;
+    /* Event background color */
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.rbc-event-label {
+    color: white;
+    /* Event label color */
+}

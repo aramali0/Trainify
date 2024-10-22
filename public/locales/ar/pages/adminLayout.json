@@ -1,0 +1,17 @@
+{
+  "admin":{
+  "admin": "مشرف",
+  "dashboard": "لوحة القيادة",
+  "courses": "الدورات",
+  "banners": "اللافتات",
+  "about_us": "معلومات عنا",
+  "events": "الأحداث",
+  "messages": "الرسائل",
+  "contact_info": "معلومات الاتصال",
+  "manage_pricing": "إدارة التسعير",
+  "payments": "المدفوعات",
+  "feedbacks": "الملاحظات",
+  "new_message": "رسالة جديدة",
+  "from": "من"
+  }
+}

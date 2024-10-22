@@ -1,0 +1,24 @@
+{
+  "createEvent": "إنشاء حدث",
+  "titleEn": "عنوان الحدث (بالإنجليزية)",
+  "descriptionEn": "وصف الحدث (بالإنجليزية)",
+  "titleFr": "عنوان الحدث (بالفرنسية)",
+  "descriptionFr": "وصف الحدث (بالفرنسية)",
+  "titleAr": "عنوان الحدث (بالعربية)",
+  "descriptionAr": "وصف الحدث (بالعربية)",
+  "date": "التاريخ",
+  "location": "المكان",
+  "image": "صورة الحدث",
+  "submit": "إرسال",
+  "titleValidation": "العنوان مطلوب.",
+  "descriptionValidation": "الوصف مطلوب.",
+  "dateValidation": "التاريخ مطلوب.",
+  "locationValidation": "المكان مطلوب.",
+  "imageValidation": "الصورة مطلوبة.",
+  "eventCreated": "تم إنشاء الحدث بنجاح!",
+  "eventCreationFailed": "فشل إنشاء الحدث. يرجى المحاولة مرة أخرى.",
+  "formError": "يرجى ملء جميع الحقول.",
+  "datePast": "لا يمكن أن يكون التاريخ في الماضي.",
+  "imageSizeLimit": "يجب أن يكون حجم الصورة أقل من 2 ميغابايت."
+}
+

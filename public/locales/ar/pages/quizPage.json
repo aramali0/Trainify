@@ -1,0 +1,16 @@
+{
+    "quiz": {
+        "title": "اختبار",
+        "loadError": "فشل تحميل الأسئلة",
+        "submitSuccess": "تم تقديم الاختبار بنجاح",
+        "submitError": "فشل تقديم الاختبار",
+        "selectError": "يرجى تحديد إجابة قبل المتابعة.",
+        "timeTaken": "الوقت المستغرق",
+        "question": "سؤال",
+        "of": "من",
+        "previous": "السابق",
+        "next": "التالي",
+        "reviewAndSubmit": "راجع وقدم",
+        "submitted": "تم تقديم الاختبار"
+    }
+}

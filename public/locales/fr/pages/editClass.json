@@ -1,0 +1,28 @@
+{
+    "titles": {
+        "editClass": "Modifier la classe"
+    },
+    "labels": {
+        "classTitle": "Titre de la classe",
+        "participants": "Participants",
+        "courses": "Cours"
+    },
+    "buttons": {
+        "updateClass": "Mettre à jour la classe",
+        "updating": "Mise à jour..."
+    },
+    "messages": {
+        "classUpdated": "Classe mise à jour avec succès",
+        "classUpdateFailed": "Échec de la mise à jour de la classe",
+        "classTitleEmpty": "Le titre de la classe ne peut pas être vide",
+        "classTitleInvalid": "Le titre ne doit contenir que des lettres et des espaces.",
+        "participantsRequired": "Au moins un participant doit être sélectionné",
+        "coursesRequired": "Au moins un cours doit être sélectionné",
+        "failedToFetchClassData": "Échec du chargement des données de la classe",
+        "failedToFetchParticipants": "Échec du chargement des participants",
+        "failedToFetchCourses": "Échec du chargement des cours"
+    },
+    "placeholders": {
+        "classTitle": "Entrez le titre de la classe"
+    }
+}

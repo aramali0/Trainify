@@ -1,0 +1,11 @@
+{
+    "conference": {
+        "title": "Conférence",
+        "loadError": "Échec du chargement de la conférence",
+        "platform": "Plateforme",
+        "startTime": "Heure de début",
+        "started": "La conférence a commencé!",
+        "join": "Rejoindre la conférence",
+        "noConferences": "Aucune conférence disponible"
+    }
+}

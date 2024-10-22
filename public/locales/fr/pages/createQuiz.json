@@ -1,0 +1,40 @@
+{
+"createQuiz": {
+            "title": "Créez votre quiz",
+            "quizName": "Nom du quiz",
+            "quizNamePlaceholder": "Entrez le nom du quiz",
+            "evaluationType": "Type d'évaluation",
+            "question": "Question {{index}}",
+            "questionPlaceholder": "Entrez le texte de la question",
+            "questionType": "Type de question",
+            "options": "Options",
+            "optionPlaceholder": "Entrez le texte de l'option",
+            "addOption": "Ajouter une option",
+            "removeOption": "Supprimer l'option",
+            "correctAnswer": "Réponse correcte",
+            "removeQuestion": "Supprimer la question",
+            "addQuestion": "Ajouter une question",
+            "submit": "Ajouter le quiz",
+            "loading": "Ajout en cours...",
+            "evaluationOptions": {
+              "preliminaryAssessment": "Évaluation préliminaire",
+              "hotEvaluation": "Évaluation chaude",
+              "coldAssessment": "Évaluation froide"
+            },
+            "questionTypeOptions": {
+              "multipleChoice": "Choix multiple",
+              "singleChoice": "Choix unique",
+              "trueFalse": "Vrai/Faux"
+            }
+          },
+          "errors": {
+            "questionRequired": "Le texte de la question est requis.",
+            "optionRequired": "Au moins une option est requise.",
+            "correctOptionRequired": "Au moins une option doit être marquée comme correcte.",
+            "optionTextRequired": "Le texte de l'option est requis."
+          },
+          "toast": {
+            "quizCreatedSuccess": "Quiz créé avec succès",
+            "quizCreationFailed": "Échec de la création du quiz"
+          }
+        }

@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "updateAboutUs": "Update About Us"
+    },
+    "labels": {
+        "title_en": "Title (English)",
+        "title_fr": "Title (French)",
+        "title_ar": "Title (Arabic)",
+        "description_en": "Description (English)",
+        "description_fr": "Description (French)",
+        "description_ar": "Description (Arabic)",
+        "uploadImage": "Upload Image"
+    },
+    "buttons": {
+        "saveChanges": "Save Changes"
+    },
+    "errors": {
+        "failedToLoadAboutUs": "Failed to load About Us data",
+        "invalidImageType": "Invalid image type",
+        "imageSizeLimit": "Image size exceeds 2MB",
+        "invalidTitle": "Invalid title format",
+        "descriptionTooShort": "Description is too short"
+    }
+}

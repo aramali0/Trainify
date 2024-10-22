@@ -1,0 +1,39 @@
+{
+  "add_responsable": {
+    "title": "Add New User",
+    "description": "Fill in the details below to create a new user.",
+    "matricule": "Matricule ID",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email Address",
+    "password": "Password",
+    "phone": "Phone Number",
+    "age": "Age",
+    "cin": "CIN",
+    "upload_image": "Upload Profile Image",
+    "no_image": "No Image",
+    "gender": "Gender",
+    "male":"Male",
+    "female" :"Female",
+    "submit": "Submit",
+    "errors": {
+      "matricule_required": "Matricule is required",
+      "first_name_required": "First name is required",
+      "first_name_letters": "First name must contain only letters",
+      "last_name_required": "Last name is required",
+      "last_name_letters": "Last name must contain only letters",
+      "email_required": "Email is required",
+      "email_invalid": "Please enter a valid email address",
+      "password_required": "Password is required",
+      "password_short": "Password must be at least 8 characters long",
+      "phone_required": "Phone number is required",
+      "phone_invalid": "Please enter a valid phone number",
+      "age_required": "Age is required",
+      "age_invalid": "Age must be a valid number",
+      "cin_invalid": "CIN must be in the format 'AB123456789'",
+      "image_size": "Image size should not exceed 2 MB"
+    },
+    "addUserSuccess": "User added successfully",
+    "addUserError": "Error adding user"
+  }
+}

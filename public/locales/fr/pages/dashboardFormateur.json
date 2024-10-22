@@ -1,0 +1,13 @@
+{
+  "welcomeTitle": "Bon retour!",
+  "welcomeDescription": "Voici un aperçu rapide de l'activité de votre plateforme.",
+  "viewCourses": "Voir les cours",
+  "courses": "Cours",
+  "students": "Étudiants",
+  "averageScore": "Score moyen",
+  "combinedChart": "Graphique d'activité combiné",
+  "coursesCreated": "Cours créés par mois",
+  "studentsOverTime": "Étudiants au fil du temps",
+  "evaluationsOverTime": "Évaluations au fil du temps",
+  "classesDetails": "Détails des classes"
+}

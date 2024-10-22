@@ -1,0 +1,8 @@
+{
+    "success": {
+        "title": "Payment Successful",
+        "thankYouMessage": "Thank you for your payment, {{email}}!",
+        "downloadReceipt": "Download Receipt",
+        "goToHome": "Go To Home"
+    }
+}

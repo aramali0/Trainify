@@ -1,0 +1,28 @@
+{
+    "titles": {
+        "instructors": "Formateurs"
+    },
+    "labels": {
+        "type": "Type",
+        "internal": "Interne",
+        "external": "Externe"
+    },
+    "tooltips": {
+        "email": "Email",
+        "phone": "Numéro de téléphone",
+        "gender": "Genre",
+        "cin": "CIN",
+        "age": "Âge"
+    },
+    "buttons": {
+        "showMore": "Afficher plus",
+        "showLess": "Afficher moins"
+    },
+    "messages": {
+        "loadError": "Échec du chargement des formateurs",
+        "loading": "Chargement..."
+    },
+    "placeholders": {
+        "selectType": "Sélectionner le type de formateur"
+    }
+}

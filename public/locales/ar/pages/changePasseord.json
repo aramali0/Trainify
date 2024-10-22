@@ -1,0 +1,11 @@
+{
+    "changePasswordPage": {
+        "title": "تغيير كلمة المرور",
+        "currentPassword": "كلمة المرور الحالية",
+        "newPassword": "كلمة المرور الجديدة",
+        "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+        "passwordMismatch": "كلمات المرور الجديدة لا تتطابق",
+        "changeSuccess": "تم تغيير كلمة المرور بنجاح!",
+        "changeError": "فشل في تغيير كلمة المرور"
+    }
+}

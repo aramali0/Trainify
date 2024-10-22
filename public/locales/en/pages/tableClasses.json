@@ -1,0 +1,10 @@
+{
+    "table": {
+        "no": "No",
+        "title": "Title",
+        "numberOfParticipants": "Number of Participants",
+        "numberOfCourses": "Number of Courses",
+        "noResources": "No resources available",
+        "loading": "Loading..."
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "profilePage": {
+        "title": "Modifier le profil",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Email",
+        "phone": "Numéro de téléphone",
+        "gender": "Genre",
+        "CIN": "CIN",
+        "age": "Âge",
+        "updateProfile": "Mettre à jour le profil",
+        "loadingError": "Échec du chargement des données de l'utilisateur",
+        "profileUpdateSuccess": "Profil mis à jour avec succès!",
+        "profileUpdateError": "Échec de la mise à jour du profil",
+        "changePassword": "Changer le mot de passe",
+        "validation": {
+            "firstName": "Le prénom ne doit contenir que des caractères alphabétiques",
+            "lastName": "Le nom ne doit contenir que des caractères alphabétiques",
+            "email": "Adresse email invalide",
+            "phone": "Le numéro de téléphone doit comporter entre 4 et 15 chiffres",
+            "cin": "Le CIN doit être au format 'AB123456789' (2 lettres majuscules suivies de 4 ou 9 chiffres)",
+            "age": "L'âge doit être un nombre positif"
+        }
+    }
+}

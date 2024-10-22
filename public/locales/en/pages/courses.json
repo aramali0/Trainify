@@ -1,0 +1,16 @@
+{
+    "titles" :{
+        "courses": "Courses"
+    },
+    "buttons":{
+        "createCourse": "Create Course"
+    },
+    "messages":{
+        "loading": "Loading...",
+        "requestSentSuccessfully": "Request sent successfully"
+    },
+    "errors":{
+        "failedToLoadCourses": "Failed to load courses",
+        "errorSendingRequest": "Error sending request"
+    }
+}

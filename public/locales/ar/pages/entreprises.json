@@ -1,0 +1,8 @@
+{
+    "title": "الشركات",
+    "createEntrepriseButton": "إنشاء شركة",
+    "loading": "جارٍ التحميل...",
+    "errors": {
+        "loadEnterprises": "فشل في تحميل الشركات"
+    }
+}

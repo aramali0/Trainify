@@ -1,0 +1,13 @@
+{
+  "codeVerification": {
+    "title": "Code Verification",
+    "description": "Please enter the code sent to your email.",
+    "verificationCode": "Verification Code",
+    "verifyButton": "Verify Code",
+    "resendButton": "Resend Code",
+    "popupMessage": "Wait for Responsable de Formation acceptance",
+    "successMessage": "Code resent successfully",
+    "errorMessage": "Code verification failed",
+    "successVerificationMessage": "Verification successful!"
+  }
+}

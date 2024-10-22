@@ -1,0 +1,48 @@
+{
+    "titles": {
+        "courses": "Courses",
+        "sessions": "Sessions"
+    },
+    "buttons": {
+        "createCourse": "Create Course",
+        "updateCourse": "Update Course",
+        "favorite": "Add to Favorites",
+        "unfavorite": "Remove from Favorites",
+        "sendRequest": "Send Request",
+        "showSessions": "Show Sessions",
+        "showLibrary": "Show Library",
+        "createSession": "Create Session"
+    },
+    "filters": {
+        "allSessions": "All Sessions",
+        "futureSessions": "Future Sessions",
+        "pastSessions": "Past Sessions",
+        "ongoingSessions": "Ongoing Sessions"
+    },
+    "messages": {
+        "loading": "Loading...",
+        "requestSentSuccessfully": "Request sent successfully",
+        "noSessionsAvailable": "No sessions available."
+    },
+    "errors": {
+        "failedToLoadCourses": "Failed to load courses",
+        "errorSendingRequest": "Error sending request",
+        "noSessionsAvailable": "No sessions available",
+        "failedToLoadSessions": "Failed to load sessions"
+    },
+    "course": {
+        "altImage": "Course Image",
+        "sessions": "Sessions",
+        "duration": "Duration",
+        "hours": "hours",
+        "language": "Language",
+        "createdAt": "Created At",
+        "lastUpdated": "Last Updated"
+    },
+    "session": {
+        "title": "Title",
+        "description": "Description",
+        "startDate": "Start Date",
+        "endDate": "End Date"
+    }
+}

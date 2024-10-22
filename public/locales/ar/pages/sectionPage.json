@@ -1,0 +1,32 @@
+{
+    "titles": {
+        "sections": "الأقسام"
+    },
+    "buttons": {
+        "addNewSection": "إضافة قسم جديد",
+        "startQuiz": "ابدأ الاختبار",
+        "viewQuiz": "عرض الاختبار",
+        "createQuiz": "إنشاء اختبار"
+    },
+    "labels": {
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء"
+    },
+    
+    "errors": {
+        "failedToLoadSections": "فشل في تحميل الأقسام",
+        "failedToLoadQuizzes": "فشل في تحميل الاختبارات",
+        "failedToDeleteSection": "فشل في حذف القسم"
+    },
+    "messages": {
+        "loadingSections": "جارٍ تحميل الأقسام...",
+        "noSectionsAvailable": "لا توجد أقسام متاحة",
+        "noDescriptionAvailable": "لا يوجد وصف متاح.",
+        "sectionDeletedSuccessfully": "تم حذف القسم بنجاح",
+        "confirmDeleteSection": "هل أنت متأكد أنك تريد حذف هذا القسم؟"
+    },
+    "aria": {
+        "editSection": "تعديل القسم",
+        "deleteSection": "حذف القسم"
+    }
+}

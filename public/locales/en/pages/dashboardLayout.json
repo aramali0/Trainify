@@ -1,0 +1,21 @@
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "sessions": "Sessions",
+    "sections": "Sections",
+    "calendar": "Calendar",
+    "classes": "Classes",
+    "libraries": "Libraries",
+    "verification": "Verification",
+    "approvals": "Approvals"
+  },
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "notifications": {
+    "newMessageFrom": "New message from {{name}}",
+    "newMessage": "New message",
+    "newQuizNotification": "New quiz notification!"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "titles": {
+        "sections": "Sections"
+    },
+    "buttons": {
+        "addNewSection": "Add New Section",
+        "startQuiz": "Start Quiz",
+        "viewQuiz": "View Quiz",
+        "createQuiz": "Create Quiz"
+    },
+    "labels": {
+        "startDate": "Start Date",
+        "endDate": "End Date"
+    },
+    "errors": {
+        "failedToLoadSections": "Failed to load sections",
+        "failedToLoadQuizzes": "Failed to load quizzes",
+        "failedToDeleteSection": "Failed to delete section"
+    },
+    "messages": {
+        "sectionDeletedSuccessfully": "Section deleted successfully",
+        "loadingSections": "Loading sections...",
+        "noSectionsAvailable": "No sections available",
+        "noDescriptionAvailable": "No description available.",
+        "confirmDeleteSection": "Are you sure you want to delete this section?"
+    },
+    "aria": {
+        "editSection": "Edit Section",
+        "deleteSection": "Delete Section"
+    }
+}

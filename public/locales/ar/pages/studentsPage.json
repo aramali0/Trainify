@@ -1,0 +1,13 @@
+{
+  "participants": "المشاركون",
+  "showMore": "عرض المزيد",
+  "showLess": "عرض أقل",
+  "yearsOld": "سنة",
+  "loadFailed": "فشل تحميل الطلاب",
+  "selectUnit": "اختر الوحدة",
+  "noStudents": "لم يتم العثور على طلاب.",
+  "gender": {
+    "male": "ذكر",
+    "female": "أنثى"
+  }
+}

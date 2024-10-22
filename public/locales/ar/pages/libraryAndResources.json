@@ -1,0 +1,11 @@
+{
+  "librariesTitle": "المكتبات",
+  "librariesSubtitle": "المكتبات المتاحة",
+  "noResources": "لا توجد موارد متاحة.",
+  "toastError": "فشل في جلب المكتبات",
+  "toastErrorResources": "فشل في جلب الموارد",
+  "toastErrorLoadingResource": "فشل في تحميل المورد",
+  "videoViewerTitle": "عارض الفيديو",
+  "videoUnsupported": "المتصفح الخاص بك لا يدعم علامة الفيديو.",
+  "close": "إغلاق"
+}

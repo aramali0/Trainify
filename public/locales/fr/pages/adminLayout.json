@@ -1,0 +1,17 @@
+{
+  "admin": {
+  "admin": "Administrateur",
+  "dashboard": "Tableau de bord",
+  "courses": "Cours",
+  "banners": "Bannières",
+  "about_us": "À propos de nous",
+  "events": "Événements",
+  "messages": "Messages",
+  "contact_info": "Informations de contact",
+  "manage_pricing": "Gérer les prix",
+  "payments": "Paiements",
+  "feedbacks": "Commentaires",
+  "new_message": "Nouveau message",
+  "from": "de"
+  }
+}

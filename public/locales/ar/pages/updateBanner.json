@@ -1,0 +1,36 @@
+{
+    "titles": {
+        "updateBanner": "تحديث البانر"
+    },
+    "buttons": {
+        "updateBanner": "تحديث البانر"
+    },
+    "labels": {
+        "previewImage": "معاينة الصورة",
+        "backgroundImage": "صورة الخلفية",
+        "title": "العنوان",
+        "subtitle": "العنوان الفرعي",
+        "link1Href": "رابط 1 Href",
+        "link1Text": "نص الرابط 1",
+        "link2Href": "رابط 2 Href",
+        "link2Text": "نص الرابط 2"
+    },
+    "errors": {
+        "imageTooLarge": "يجب أن تكون الصورة أقل من 2 ميجابايت.",
+        "invalidTitle": "يمكن أن يحتوي العنوان على أحرف وأرقام ومسافات و . , ! ؟ فقط.",
+        "invalidSubtitle": "يمكن أن يحتوي العنوان الفرعي على أحرف وأرقام ومسافات و . , ! ؟ فقط.",
+        "invalidLink1Text": "يمكن أن يحتوي نص الرابط 1 على أحرف وأرقام ومسافات و . , ! ؟ فقط.",
+        "invalidLink2Text": "يمكن أن يحتوي نص الرابط 2 على أحرف وأرقام ومسافات و . , ! ؟ فقط.",
+        "invalidLinkHref": "يجب أن يكون الرابط {{linkNumber}} عنوان URL صالحًا.",
+        "failedToLoadBanner": "فشل في تحميل بيانات البانر.",
+        "failedToUpdateBanner": "فشل في تحديث البانر."
+    },
+    "messages": {
+        "bannerUpdatedSuccessfully": "تم تحديث البانر بنجاح!"
+    },
+    "aria": {
+        "backgroundImage": "صورة الخلفية",
+        "editBanner": "تعديل البانر",
+        "deleteBanner": "حذف البانر"
+    }
+}

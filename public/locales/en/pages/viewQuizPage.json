@@ -1,0 +1,12 @@
+{
+"viewQuiz": {
+            "title": "Quiz",
+            "editQuiz": "Edit Quiz",
+            "loading": "Loading quiz...",
+            "noQuestions": "No questions available"
+        },
+        "errors": {
+            "failedToLoadQuestions": "Failed to load questions",
+            "failedToLoadOptions": "Failed to load options"
+        }
+}

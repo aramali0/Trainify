@@ -1,0 +1,9 @@
+{
+  "buttons": {
+    "verify": "Verify",
+    "refuse": "Refuse"
+  },
+  "error": {
+    "processing_participant": "Failed to process the participant."
+  }
+}

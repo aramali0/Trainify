@@ -1,0 +1,11 @@
+{
+    "conference": {
+        "title": "Conference",
+        "loadError": "Failed to load conference",
+        "platform": "Platform",
+        "startTime": "Start Time",
+        "started": "The conference has started!",
+        "join": "Join Conference",
+        "noConferences": "No conferences available"
+    }
+}

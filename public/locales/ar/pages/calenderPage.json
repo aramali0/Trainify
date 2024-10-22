@@ -1,0 +1,7 @@
+{
+    "Calendar": "التقويم",
+    "Unavailable": "غير متاح",
+    "Failed to fetch events": "فشل في جلب الأحداث",
+    "Failed to submit unavailable time": "فشل في إرسال الوقت غير المتاح",
+    "Failed to delete unavailable time": "فشل في حذف الوقت غير المتاح"
+}

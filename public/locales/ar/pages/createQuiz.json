@@ -1,0 +1,40 @@
+{
+    "createQuiz": {
+            "title": "إنشاء اختبارك",
+            "quizName": "اسم الاختبار",
+            "quizNamePlaceholder": "أدخل اسم الاختبار",
+            "evaluationType": "نوع التقييم",
+            "question": "السؤال {{index}}",
+            "questionPlaceholder": "أدخل نص السؤال",
+            "questionType": "نوع السؤال",
+            "options": "الخيارات",
+            "optionPlaceholder": "أدخل نص الخيار",
+            "addOption": "إضافة خيار",
+            "removeOption": "إزالة الخيار",
+            "correctAnswer": "الإجابة الصحيحة",
+            "removeQuestion": "إزالة السؤال",
+            "addQuestion": "إضافة سؤال",
+            "submit": "إضافة اختبار",
+            "loading": "جاري الإضافة...",
+            "evaluationOptions": {
+              "preliminaryAssessment": "تقييم تمهيدي",
+              "hotEvaluation": "تقييم ساخن",
+              "coldAssessment": "تقييم بارد"
+            },
+            "questionTypeOptions": {
+              "multipleChoice": "اختيار متعدد",
+              "singleChoice": "اختيار فردي",
+              "trueFalse": "صحيح/خطأ"
+            }
+          },
+          "errors": {
+            "questionRequired": "نص السؤال مطلوب.",
+            "optionRequired": "على الأقل خيار واحد مطلوب.",
+            "correctOptionRequired": "يجب تمييز خيار واحد على الأقل على أنه صحيح.",
+            "optionTextRequired": "نص الخيار مطلوب."
+          },
+          "toast": {
+            "quizCreatedSuccess": "تم إنشاء الاختبار بنجاح",
+            "quizCreationFailed": "فشل في إنشاء الاختبار"
+          }
+}

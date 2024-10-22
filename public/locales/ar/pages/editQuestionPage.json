@@ -1,0 +1,16 @@
+{
+    "Edit Question": "تعديل السؤال",
+    "Loading...": "جارٍ التحميل...",
+    "Question Text": "نص السؤال",
+    "Enter question text": "أدخل نص السؤال",
+    "Question Type": "نوع السؤال",
+    "Multiple Choice": "اختيار متعدد",
+    "Single Choice": "اختيار واحد",
+    "True/False": "صحيح/خطأ",
+    "Update Question": "تحديث السؤال",
+    "No question found": "لم يتم العثور على سؤال",
+    "Failed to fetch question": "فشل في جلب السؤال",
+    "Question text cannot be empty": "لا يمكن أن يكون نص السؤال فارغًا",
+    "Question updated successfully": "تم تحديث السؤال بنجاح",
+    "Failed to update question": "فشل في تحديث السؤال"
+}

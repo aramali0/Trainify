@@ -1,0 +1,28 @@
+{
+    "titles": {
+        "editClass": "Edit Class"
+    },
+    "labels": {
+        "classTitle": "Class Title",
+        "participants": "Participants",
+        "courses": "Courses"
+    },
+    "buttons": {
+        "updateClass": "Update Class",
+        "updating": "Updating..."
+    },
+    "messages": {
+        "classUpdated": "Class updated successfully",
+        "classUpdateFailed": "Failed to update class",
+        "classTitleEmpty": "Class title cannot be empty",
+        "classTitleInvalid": "Title must contain only letters and spaces.",
+        "participantsRequired": "At least one participant must be selected",
+        "coursesRequired": "At least one course must be selected",
+        "failedToFetchClassData": "Failed to fetch class data",
+        "failedToFetchParticipants": "Failed to fetch participants",
+        "failedToFetchCourses": "Failed to fetch courses"
+    },
+    "placeholders": {
+        "classTitle": "Enter class title"
+    }
+}

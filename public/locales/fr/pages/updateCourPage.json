@@ -1,0 +1,28 @@
+{
+    "title": "Mettre à jour le cours",
+    "titleLabel": "Titre",
+    "subtitleLabel": "Sous-titre",
+    "descriptionLabel": "Description",
+    "durationLabel": "Durée (heures)",
+    "languageLabel": "Langue",
+    "classLabel": "Classes",
+    "instructorLabel": "Instructeurs",
+    "imageLabel": "Image du cours",
+    "updateButton": "Mettre à jour le cours",
+    "errors": {
+        "title": "Le titre ne doit contenir que des lettres et des espaces.",
+        "subtitle": "Le sous-titre ne doit contenir que des lettres et des espaces.",
+        "description": "La description est requise.",
+        "duration": "La durée doit être un nombre positif.",
+        "image": "La taille de l'image ne doit pas dépasser 2 Mo."
+    },
+    "languageOptions": {
+        "english": "Anglais",
+        "french": "Français",
+        "arabic": "Arabe"
+    },
+    "loadingClasses": "Chargement des classes...",
+    "loadingInstructors": "Chargement des instructeurs...",
+    "success": "Cours mis à jour avec succès",
+    "fail": "Échec de la mise à jour du cours"
+}

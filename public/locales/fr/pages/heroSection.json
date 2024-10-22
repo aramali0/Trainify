@@ -1,0 +1,61 @@
+{
+    "hero": {
+        "title": "Bienvenue!",
+        "description": "Voici un aperçu rapide de l'activité de votre plateforme.",
+        "buttonText": "Cliquez Moi",
+        "uploadCertificate": "Télécharger le Certificat",
+        "addUser": "Ajouter un Utilisateur",
+        "addAdmin": "Ajouter un Admin",
+        "heroImageAlt": "Image Héro"
+    },
+    "sidebar": {
+        "dashboard": "Tableau de bord",
+        "courses": "Cours",
+        "sessions": "Sessions",
+        "sections": "Sections",
+        "calendar": "Calendrier",
+        "classes": "Classes",
+        "libraries": "Bibliothèques",
+        "verification": "Vérification",
+        "approvals": "Approbations"
+    },
+    "dashboard": {
+        "title": "Tableau de bord"
+    },
+    "notifications": {
+        "newMessageFrom": "Nouveau message de {{name}}",
+        "newMessage": "Nouveau message",
+        "newQuizNotification": "Nouvelle notification de quiz !"
+    },
+    "buttons": {
+        "showMore": "Afficher Plus",
+        "showLess": "Afficher Moins",
+        "edit": "Modifier",
+        "cancel": "Annuler",
+        "saveChanges": "Sauvegarder les Modifications",
+        "createLibrary": "Créer une Bibliothèque",
+        "uploadResource": "Télécharger la Ressource",
+        "deleteLibrary": "Supprimer la Bibliothèque",
+        "deleteResource": "Supprimer la Ressource"
+    },
+    "tooltips": {
+        "email": "Email",
+        "phone": "Numéro de Téléphone",
+        "gender": "Genre",
+        "cin": "CIN",
+        "age": "Âge"
+    },
+    "placeholders": {
+        "enterNewMaxSize": "Entrez la nouvelle taille maximale"
+    },
+    "messages": {
+        "selectFile": "Sélectionnez la bibliothèque et le fichier à télécharger",
+        "fileSizeExceeds": "La taille du fichier dépasse la taille maximale autorisée, extrayez le fichier ou contactez l'administrateur",
+        "uploadSuccess": "Ressource téléchargée avec succès",
+        "uploadError": "Échec du téléchargement de la ressource",
+        "deleteLibrarySuccess": "Bibliothèque supprimée avec succès",
+        "deleteResourceSuccess": "Ressource supprimée avec succès",
+        "fetchLibrariesError": "Échec du chargement des bibliothèques",
+        "loading": "Chargement..."
+    }
+}

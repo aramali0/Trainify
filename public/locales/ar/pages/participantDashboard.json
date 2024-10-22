@@ -1,0 +1,11 @@
+{
+  "dashboard": {
+    "welcomeTitle": "مرحباً بك مجدداً!",
+    "welcomeDescription": "إليك نظرة عامة سريعة على نشاط منصتك.",
+    "viewCoursesButton": "عرض الدورات",
+    "courses": "الدورات",
+    "resources": "الموارد",
+    "certificates": "الشهادات",
+    "maxScore": "أعلى درجة"
+  }
+}

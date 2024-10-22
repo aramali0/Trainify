@@ -1,0 +1,46 @@
+{
+    "pages":{
+        "createBanner":{
+            "titles":{
+                "createBanner":"إنشاء بانر جديد",
+                "translations":"الترجمات",
+                "links":"الروابط"
+            },
+            "labels":{
+                "previewImage":"صورة معاينة",
+                "noImage":"لم يتم اختيار صورة",
+                "title":"العنوان",
+                "subtitle":"العنوان الفرعي",
+                "link1Text":"نص الرابط 1",
+                "link2Text":"نص الرابط 2",
+                "link1Href":"رابط 1",
+                "link2Href":"رابط 2"
+            },
+            "buttons":{
+                "createBanner":"إنشاء بانر"
+            },
+            "errors":{
+                "imageTooLarge":"يجب ألا يتجاوز حجم الصورة 2 ميغابايت.",
+                "invalidTitle":"صيغة العنوان غير صالحة.",
+                "invalidSubtitle":"صيغة العنوان الفرعي غير صالحة.",
+                "invalidLink1Text":"صيغة نص الرابط 1 غير صالحة.",
+                "invalidLink2Text":"صيغة نص الرابط 2 غير صالحة.",
+                "invalidLink1Href":"رابط 1 غير صالح.",
+                "invalidLink2Href":"رابط 2 غير صالح.",
+                "failedToCreateBanner":"فشل إنشاء البانر. يرجى المحاولة مرة أخرى."
+            },
+            "aria":{
+                "uploadImage":"رفع صورة الخلفية",
+                "title":"{{lang}} العنوان",
+                "subtitle":"{{lang}} العنوان الفرعي",
+                "link1Text":"{{lang}} نص الرابط 1",
+                "link2Text":"{{lang}} نص الرابط 2",
+                "link1Href":"رابط 1",
+                "link2Href":"رابط 2"
+            },
+            "messages":{
+                "bannerCreatedSuccessfully":"تم إنشاء البانر بنجاح!"
+            }
+        }
+    }
+}

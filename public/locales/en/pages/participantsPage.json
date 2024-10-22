@@ -1,0 +1,9 @@
+{
+  "loading": "Loading participants...",
+  "participants": {
+    "title": "Participants"
+  },
+  "error": {
+    "loading_participants": "Failed to load participants."
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "evaluationDetails": "Evaluation Details",
+    "evaluationId": "Evaluation ID",
+    "type": "Type",
+    "createdAt": "Created At",
+    "score": "Score",
+    "fetchError": "Failed to load evaluations",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+}

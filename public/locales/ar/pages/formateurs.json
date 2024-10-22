@@ -1,0 +1,28 @@
+{
+    "titles": {
+        "instructors": "المعلمون"
+    },
+    "labels": {
+        "type": "النوع",
+        "internal": "داخلي",
+        "external": "خارجي"
+    },
+    "tooltips": {
+        "email": "البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "gender": "الجنس",
+        "cin": "الرقم التعريفي",
+        "age": "العمر"
+    },
+    "buttons": {
+        "showMore": "عرض المزيد",
+        "showLess": "عرض أقل"
+    },
+    "messages": {
+        "loadError": "فشل تحميل المعلمين",
+        "loading": "جار التحميل..."
+    },
+    "placeholders": {
+        "selectType": "اختر نوع المعلم"
+    }
+}

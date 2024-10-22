@@ -1,0 +1,28 @@
+{
+    "titles": {
+        "editClass": "تعديل الفصل"
+    },
+    "labels": {
+        "classTitle": "عنوان الفصل",
+        "participants": "المشاركين",
+        "courses": "الدورات"
+    },
+    "buttons": {
+        "updateClass": "تحديث الفصل",
+        "updating": "جارٍ التحديث..."
+    },
+    "messages": {
+        "classUpdated": "تم تحديث الفصل بنجاح",
+        "classUpdateFailed": "فشل في تحديث الفصل",
+        "classTitleEmpty": "لا يمكن أن يكون عنوان الفصل فارغًا",
+        "classTitleInvalid": "يجب أن يحتوي العنوان على أحرف ومسافات فقط.",
+        "participantsRequired": "يجب اختيار مشارك واحد على الأقل",
+        "coursesRequired": "يجب اختيار دورة واحدة على الأقل",
+        "failedToFetchClassData": "فشل في جلب بيانات الفصل",
+        "failedToFetchParticipants": "فشل في جلب المشاركين",
+        "failedToFetchCourses": "فشل في جلب الدورات"
+    },
+    "placeholders": {
+        "classTitle": "أدخل عنوان الفصل"
+    }
+}

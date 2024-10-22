@@ -1,0 +1,44 @@
+{
+  "addParticipant": {
+    "title": "إضافة مشارك جديد",
+    "description": "قم بتعبئة التفاصيل أدناه لإنشاء مستخدم جديد.",
+    "uploadImage": "تحميل صورة الملف الشخصي",
+    "noImage": "لا توجد صورة",
+    "fields": {
+      "matricule": "رقم التسجيل",
+      "firstName": "الاسم الأول",
+      "lastName": "الاسم الأخير",
+      "email": "عنوان البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "phone": "رقم الهاتف",
+      "age": "العمر",
+      "cin": "رقم الهوية",
+      "unit": "اختر وحدة",
+      "entreprise": "اختر مؤسسة"
+    },
+    "submit": {
+      "addParticipant": "إضافة مشارك",
+      "adding": "جارٍ الإضافة..."
+    }
+  },
+   "validate" : {
+  "firstNameRequired": "الاسم الأول مطلوب",
+  "firstNameLetters": "يجب أن يحتوي الاسم الأول على أحرف فقط",
+  "lastNameRequired": "الكنية مطلوبة",
+  "lastNameLetters": "يجب أن يحتوي اللقب على أحرف فقط",
+  "emailRequired": "البريد الإلكتروني مطلوب",
+  "emailValid": "يرجى إدخال عنوان بريد إلكتروني صالح",
+  "matriculeRequired": "معرف التسجيل مطلوب",
+  "passwordRequired": "كلمة المرور مطلوبة",
+  "passwordLength": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+  "phoneRequired": "رقم الهاتف مطلوب",
+  "phoneValid": "يرجى إدخال رقم هاتف صالح",
+  "ageRequired": "العمر مطلوب",
+  "ageValid": "يجب أن يكون العمر رقمًا صالحًا",
+  "ageRange": "يرجى إدخال عمر صالح بين 1 و 120",
+  "cinFormat": " 'AB12345678' يجب أن تكون CIN ",
+  "selectEntreprise": "يرجى اختيار شركة",
+  "selectUnit": "يرجى اختيار وحدة"
+
+}
+}

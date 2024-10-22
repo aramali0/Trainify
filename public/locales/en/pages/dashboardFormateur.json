@@ -1,0 +1,16 @@
+{
+  "welcomeTitle": "Welcome Back!",
+  "welcomeDescription": "Here's a quick overview of your platform's activity.",
+  "viewCourses": "View Courses",
+  "courses": "Courses",
+  "students": "Students",
+  "averageScore": "Average Score",
+  "combinedChart": "Combined Activity Chart",
+  "coursesCreated": "Courses Created by Month",
+  "studentsOverTime": "Students Over Time",
+  "evaluationsOverTime": "Evaluations Over Time",
+  "classesDetails": "Classes Details",
+  "studentsEnrolled": "Students Enrolled",
+  "evualationsCompleted": "Evaluations Completed"
+
+}

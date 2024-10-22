@@ -1,0 +1,23 @@
+{
+  "createEvent": "Create Event",
+  "titleEn": "Event Title (English)",
+  "descriptionEn": "Event Description (English)",
+  "titleFr": "Event Title (French)",
+  "descriptionFr": "Event Description (French)",
+  "titleAr": "Event Title (Arabic)",
+  "descriptionAr": "Event Description (Arabic)",
+  "date": "Date",
+  "location": "Location",
+  "image": "Event Image",
+  "submit": "Submit",
+  "titleValidation": "Title is required.",
+  "descriptionValidation": "Description is required.",
+  "dateValidation": "Date is required.",
+  "locationValidation": "Location is required.",
+  "imageValidation": "Image is required.",
+  "eventCreated": "Event created successfully!",
+  "eventCreationFailed": "Failed to create the event. Please try again.",
+  "formError": "Please fill in all the fields.", 
+  "datePast": "Date cannot be in the past.",
+  "imageSizeLimit": "Image size must be less than 2MB."
+}

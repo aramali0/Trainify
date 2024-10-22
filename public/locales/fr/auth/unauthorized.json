@@ -1,0 +1,9 @@
+{
+  "unauthorized": {
+    "title": "403",
+    "heading": "Accès refusé !",
+    "description": "Vous n'avez pas la permission de voir cette page. Veuillez contacter l'administrateur si vous pensez qu'il s'agit d'une erreur.",
+    "backToHome": "Retour à l'accueil"
+  }
+}
+

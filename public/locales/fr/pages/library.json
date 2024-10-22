@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "libraryManagement": "Gestion de la Bibliothèque",
+        "libraries": "Bibliothèques",
+        "videoViewer": "Visionneuse Vidéo"
+    },
+    "buttons": {
+        "createLibrary": "Créer une Bibliothèque",
+        "uploadResource": "Télécharger la Ressource",
+        "deleteLibrary": "Supprimer la Bibliothèque",
+        "deleteResource": "Supprimer la Ressource"
+    },
+    "messages": {
+        "noResources": "Aucune ressource disponible",
+        "fetchLibrariesError": "Échec du chargement des bibliothèques",
+        "uploadSuccess": "Ressource téléchargée avec succès",
+        "uploadError": "Échec du téléchargement de la ressource",
+        "deleteLibrarySuccess": "Bibliothèque supprimée avec succès",
+        "deleteResourceSuccess": "Ressource supprimée avec succès",
+        "loadError": "Échec du chargement de la ressource",
+        "fileSizeExceeds": "La taille du fichier dépasse la taille maximale autorisée, réduisez le fichier ou contactez l'administrateur",
+        "selectFile": "Sélectionnez la bibliothèque et le fichier à télécharger"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "title": "الفصول",
+    "filterByCourse": "تصفية حسب الدورة",
+    "createClass": "إنشاء فصل",
+    "classDeletedSuccess": "تم حذف الفصل بنجاح",
+    "failedToFetchClasses": "فشل في جلب الفصول",
+    "failedToFetchCourses": "فشل في جلب الدورات",
+    "failedToFilterClasses": "فشل في تصفية الفصول",
+    "failedToDeleteClass": "فشل في حذف الفصل"
+}
+

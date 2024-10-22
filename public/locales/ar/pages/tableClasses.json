@@ -1,0 +1,10 @@
+{
+    "table": {
+        "no": "رقم",
+        "title": "العنوان",
+        "numberOfParticipants": "عدد المشاركين",
+        "numberOfCourses": "عدد الدورات",
+        "noResources": "لا توجد موارد متاحة",
+        "loading": "جار التحميل..."
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "questions_answers": {
+    "title": "الأسئلة والإجابات"
+  },
+  "evaluation_summary": "ملخص التقييم",
+  "type": "النوع",
+  "time_taken": "الوقت المستغرق",
+  "loading": "جار التحميل...",
+  "answers": "الإجابات",
+  "all_correct": "كلها صحيحة",
+  "some_incorrect": "بعضها غير صحيح",
+  "no_questions": "لا توجد أسئلة أو إجابات."
+}

@@ -1,0 +1,9 @@
+{
+  "loading": "Chargement des participants...",
+  "participants": {
+    "title": "Participants"
+  },
+  "error": {
+    "loading_participants": "Échec du chargement des participants."
+  }
+}

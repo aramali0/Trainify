@@ -1,0 +1,16 @@
+{
+    "Edit Question": "Modifier la question",
+    "Loading...": "Chargement...",
+    "Question Text": "Texte de la question",
+    "Enter question text": "Entrez le texte de la question",
+    "Question Type": "Type de question",
+    "Multiple Choice": "Choix multiple",
+    "Single Choice": "Choix unique",
+    "True/False": "Vrai/Faux",
+    "Update Question": "Mettre à jour la question",
+    "No question found": "Aucune question trouvée",
+    "Failed to fetch question": "Échec de la récupération de la question",
+    "Question text cannot be empty": "Le texte de la question ne peut pas être vide",
+    "Question updated successfully": "Question mise à jour avec succès",
+    "Failed to update question": "Échec de la mise à jour de la question"
+}

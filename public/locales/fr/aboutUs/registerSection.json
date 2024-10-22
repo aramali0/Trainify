@@ -1,0 +1,21 @@
+{
+  "missionSubtitle": "Notre Mission",
+  "missionTitle": "Votre Chemin vers le Succès",
+  "missionDescription": "Notre mission est de fournir une éducation de haute qualité qui mène au succès dans votre parcours professionnel choisi. Rejoignez-nous et commencez votre voyage aujourd'hui.",
+  "classesComplete": "350",
+  "classesCompleteText": "Cours Complétés",
+  "libraryBooks": "20",
+  "libraryBooksText": "Livres de la Bibliothèque",
+  "certifiedTeachers": "50",
+  "certifiedTeachersText": "Enseignants Certifiés",
+  "applyNow": "Postulez Maintenant",
+  "inquiryNow": "Faites une Demande Maintenant",
+  "successMessage": "Votre message a été envoyé avec succès.",
+  "errorMessage": "Une erreur s'est produite lors de l'envoi de votre message.",
+  "namePlaceholder": "Votre Nom",
+  "emailPlaceholder": "Votre Email",
+  "subjectPlaceholder": "Sujet",
+  "phonePlaceholder": "Votre Numéro de Téléphone",
+  "messagePlaceholder": "Votre Message",
+  "submitButton": "Soumettre"
+}

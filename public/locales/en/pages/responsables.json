@@ -1,0 +1,26 @@
+{
+    "titles": {
+        "responsableFormation": "Formation Manager",
+        "updateMaxSize": "Update Max Size"
+    },
+    "labels": {
+        "maxSize": "Max Size",
+        "yearsOld": "years old",
+        "accountCreated": "Account created",
+        "newMaxSize": "New Max Size (in MB)"
+    },
+    "buttons": {
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "saveChanges": "Save Changes"
+    },
+    "messages": {
+        "loadError": "Failed to load Responsable Formation details",
+        "maxSizeUpdated": "Max size updated successfully",
+        "updateError": "Failed to update max size",
+        "loading": "Loading..."
+    },
+    "placeholders": {
+        "enterNewMaxSize": "Enter new max size"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "titles": {
+        "banners": "لافتات"
+    },
+    "buttons": {
+        "createBanner": "إنشاء لافتة"
+    },
+    "messages": {
+        "confirmDeleteBanner": "هل أنت متأكد أنك تريد حذف هذا لافتة؟",
+        "noSubtitle": "لا يوجد عنوان فرعي متاح."
+    },
+    "aria": {
+        "editBanner": "تعديل لافتة",
+        "deleteBanner": "حذف لافتة"
+    }
+}

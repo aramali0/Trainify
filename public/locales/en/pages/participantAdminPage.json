@@ -1,0 +1,20 @@
+{
+    "titles": {
+        "participants": "Participants"
+    },
+    "labels": {
+        "yearsOld": "years old",
+        "selectUnit": "Select unit"
+    },
+    "buttons": {
+        "showMore": "Show More",
+        "showLess": "Show Less"
+    },
+    "messages": {
+        "loadError": "Failed to load students",
+        "noStudents": "No students found."
+    },
+    "placeholders":{
+        "selectUnit":"Select unit"
+    }
+}

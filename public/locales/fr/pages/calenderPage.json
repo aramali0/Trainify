@@ -1,0 +1,7 @@
+{
+    "Calendar": "Calendrier",
+    "Unavailable": "Indisponible",
+    "Failed to fetch events": "Échec de la récupération des événements",
+    "Failed to submit unavailable time": "Échec de la soumission du temps indisponible",
+    "Failed to delete unavailable time": "Échec de la suppression du temps indisponible"
+}

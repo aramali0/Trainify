@@ -1,0 +1,31 @@
+{
+    "titles": {
+        "sections": "Sections"
+    },
+    "buttons": {
+        "addNewSection": "Ajouter une nouvelle section",
+        "startQuiz": "Commencer le quiz",
+        "viewQuiz": "Voir le quiz",
+        "createQuiz": "Créer un quiz"
+    },
+    "labels": {
+        "startDate": "Date de début",
+        "endDate": "Date de fin"
+    },
+    "errors": {
+        "failedToLoadSections": "Échec du chargement des sections",
+        "failedToLoadQuizzes": "Échec du chargement des quiz",
+        "failedToDeleteSection": "Échec de la suppression de la section"
+    },
+    "messages": {
+        "loadingSections": "Chargement des sections...",
+        "noSectionsAvailable": "Aucune section disponible",
+        "noDescriptionAvailable": "Aucune description disponible.",
+        "sectionDeletedSuccessfully": "Section supprimée avec succès",
+        "confirmDeleteSection": "Êtes-vous sûr de vouloir supprimer cette section ?"
+    },
+    "aria": {
+        "editSection": "Modifier la section",
+        "deleteSection": "Supprimer la section"
+    }
+}

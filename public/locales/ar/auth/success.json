@@ -1,0 +1,9 @@
+{
+  "success": {
+    "title": "تم بنجاح الدفع",
+    "thankYouMessage": "شكرًا لشرائك، {{email}}!",
+    "downloadReceipt": "تحميل الإيصال",
+    "goToHome": "اذهب إلى الصفحة الرئيسية"
+  }
+}
+

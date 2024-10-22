@@ -1,0 +1,23 @@
+{
+    "editSection": "Modifier la section",
+    "title": "Titre",
+    "content": "Contenu",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "session": "Session",
+    "loadingSessions": "Chargement des sessions...",
+    "errors": {
+        "titleRequired": "Le titre est requis.",
+        "titleInvalid": "Le titre ne doit contenir que des lettres et des espaces.",
+        "contentRequired": "Le contenu est requis.",
+        "contentInvalid": "Le contenu doit contenir uniquement des lettres et des espaces.",
+        "startDateRequired": "La date de début est requise.",
+        "endDateRequired": "La date de fin est requise.",
+        "endDateInvalid": "La date de fin doit être après la date de début.",
+        "sessionRequired": "La session est requise."
+    },
+    "updateSuccess": "Section mise à jour avec succès",
+    "updateFailure": "Échec de la mise à jour de la section"
+}
+
+

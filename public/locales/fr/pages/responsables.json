@@ -1,0 +1,26 @@
+{
+    "titles": {
+        "responsableFormation": "Responsable de Formation",
+        "updateMaxSize": "Mettre à jour la taille maximale"
+    },
+    "labels": {
+        "maxSize": "Taille Max",
+        "yearsOld": "ans",
+        "accountCreated": "Compte créé",
+        "newMaxSize": "Nouvelle Taille Max (en Mo)"
+    },
+    "buttons": {
+        "edit": "Modifier",
+        "cancel": "Annuler",
+        "saveChanges": "Sauvegarder les modifications"
+    },
+    "messages": {
+        "loadError": "Échec du chargement des détails du Responsable de Formation",
+        "maxSizeUpdated": "Taille maximale mise à jour avec succès",
+        "updateError": "Échec de la mise à jour de la taille maximale",
+        "loading": "Chargement..."
+    },
+    "placeholders": {
+        "enterNewMaxSize": "Entrez la nouvelle taille maximale"
+    }
+}

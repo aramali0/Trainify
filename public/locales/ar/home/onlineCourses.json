@@ -1,0 +1,13 @@
+{
+  "loading": "جار التحميل...",
+  "error": {
+    "fetchCourses": "فشل في جلب الدورات."
+  },
+  "discoverNew": "اكتشف الجديد",
+  "ourOnlineCourses": "دوراتنا عبر الإنترنت",
+  "lessons": "دروس",
+  "students": "طلاب",
+  "allLevels": "جميع المستويات",
+  "free": "مجاني",
+  "unknownFormateur": "مدرب غير معروف"
+}

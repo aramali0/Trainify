@@ -1,0 +1,26 @@
+{
+    "titles": {
+        "addEnterprise": "Add Enterprise"
+    },
+    "labels": {
+        "logo": "Logo",
+        "commercialName": "Commercial Name",
+        "rcNumber": "RC Number",
+        "cnssNumber": "CNSS Number",
+        "ifNumber": "IF Number",
+        "tpNumber": "TP Number",
+        "numberOfEmployees": "Number of Employees"
+    },
+    "errors": {
+        "required": "{{field}} is required.",
+        "invalidCharacters": "{{field}} can only contain letters and spaces.",
+        "mustBeNumeric": "{{field}} must be numeric."
+    },
+    "messages": {
+        "success": "Enterprise added successfully.",
+        "error": "Failed to add enterprise."
+    },
+    "buttons": {
+        "saveEnterprise": "Save Enterprise"
+    }
+}

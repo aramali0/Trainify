@@ -1,0 +1,26 @@
+{
+    "titles": {
+        "addEnterprise": "Ajouter une entreprise"
+    },
+    "labels": {
+        "logo": "Logo",
+        "commercialName": "Nom Commercial",
+        "rcNumber": "Numéro RC",
+        "cnssNumber": "Numéro CNSS",
+        "ifNumber": "Numéro IF",
+        "tpNumber": "Numéro TP",
+        "numberOfEmployees": "Nombre d'employés"
+    },
+    "errors": {
+        "required": "{{field}} est requis.",
+        "invalidCharacters": "{{field}} ne peut contenir que des lettres et des espaces.",
+        "mustBeNumeric": "{{field}} doit être numérique."
+    },
+    "messages": {
+        "success": "Entreprise ajoutée avec succès.",
+        "error": "Échec de l'ajout de l'entreprise."
+    },
+    "buttons": {
+        "saveEnterprise": "Sauvegarder l'entreprise"
+    }
+}

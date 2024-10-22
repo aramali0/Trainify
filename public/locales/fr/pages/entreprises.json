@@ -1,0 +1,8 @@
+{
+    "title": "Entreprises",
+    "createEntrepriseButton": "Créer une entreprise",
+    "loading": "Chargement...",
+    "errors": {
+        "loadEnterprises": "Échec du chargement des entreprises"
+    }
+}

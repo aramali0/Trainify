@@ -1,0 +1,13 @@
+{
+  "loading": "Loading...",
+  "error": {
+    "fetchCourses": "Failed to fetch courses."
+  },
+  "discoverNew": "Discover new",
+  "ourOnlineCourses": "Our Online Courses",
+  "lessons": "Lessons",
+  "students": "Students",
+  "allLevels": "All levels",
+  "free": "Free",
+  "unknownFormateur": "Unknown Formateur"
+}

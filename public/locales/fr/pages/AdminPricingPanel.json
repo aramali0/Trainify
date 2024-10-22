@@ -1,0 +1,33 @@
+{
+    "adminPricingPanel": {
+        "title": "Panneau de tarification Admin",
+        "addNewPlan": "Ajouter un nouveau plan",
+        "editPricingPlan": "Modifier le plan tarifaire",
+        "addPricingPlan": "Ajouter un nouveau plan tarifaire",
+        "planName": "Nom du plan",
+        "price": "Prix",
+        "per": "Par",
+        "link": "Lien",
+        "features": "Caractéristiques (séparées par des virgules)",
+        "popular": "Populaire",
+        "updatePlan": "Mettre à jour le plan",
+        "addPlan": "Ajouter un plan",
+        "successUpdate": "Plan mis à jour avec succès",
+        "successAdd": "Plan ajouté avec succès",
+        "successDelete": "Plan supprimé avec succès",
+        "errorFetching": "Erreur lors de la récupération des plans tarifaires:",
+        "errorSaving": "Échec de l'enregistrement du plan.",
+        "planValidation": "Le nom du plan doit contenir uniquement des lettres et des espaces.",
+        "perValidation": "Le périmètre du plan doit contenir uniquement des lettres et des espaces.",
+        "priceValidation": "Le prix doit être un nombre valide, par exemple, 10 ou 10,99.",
+        "featuresValidation": "Les caractéristiques doivent être des caractères séparés par des virgules.",
+        "linkValidation": "Le lien doit être une URL valide commençant par http ou https.",
+        "planNameFr": "Nom du plan (français)",
+        "planNameAr": "Nom du plan (arabe)",
+        "featuresFr": "Caractéristiques (français)",
+        "featuresAr": "Caractéristiques (arabe)",
+        "featuresEn": "Caractéristiques (anglais)",
+        "planNameEn": "Nom du plan (anglais)",
+        "delete": "Supprimer"
+    }
+}

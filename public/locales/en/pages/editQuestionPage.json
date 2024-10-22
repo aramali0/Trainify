@@ -1,0 +1,16 @@
+{
+    "Edit Question": "Edit Question",
+    "Loading...": "Loading...",
+    "Question Text": "Question Text",
+    "Enter question text": "Enter question text",
+    "Question Type": "Question Type",
+    "Multiple Choice": "Multiple Choice",
+    "Single Choice": "Single Choice",
+    "True/False": "True/False",
+    "Update Question": "Update Question",
+    "No question found": "No question found",
+    "Failed to fetch question": "Failed to fetch question",
+    "Question text cannot be empty": "Question text cannot be empty",
+    "Question updated successfully": "Question updated successfully",
+    "Failed to update question": "Failed to update question"
+}

@@ -1,0 +1,21 @@
+{
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "courses": "Cours",
+    "sessions": "Sessions",
+    "sections": "Sections",
+    "calendar": "Calendrier",
+    "classes": "Classes",
+    "libraries": "Bibliothèques",
+    "verification": "Vérification",
+    "approvals": "Approbations"
+  },
+  "dashboard": {
+    "title": "Tableau de bord"
+  },
+  "notifications": {
+    "newMessageFrom": "Nouveau message de {{name}}",
+    "newMessage": "Nouveau message",
+    "newQuizNotification": "Nouvelle notification de quiz !"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "actionType": {
+        "COURSE": "Cours",
+        "CLASS": "Classe",
+        "LIBRARY": "Bibliothèque",
+        "QUIZ": "Quiz",
+        "RESOURCE": "Ressource"
+    },
+    "requestId": "ID de demande",
+    "createdOn": "Créé le",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "requestUpdate": "Demander une mise à jour",
+    "showDetails": "Afficher les détails",
+    "chargeFormationNotFound": "Chargé de Formation: Introuvable",
+    "comment": "Commentaire",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "pending": "Actions d'approbation en attente",
+    "loadingRequests": "Chargement des actions d'approbation...",
+    "NoPendingRequests": "Aucune action d'approbation en attente",
+    "courses": "Cours",
+    "participants": "Participants",
+    "close": "Fermer",
+    "course": "Cours",
+    "resourceType": "Type de ressource",
+    "library": "Bibliothèque",
+    "loadingDetails": "Chargement des détails...",
+    "enterComment": "Entrez votre commentaire ici..."
+
+
+}

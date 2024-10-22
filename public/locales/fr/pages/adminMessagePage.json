@@ -1,0 +1,9 @@
+{
+  "submittedMessages": "Messages soumis",
+  "writeYourResponse": "Écrivez votre réponse ici...",
+  "submitResponse": "Soumettre la réponse",
+  "responseSubmitted": "Réponse soumise",
+  "errorFetchingMessages": "Erreur lors de la récupération des messages:",
+  "errorSubmittingResponse": "Erreur lors de l'envoi de la réponse:",
+  "direction": "ltr"
+}

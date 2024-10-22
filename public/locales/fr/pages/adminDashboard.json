@@ -1,0 +1,21 @@
+{
+  "dashboardAdmin": {
+    "welcomeBack": "Bienvenue!",
+    "overviewDescription": "Voici un aperçu des progrès de la plateforme.",
+    "viewCourses": "Voir les cours",
+    "courses": "Cours",
+    "entreprises": "Entreprises",
+    "allUsers": "Tous les utilisateurs",
+    "resources": "Ressources",
+    "usersRegistered": "Utilisateurs inscrits",
+    "usersRegisteredByMonth": "Utilisateurs inscrits par mois",
+    "usersRegisteredByDay": "Utilisateurs inscrits par jour",
+    "onlineUsers": "Utilisateurs en ligne",
+    "onlineUsersCount": "Actuellement {{count}} utilisateurs en ligne",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "imageError": "Erreur de chargement de l'image",
+    "monthly": "Mensuel",
+    "daily": "Journalier"
+  }
+}

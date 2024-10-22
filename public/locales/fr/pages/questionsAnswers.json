@@ -1,0 +1,13 @@
+{
+  "questions_answers": {
+    "title": "Questions & Réponses"
+  },
+  "evaluation_summary": "Résumé de l'évaluation",
+  "type": "Type",
+  "time_taken": "Temps pris",
+  "loading": "Chargement...",
+  "answers": "Réponses",
+  "all_correct": "Toutes correctes",
+  "some_incorrect": "Certaines incorrectes",
+  "no_questions": "Aucune question ou réponse disponible."
+}

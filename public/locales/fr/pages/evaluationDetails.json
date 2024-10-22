@@ -1,0 +1,12 @@
+{
+    "evaluationDetails": "Détails de l'évaluation",
+    "evaluationId": "ID d'évaluation",
+    "type": "Type",
+    "createdAt": "Créé le",
+    "score": "Score",
+    "fetchError": "Échec du chargement des évaluations",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page",
+    "of": "de"
+}

@@ -1,0 +1,12 @@
+{
+    "adminFeedbackView": {
+        "title": "Commentaires soumis",
+        "organization": "Organisation",
+        "formateur": "Formateur",
+        "platformExperience": "Expérience de la plateforme",
+        "satisfactionLevel": "Niveau de satisfaction",
+        "remarks": "Remarques",
+        "loadingError": "Échec du chargement des commentaires. Veuillez réessayer.",
+        "formateurLoadError": "Échec du chargement du formateur. Veuillez réessayer."
+    }
+}

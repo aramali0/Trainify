@@ -1,0 +1,26 @@
+{
+    "title": "Ajouter un nouveau cours",
+    "titleLabel": "Titre",
+    "subtitleLabel": "Sous-titre",
+    "descriptionLabel": "Description",
+    "durationLabel": "Durée (heures)",
+    "languageLabel": "Langue",
+    "classesLabel": "Classes",
+    "instructorsLabel": "Formateurs",
+    "imageLabel": "Image du cours",
+    "addCourseButton": "Ajouter le cours",
+    "loadingClasses": "Chargement des classes...",
+    "loadingInstructors": "Chargement des formateurs...",
+    "errors": {
+        "loadClasses": "Échec du chargement des classes",
+        "loadInstructors": "Échec du chargement des formateurs",
+        "title": "Le titre ne doit contenir que des lettres et des espaces.",
+        "subtitle": "Le sous-titre ne doit contenir que des lettres et des espaces.",
+        "description": "La description est requise.",
+        "duration": "La durée doit être un nombre positif.",
+        "imageRequired": "L'image du cours est requise.",
+        "imageSize": "La taille de l'image ne doit pas dépasser 2 Mo.",
+        "addCourse": "Échec de l'ajout du cours"
+    },
+    "success": "Cours ajouté avec succès"
+}

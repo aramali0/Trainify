@@ -1,0 +1,59 @@
+html {
+  @apply relative scroll-smooth;
+}
+
+body {
+  font-size: 15px;
+  -webkit-tap-highlight-color: transparent;
+  @apply overflow-x-hidden antialiased font-body text-default-500 bg-default-50 dark:bg-default-100;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+::selection {
+  @apply bg-primary text-white;
+}
+
+.custom-scroll {
+  @apply overflow-y-auto;
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-scrollbar:vertical {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar:horizontal {
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-default-900/10 border-2 border-default-900/10 rounded-lg;
+    opacity: 0.5;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-transparent rounded-lg;
+  }
+
+  &::-webkit-scrollbar-corner {
+    @apply bg-transparent;
+  }
+}
+
+.icons-list-demo > div {
+  @apply flex items-center gap-3 text-default-700 hover:text-primary transition-all duration-200;
+}
+
+
+.glightbox-clean .gslide-description {
+  @apply bg-white dark:bg-default-50;
+}
+
+.glightbox-clean .gslide-title {
+  @apply text-default-600;
+}

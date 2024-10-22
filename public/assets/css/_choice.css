@@ -1,0 +1,90 @@
+.choices .choices__list.choices__list--dropdown {
+    @apply bg-white dark:!bg-default-50;
+}
+
+.choices .choices__list.choices__list--dropdown .choices__input {
+    @apply bg-transparent text-default-800;
+}
+
+.choices .choices__list.choices__list--dropdown .choices__item.choices__placeholder {
+    @apply bg-transparent hover:bg-default-100;
+}
+
+.choices .choices__item.choices__item--choice {
+    @apply hover:bg-default-100 hover:text-default-900;
+}
+
+.choices .choices__item.choices__item--choice.is-highlighted {
+    @apply bg-default-100 text-default-900;
+}
+
+.choices__inner {
+    @apply border border-default-200 min-h-[38px] rounded-md align-middle py-2 px-3 bg-transparent;
+}
+
+.choices__list--dropdown, .choices__list[aria-expanded] {
+    @apply border !border-default-200
+}
+
+.choices[data-type*=select-one] .choices__input {
+    @apply border-b border-default-200
+}
+
+.choices__heading {
+    @apply border-b border-default-200;
+}
+
+.is-focused .choices__inner,
+.is-open .choices__inner {
+    @apply border-default-200;    
+}
+
+.choices__input.choices__input--cloned {
+    @apply p-0;
+}
+
+.choices__input {
+    @apply text-default-600 mb-0 bg-transparent;
+}
+
+.choices__list--multiple {
+    @apply inline-flex flex-wrap gap-y-1;
+}
+
+.choices__list--multiple .choices__item {
+    @apply bg-primary/30 text-primary border-primary/40 mb-0 font-normal;
+}
+
+.choices__list--multiple .choices__item.is-highlighted {
+    @apply py-[4px] px-1.5 bg-primary-600/10 text-primary-600 border-primary-600/40 rounded-md;
+}
+
+.choices__list--multiple .choices__item--selectable {
+    @apply py-[4px] px-1.5 bg-primary-600/10 font-medium text-primary-600 border-primary-600/40 rounded;
+}
+
+.choices.is-disabled .choices__inner,
+.choices.is-disabled .choices__input {
+    @apply bg-default-100;
+}
+
+.choices__inner .choices__input[type='search'] {
+    @apply !bg-transparent;
+}
+
+.is-disabled .choices__list--multiple .choices__item {
+    @apply bg-default-100 border-default-100;
+}
+
+.choices[data-type*=select-multiple] .choices__button,
+.choices[data-type*=text] .choices__button {
+    @apply border-s border-l-transparent -me-0 ms-0 ps-5 border-e-0 bg-none relative after:absolute after:start-1/2 after:-translate-x-1/2 after:top-1/2 after:-translate-y-1/2 after:h-2.5 after:w-[2px] after:bg-primary-600 after:-rotate-45 before:absolute before:start-1/2 before:-translate-x-1/2 before:top-1/2 before:-translate-y-1/2 before:h-2.5 before:w-[2px] before:bg-primary-600 before:rotate-45;
+}
+
+.choices__list--dropdown {
+    @apply border border-default-200 bg-default-100;
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted {
+    @apply bg-default-300;
+}

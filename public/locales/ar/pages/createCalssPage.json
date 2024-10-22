@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "createClass": "إنشاء فصل"
+    },
+    "labels": {
+        "classTitle": "عنوان الفصل",
+        "selectParticipants": "اختر المشاركين",
+        "selectCourses": "اختر الدورات"
+    },
+    "buttons": {
+        "createClass": "إنشاء فصل"
+    },
+    "messages": {
+        "classCreated": "تم إنشاء الفصل بنجاح",
+        "classCreationFailed": "فشل في إنشاء الفصل",
+        "classTitleEmpty": "لا يمكن أن يكون عنوان الفصل فارغًا",
+        "classTitleInvalid": "يجب أن يحتوي العنوان على أحرف ومسافات فقط.",
+        "participantsRequired": "يجب اختيار مشارك واحد على الأقل",
+        "coursesRequired": "يجب اختيار دورة واحدة على الأقل"
+    },
+    "placeholders": {
+        "classTitle": "أدخل عنوان الفصل"
+    }
+}

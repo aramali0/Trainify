@@ -1,0 +1,22 @@
+{
+    "addSection": "إضافة قسم",
+    "title": "العنوان",
+    "content": "المحتوى",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "session": "الجلسة",
+    "loadingSessions": "جارٍ تحميل الجلسات...",
+    "errors": {
+        "titleRequired": "العنوان مطلوب.",
+        "titleInvalid": "يجب أن يحتوي العنوان على أحرف وأرقام ومسافات ورموز - _ . ,",
+        "contentRequired": "المحتوى مطلوب.",
+        "contentInvalid": "يجب أن يحتوي المحتوى على أحرف ومسافات فقط.",
+        "startDateRequired": "تاريخ البدء مطلوب.",
+        "endDateRequired": "تاريخ الانتهاء مطلوب.",
+        "endDateInvalid": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء.",
+        "sessionRequired": "الجلسة مطلوبة.",
+        "loadSessionsFailed": "فشل تحميل الجلسات",
+        "addSectionFailed": "فشل إضافة القسم"
+    },
+    "sectionAddedSuccess": "تمت إضافة القسم بنجاح"
+}

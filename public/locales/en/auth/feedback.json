@@ -1,0 +1,22 @@
+{
+  "feedback": {
+    "title": "Submit Feedback",
+    "organization": "Organization",
+    "organizationPlaceholder": "Enter your organization",
+    "platformExperience": "Platform Experience",
+    "platformExperiencePlaceholder": "Describe your experience with the platform",
+    "satisfactionLevel": "Satisfaction Level",
+    "selectSatisfaction": "Select satisfaction level",
+    "verySatisfied": "Very Satisfied",
+    "satisfied": "Satisfied",
+    "neutral": "Neutral",
+    "dissatisfied": "Dissatisfied",
+    "veryDissatisfied": "Very Dissatisfied",
+    "remarks": "Remarks",
+    "additionalCommentsPlaceholder": "Additional comments",
+    "submitButton": "Submit Feedback",
+    "successMessage": "Feedback submitted successfully!",
+    "errorMessage": "Failed to submit feedback. Please try again."
+  }
+}
+

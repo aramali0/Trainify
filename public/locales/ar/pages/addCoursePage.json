@@ -1,0 +1,26 @@
+{
+    "title": "إضافة دورة جديدة",
+    "titleLabel": "العنوان",
+    "subtitleLabel": "العنوان الفرعي",
+    "descriptionLabel": "الوصف",
+    "durationLabel": "المدة (ساعات)",
+    "languageLabel": "اللغة",
+    "classesLabel": "الفصول",
+    "instructorsLabel": "المعلمون",
+    "imageLabel": "صورة الدورة",
+    "addCourseButton": "إضافة دورة",
+    "loadingClasses": "جارٍ تحميل الفصول...",
+    "loadingInstructors": "جارٍ تحميل المعلمين...",
+    "errors": {
+        "loadClasses": "فشل تحميل الفصول",
+        "loadInstructors": "فشل تحميل المعلمين",
+        "title": "يجب أن يحتوي العنوان على أحرف ومسافات فقط.",
+        "subtitle": "يجب أن يحتوي العنوان الفرعي على أحرف ومسافات فقط.",
+        "description": "الوصف مطلوب.",
+        "duration": "يجب أن تكون المدة رقمًا موجبًا.",
+        "imageRequired": "صورة الدورة مطلوبة.",
+        "imageSize": "يجب ألا تتجاوز حجم الصورة 2 ميجابايت.",
+        "addCourse": "فشل في إضافة الدورة"
+    },
+    "success": "تم إضافة الدورة بنجاح"
+}

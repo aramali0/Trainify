@@ -1,0 +1,17 @@
+{
+  "searchPlaceholder": "Search by name...",
+  "allRoles": "All Roles",
+  "participants": "Participants",
+  "formateurs": "Formateurs",
+  "responsableFormation": "Responsable de Formation",
+  "usersForEnterprise": "Users for Enterprise",
+  "allUsers": "All Users",
+  "previous": "Previous",
+  "next": "Next",
+  "userDeleted": "User deleted successfully!",
+  "userBlocked": "User blocked successfully!",
+  "userUnblocked": "User unblocked successfully!",
+  "fetchError": "Failed to fetch users",
+  "deleteError": "Failed to delete user",
+  "blockError": "Failed to block user"
+}

@@ -1,0 +1,22 @@
+{
+    "editSection": "Edit Section",
+    "title": "Title",
+    "content": "Content",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "session": "Session",
+    "loadingSessions": "Loading sessions...",
+    "errors": {
+        "titleRequired": "Title is required.",
+        "titleInvalid": "Title must contain only letters and spaces.",
+        "contentRequired": "Content is required.",
+        "contentInvalid": "Content must contain only letters and spaces.",
+        "startDateRequired": "Start Date is required.",
+        "endDateRequired": "End Date is required.",
+        "endDateInvalid": "End Date must be after Start Date.",
+        "sessionRequired": "Session is required."
+    },
+    "updateSuccess": "Section updated successfully",
+    "updateFailure": "Failed to update section"
+}
+

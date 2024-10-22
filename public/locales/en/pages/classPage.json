@@ -1,0 +1,11 @@
+{
+    "title": "Classes",
+    "filterByCourse": "Filter by Course",
+    "createClass": "Create Class",
+    "classDeletedSuccess": "Class deleted successfully",
+    "failedToFetchClasses": "Failed to fetch classes",
+    "failedToFetchCourses": "Failed to fetch courses",
+    "failedToFilterClasses": "Failed to filter classes",
+    "failedToDeleteClass": "Failed to delete class"
+}
+

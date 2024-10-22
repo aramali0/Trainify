@@ -1,0 +1,9 @@
+{
+  "loading": "جارٍ تحميل المشاركين...",
+  "participants": {
+    "title": "المشاركون"
+  },
+  "error": {
+    "loading_participants": "فشل تحميل المشاركين."
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "quiz": {
+        "title": "Quiz",
+        "loadError": "Failed to load questions",
+        "submitSuccess": "Quiz submitted successfully",
+        "submitError": "Failed to submit quiz",
+        "selectError": "Please select an answer before proceeding.",
+        "timeTaken": "Time Taken",
+        "question": "Question",
+        "of": "of",
+        "previous": "Previous",
+        "next": "Next",
+        "reviewAndSubmit": "Review and Submit",
+        "submitted": "Quiz Submitted"
+    }
+}

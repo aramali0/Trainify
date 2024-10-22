@@ -1,0 +1,31 @@
+{
+    "titles": {
+        "courses": "Cours"
+    },
+    "buttons": {
+        "createCourse": "Créer un cours",
+        "updateCourse": "Mettre à jour le cours",
+        "favorite": "Ajouter aux favoris",
+        "unfavorite": "Retirer des favoris",
+        "sendRequest": "Envoyer une demande",
+        "showSessions": "Afficher les sessions",
+        "showLibrary": "Afficher la bibliothèque"
+    },
+    "messages": {
+        "loading": "Chargement...",
+        "requestSentSuccessfully": "Demande envoyée avec succès"
+    },
+    "errors": {
+        "failedToLoadCourses": "Échec du chargement des cours",
+        "errorSendingRequest": "Erreur lors de l'envoi de la demande"
+    },
+    "course": {
+        "altImage": "Image du cours",
+        "sessions": "Sessions",
+        "duration": "Durée",
+        "hours": "heures",
+        "language": "Langue",
+        "createdAt": "Créé le",
+        "lastUpdated": "Dernière mise à jour"
+    }
+}

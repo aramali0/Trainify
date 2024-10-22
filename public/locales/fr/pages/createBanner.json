@@ -1,0 +1,46 @@
+{
+    "pages":{
+        "createBanner":{
+            "titles":{
+                "createBanner":"Créer une nouvelle bannière",
+                "translations":"Traductions",
+                "links":"Liens"
+            },
+            "labels":{
+                "previewImage":"Image de prévisualisation",
+                "noImage":"Aucune image sélectionnée",
+                "title":"Titre",
+                "subtitle":"Sous-titre",
+                "link1Text":"Texte du lien 1",
+                "link2Text":"Texte du lien 2",
+                "link1Href":"URL du lien 1",
+                "link2Href":"URL du lien 2"
+            },
+            "buttons":{
+                "createBanner":"Créer une bannière"
+            },
+            "errors":{
+                "imageTooLarge":"La taille de l'image ne doit pas dépasser 2 Mo.",
+                "invalidTitle":"Format de titre invalide.",
+                "invalidSubtitle":"Format de sous-titre invalide.",
+                "invalidLink1Text":"Format de texte de lien 1 invalide.",
+                "invalidLink2Text":"Format de texte de lien 2 invalide.",
+                "invalidLink1Href":"URL du lien 1 invalide.",
+                "invalidLink2Href":"URL du lien 2 invalide.",
+                "failedToCreateBanner":"Impossible de créer la bannière. Veuillez réessayer."
+            },
+            "aria":{
+                "uploadImage":"Télécharger l'image de fond",
+                "title":"{{lang}} Titre",
+                "subtitle":"{{lang}} Sous-titre",
+                "link1Text":"{{lang}} Texte du lien 1",
+                "link2Text":"{{lang}} Texte du lien 2",
+                "link1Href":"URL du lien 1",
+                "link2Href":"URL du lien 2"
+            },  
+            "messages":{
+                "bannerCreatedSuccessfully":"Bannière créée avec succès!"
+            }
+        }
+    }
+}

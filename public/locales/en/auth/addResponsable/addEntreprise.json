@@ -1,0 +1,42 @@
+{
+  "addEntreprise": {
+    "title": "Add Entreprise",
+    "fields": {
+      "logo": "Logo",
+      "commercialName": "Commercial Name",
+      "rcNumber": "RC Number",
+      "cnssNumber": "CNSS Number",
+      "ifNumber": "IF Number",
+      "tpNumber": "TP Number",
+      "numberOfEmployees": "Number of Employees",
+      "hierarchicalUnits": "Hierarchical Units",
+      "parentUnit": "Parent Unit",
+      "unitName": "Unit Name",
+      "unitType": "Unit Type",
+      "addUnit": "Add Unit",
+      "removeUnit": "Remove Unit",
+      "submit": "Submit",
+      "parentUnitInfo":"If the unit has no parent, leave it as \"No parent (root unit)\".",
+      "success":"Entreprise added successfully",
+      "error":"Error adding entreprise",
+      "responsables": "Responsables" ,
+      "selectResponsables": "Select a responsables",
+      "noParent": "No parent (root unit)",
+      "selectParentOrLeaveEmpty": "Select a parent unit or leave as 'No parent (root unit)'"
+
+    },
+    "validation": {
+      "commercialNameRequired": "Commercial name is required",
+      "rcNumberRequired": "RC Number is required",
+      "cnssNumberRequired": "CNSS Number is required",
+      "ifNumberRequired": "IF Number is required",
+      "tpNumberRequired": "TP Number is required",
+      "numberOfEmployeesRequired": "Number of employees is required",
+      "numericOnly": "must be numeric",
+      "lettersOnly": "can only contain letters and spaces",
+      "imageTooLarge": "Image size should not exceed 2MB",
+      "unitSelfParentError": "A unit cannot be its own parent",
+      "unitSameTypeParentError": "A unit cannot have a parent of the same type"
+    }
+  }
+}

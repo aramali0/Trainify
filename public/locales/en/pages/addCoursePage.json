@@ -1,0 +1,26 @@
+{
+    "title": "Add New Course",
+    "titleLabel": "Title",
+    "subtitleLabel": "Subtitle",
+    "descriptionLabel": "Description",
+    "durationLabel": "Duration (hours)",
+    "languageLabel": "Language",
+    "classesLabel": "Classes",
+    "instructorsLabel": "Instructors",
+    "imageLabel": "Course Image",
+    "addCourseButton": "Add Course",
+    "loadingClasses": "Loading classes...",
+    "loadingInstructors": "Loading instructors...",
+    "errors": {
+        "loadClasses": "Failed to load classes",
+        "loadInstructors": "Failed to load instructors",
+        "title": "Title must contain only letters and spaces.",
+        "subtitle": "Subtitle must contain only letters and spaces.",
+        "description": "Description is required.",
+        "duration": "Duration must be a positive number.",
+        "imageRequired": "Course image is required.",
+        "imageSize": "Image size should not exceed 2MB.",
+        "addCourse": "Failed to add course"
+    },
+    "success": "Course added successfully"
+}

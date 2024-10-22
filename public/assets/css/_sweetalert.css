@@ -1,0 +1,101 @@
+
+/* SweetAlert2.css */
+
+/* Popup  */
+.swal2-popup {
+  @apply bg-white rounded-sm dark:bg-default-100;
+
+	.swal2-title {
+		font-weight: 500;
+		font-size: 1.3rem;
+    @apply text-default-900;
+	}
+
+	.swal2-html-container,
+	.swal2-content {
+		font-weight: normal;
+		font-size: 1.1rem;
+		margin-top: 1.5rem;
+    @apply text-default-800;
+	}
+
+	.swal2-footer {
+    @apply border;
+	}
+
+	.btn {
+		margin: 15px 5px 0;
+	}
+
+	.swal2-styled {
+		@apply py-2 px-5 inline-block font-medium tracking-wide border align-middle duration-500;
+		&:focus {
+			box-shadow: none;
+		}
+	}
+
+	.swal2-actions {
+		margin: 1.5rem auto 1rem auto;
+	}
+}
+
+ /* Container */
+.swal2-container {
+	&.swal2-shown {
+    @apply bg-default-800;
+		opacity: 0.5;
+	}
+
+	 /* Content */
+	.swal2-html-container {
+		max-height: 200px;
+		overflow: auto;
+	}
+}
+
+
+/*  State Colors */
+.swal2-icon {
+
+	/*  Warning */
+	&.swal2-warning {
+		@apply border-amber-500 text-amber-500;
+	}
+
+	 /* Error */
+	&.swal2-error {
+		@apply border-red-500 text-red-500;
+
+		[class^=swal2-x-mark-line] {
+			@apply bg-red-500/75;
+		}
+	}
+
+	 /* Success */
+	&.swal2-success {
+		@apply border-teal-500 text-teal-500;
+
+		[class^=swal2-success-line] {
+			@apply bg-teal-500;
+		}
+
+		.swal2-success-ring {
+			@apply border-teal-500/30;
+		}
+	}
+
+	 /* Info */
+	&.swal2-info {
+		@apply border-cyan-500 text-cyan-500;
+	}
+
+	 /* Question */
+	&.swal2-question {
+		@apply border-primary;
+		@apply text-primary;
+	}
+}
+
+.swal2-popup div:where(.swal2-validation-message) {
+	@apply !bg-default-100 mx-2 rounded-lg text-default-800 dark:!bg-default-50;
+}

@@ -1,0 +1,24 @@
+{
+    "instructors": "Instructors",
+    "loading": "Loading...",
+    "loadFailed": "Failed to load instructors",
+    "selectTypeFormateur": "Select Type Formateur",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "type": "Type",
+    "cin": "CIN",
+    "age": "Age",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "typeFormateur": {
+        "INTERNAL": "Internal",
+        "EXTERNAL": "External",
+        "INTERNE": "Internal",
+        "EXTERNE": "External"
+    }, 
+       "gender": {
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "adminFeedbackView": {
+        "title": "Submitted Feedbacks",
+        "organization": "Organization",
+        "formateur": "Formateur",
+        "platformExperience": "Platform Experience",
+        "satisfactionLevel": "Satisfaction Level",
+        "remarks": "Remarks",
+        "loadingError": "Failed to load feedback. Please try again.",
+        "formateurLoadError": "Failed to load formateur. Please try again."
+    }
+}

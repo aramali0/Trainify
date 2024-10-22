@@ -1,0 +1,21 @@
+{
+    "titles": {
+        "participants": "المشاركين"
+    },
+    "labels": {
+        "yearsOld": "سنوات",
+        "selectUnit": "اختر الوحدة"
+    },
+    "buttons": {
+        "showMore": "عرض المزيد",
+        "showLess": "عرض أقل"
+    },
+    "messages": {
+        "loadError": "فشل في تحميل الطلاب",
+        "noStudents": "لا يوجد طلاب."
+    },
+    "placeholders":{
+        "selectUnit":"اختر الوحدة"
+    }
+
+}

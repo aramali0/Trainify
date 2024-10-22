@@ -1,0 +1,21 @@
+{
+  "missionSubtitle": "مهمتنا",
+  "missionTitle": "طريقك إلى النجاح",
+  "missionDescription": "مهمتنا هي تقديم تعليم عالي الجودة يؤدي إلى النجاح في مسارك المهني المختار. انضم إلينا وابدأ رحلتك اليوم.",
+  "classesComplete": "350",
+  "classesCompleteText": "الفصول المكتملة",
+  "libraryBooks": "20",
+  "libraryBooksText": "كتب المكتبة",
+  "certifiedTeachers": "50",
+  "certifiedTeachersText": "معلمون معتمدون",
+  "applyNow": "قدم الآن",
+  "inquiryNow": "استفسر الآن",
+  "successMessage": "تم إرسال رسالتك بنجاح.",
+  "errorMessage": "حدث خطأ أثناء إرسال رسالتك.",
+  "namePlaceholder": "اسمك",
+  "emailPlaceholder": "بريدك الإلكتروني",
+  "subjectPlaceholder": "الموضوع",
+  "phonePlaceholder": "رقم هاتفك",
+  "messagePlaceholder": "رسالتك",
+  "submitButton": "إرسال"
+}

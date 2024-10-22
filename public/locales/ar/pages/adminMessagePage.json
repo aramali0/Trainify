@@ -1,0 +1,9 @@
+{
+  "submittedMessages": "الرسائل المقدمة",
+  "writeYourResponse": "اكتب ردك هنا...",
+  "submitResponse": "إرسال الرد",
+  "responseSubmitted": "تم إرسال الرد",
+  "errorFetchingMessages": "خطأ في جلب الرسائل:",
+  "errorSubmittingResponse": "خطأ في إرسال الرد:",
+  "direction": "rtl"
+}

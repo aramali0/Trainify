@@ -1,0 +1,29 @@
+{
+    "title": "تحديث الدورة",
+    "titleLabel": "العنوان",
+    "subtitleLabel": "العنوان الفرعي",
+    "descriptionLabel": "الوصف",
+    "durationLabel": "المدة (بالساعات)",
+    "languageLabel": "اللغة",
+    "classLabel": "الفصول",
+    "instructorLabel": "المدربون",
+    "imageLabel": "صورة الدورة",
+    "updateButton": "تحديث الدورة",
+    "errors": {
+        "title": "يجب أن يحتوي العنوان على أحرف ومسافات فقط.",
+        "subtitle": "يجب أن يحتوي العنوان الفرعي على أحرف ومسافات فقط.",
+        "description": "الوصف مطلوب.",
+        "duration": "يجب أن تكون المدة رقمًا إيجابيًا.",
+        "image": "يجب ألا يتجاوز حجم الصورة 2 ميجابايت."
+    },
+    "languageOptions": {
+        "english": "الإنجليزية",
+        "french": "الفرنسية",
+        "arabic": "العربية"
+    },
+    "loadingClasses": "جارٍ تحميل الفصول...",
+    "loadingInstructors": "جارٍ تحميل المدربين...",
+    "success": "تم تحديث الدورة بنجاح",
+    "fail": "فشل في تحديث الدورة"
+}
+

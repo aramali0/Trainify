@@ -1,0 +1,16 @@
+{
+    "titles": {
+        "banners": "Bannières"
+    },
+    "buttons": {
+        "createBanner": "Créer une bannière"
+    },
+    "messages": {
+        "confirmDeleteBanner": "Êtes-vous sûr de vouloir supprimer cette bannière ?",
+        "noSubtitle": "Aucun sous-titre disponible."
+    },
+    "aria": {
+        "editBanner": "Modifier la bannière",
+        "deleteBanner": "Supprimer la bannière"
+    }
+}

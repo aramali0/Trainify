@@ -1,0 +1,10 @@
+{
+    "title": "Classes",
+    "filterByCourse": "Filtrer par cours",
+    "createClass": "Créer une classe",
+    "classDeletedSuccess": "Classe supprimée avec succès",
+    "failedToFetchClasses": "Échec du chargement des classes",
+    "failedToFetchCourses": "Échec du chargement des cours",
+    "failedToFilterClasses": "Échec du filtrage des classes",
+    "failedToDeleteClass": "Échec de la suppression de la classe"
+}

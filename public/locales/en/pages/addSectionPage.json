@@ -1,0 +1,22 @@
+{
+    "addSection": "Add Section",
+    "title": "Title",
+    "content": "Content",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "session": "Session",
+    "loadingSessions": "Loading sessions...",
+    "errors": {
+        "titleRequired": "Title is required.",
+        "titleInvalid": "Title must contain only letters, numbers, spaces, and the characters - _ . ,",
+        "contentRequired": "Content is required.",
+        "contentInvalid": "Content must contain only letters and spaces.",
+        "startDateRequired": "Start Date is required.",
+        "endDateRequired": "End Date is required.",
+        "endDateInvalid": "End Date must be after Start Date.",
+        "sessionRequired": "Session is required.",
+        "loadSessionsFailed": "Failed to load sessions",
+        "addSectionFailed": "Failed to add section"
+    },
+    "sectionAddedSuccess": "Section added successfully"
+}

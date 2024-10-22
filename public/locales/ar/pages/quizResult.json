@@ -1,0 +1,11 @@
+{
+    "quizResult": {
+        "title": "نتيجة الاختبار",
+        "correctResponses": "الإجابات الصحيحة",
+        "score": "النتيجة"
+    },
+    "loading": "جارٍ التحميل...",
+    "error": {
+        "loadingResult": "فشل في تحميل نتيجة الاختبار"
+    }
+}

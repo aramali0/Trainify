@@ -1,0 +1,11 @@
+{
+    "quizResult": {
+        "title": "Résultat du Quiz",
+        "correctResponses": "Réponses Correctes",
+        "score": "Score"
+    },
+    "loading": "Chargement...",
+    "error": {
+        "loadingResult": "Échec du chargement du résultat du quiz"
+    }
+}

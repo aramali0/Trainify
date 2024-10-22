@@ -1,0 +1,23 @@
+{
+  "header": {
+    "createLibrary": "إنشاء مكتبة جديدة"
+  },
+  "placeholder": {
+    "libraryName": "اسم المكتبة"
+  },
+  "button": {
+    "createLibrary": "إنشاء مكتبة",
+    "creating": "جارٍ الإنشاء..."
+  },
+  "validation": {
+    "emptyLibraryName": "لا يمكن أن يكون اسم المكتبة فارغًا",
+    "invalidLibraryName": "يمكن أن يحتوي اسم المكتبة فقط على الحروف، والمسافات، والشرطات",
+    "libraryNameLength": "يجب أن يتراوح اسم المكتبة بين 3 و 50 حرفًا"
+  },
+  "success": {
+    "libraryCreated": "تم إنشاء المكتبة بنجاح"
+  },
+  "error": {
+    "libraryCreationFailed": "فشل إنشاء المكتبة"
+  }
+}

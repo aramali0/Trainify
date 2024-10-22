@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "createClass": "Créer une classe"
+    },
+    "labels": {
+        "classTitle": "Titre de la classe",
+        "selectParticipants": "Sélectionner les participants",
+        "selectCourses": "Sélectionner les cours"
+    },
+    "buttons": {
+        "createClass": "Créer une classe"
+    },
+    "messages": {
+        "classCreated": "Classe créée avec succès",
+        "classCreationFailed": "Échec de la création de la classe",
+        "classTitleEmpty": "Le titre de la classe ne peut pas être vide",
+        "classTitleInvalid": "Le titre ne doit contenir que des lettres et des espaces.",
+        "participantsRequired": "Au moins un participant doit être sélectionné",
+        "coursesRequired": "Au moins un cours doit être sélectionné"
+    },
+    "placeholders": {
+        "classTitle": "Entrez le titre de la classe"
+    }
+}

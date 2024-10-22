@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "libraryManagement": "Library Management",
+        "libraries": "Libraries",
+        "videoViewer": "Video Viewer"
+    },
+    "buttons": {
+        "createLibrary": "Create Library",
+        "uploadResource": "Upload Resource",
+        "deleteLibrary": "Delete Library",
+        "deleteResource": "Delete Resource"
+    },
+    "messages": {
+        "noResources": "No resources available",
+        "fetchLibrariesError": "Failed to fetch libraries",
+        "uploadSuccess": "Resource uploaded successfully",
+        "uploadError": "Failed to upload resource",
+        "deleteLibrarySuccess": "Library deleted successfully",
+        "deleteResourceSuccess": "Resource deleted successfully",
+        "loadError": "Failed to load resource",
+        "fileSizeExceeds": "File size exceeds the maximum size allowed,reduce the file or contact the admin",
+        "selectFile": "Select the library and the file to upload"
+    }
+}

@@ -1,0 +1,40 @@
+{
+ "createQuiz": {
+            "title": "Create Your Quiz",
+            "quizName": "Quiz Name",
+            "quizNamePlaceholder": "Enter the quiz name",
+            "evaluationType": "Evaluation Type",
+            "question": "Question {{index}}",
+            "questionPlaceholder": "Enter the question text",
+            "questionType": "Question Type",
+            "options": "Options",
+            "optionPlaceholder": "Enter the option text",
+            "addOption": "Add Option",
+            "removeOption": "Remove Option",
+            "correctAnswer": "Correct Answer",
+            "removeQuestion": "Remove Question",
+            "addQuestion": "Add Question",
+            "submit": "Add Quiz",
+            "loading": "Adding...",
+            "evaluationOptions": {
+              "preliminaryAssessment": "Preliminary Assessment",
+              "hotEvaluation": "Hot Evaluation",
+              "coldAssessment": "Cold Assessment"
+            },
+            "questionTypeOptions": {
+              "multipleChoice": "Multiple Choice",
+              "singleChoice": "Single Choice",
+              "trueFalse": "True/False"
+            }
+          },
+          "errors": {
+            "questionRequired": "Question text is required.",
+            "optionRequired": "At least one option is required.",
+            "correctOptionRequired": "At least one option must be marked as correct.",
+            "optionTextRequired": "Option text is required."
+          },
+          "toast": {
+            "quizCreatedSuccess": "Quiz created successfully",
+            "quizCreationFailed": "Failed to create quiz"
+          }
+}

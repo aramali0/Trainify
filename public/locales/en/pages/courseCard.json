@@ -1,0 +1,31 @@
+{
+    "titles": {
+        "courses": "Courses"
+    },
+    "buttons": {
+        "createCourse": "Create Course",
+        "updateCourse": "Update Course",
+        "favorite": "Add to Favorites",
+        "unfavorite": "Remove from Favorites",
+        "sendRequest": "Send Request",
+        "showSessions": "Show Sessions",
+        "showLibrary": "Show Library"
+    },
+    "messages": {
+        "loading": "Loading...",
+        "requestSentSuccessfully": "Request sent successfully"
+    },
+    "errors": {
+        "failedToLoadCourses": "Failed to load courses",
+        "errorSendingRequest": "Error sending request"
+    },
+    "course": {
+        "altImage": "Course Image",
+        "sessions": "Sessions",
+        "duration": "Duration",
+        "hours": "hours",
+        "language": "Language",
+        "createdAt": "Created At",
+        "lastUpdated": "Last Updated"
+    }
+}

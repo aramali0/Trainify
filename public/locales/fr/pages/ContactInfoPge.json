@@ -1,0 +1,15 @@
+{
+  "updateContactInformation": "Mettre à jour les informations de contact",
+  "email": "Email",
+  "location": "Emplacement",
+  "phone": "Téléphone",
+  "contactInfoUpdated": "Informations de contact mises à jour avec succès",
+  "invalidEmail": "Veuillez entrer une adresse e-mail valide.",
+  "invalidPhone": "Le numéro de téléphone doit contenir uniquement des chiffres.",
+  "invalidLocation": "L'emplacement doit contenir uniquement des lettres, des chiffres, des virgules, des points et des espaces.",
+  "errorFetchingContactInfo": "Erreur lors de la récupération des informations de contact:",
+  "errorUpdatingContactInfo": "Erreur lors de la mise à jour des informations de contact:",
+  "failedToUpdateContactInfo": "Échec de la mise à jour des informations de contact",
+  "direction": "ltr",
+  "update": "Mettre à jour"
+}

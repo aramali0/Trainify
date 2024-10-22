@@ -1,0 +1,23 @@
+{
+    "editEntreprise": "Edit Enterprise",
+    "rcLabel": "N° RC",
+    "cnssLabel": "N° CNSS",
+    "ifLabel": "N° IF",
+    "tpLabel": "N° TP",
+    "employeesLabel": "Employees",
+    "settingsTitle": "Settings",
+    "showQuizResult": "Show Quiz Result",
+    "showQuizCorrection": "Show Quiz Correction",
+    "showExcelMethode": "Show Excel Method",
+    "responsablesButton": "Responsible",
+    "participantButton": "Participant",
+    "formateursButton": "Trainers",
+    "errors": {
+        "updateFailed": "Failed to update {{attribute}}. Please try again."
+    },
+    "attributes": {
+        "showQuizResult": "Quiz Result",
+        "showQuizCorrection": "Quiz Correction",
+        "showExcelMethode": "Excel Method"
+    }
+}

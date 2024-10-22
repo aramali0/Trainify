@@ -1,0 +1,83 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "welcomeBack": "Welcome Back!",
+    "overviewDescription": "Here's a quick overview of your platform's activity.",
+    "viewCourses": "View Courses",
+    "courses": "Courses",
+    "students": "Students",
+    "instructors": "Instructors",
+    "score": "Score",
+    "resources": "Resources",
+    "noResources": "No resources available",
+    "loading": "Loading...",
+    "accountCreated": "Account created",
+    "maxSize": "Max Size",
+    "yearsOld": "years old",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "createLibrary": "Create Library",
+    "uploadResource": "Upload Resource",
+    "deleteLibrary": "Delete Library",
+    "deleteResource": "Delete Resource",
+    "selectType": "Select Type",
+    "selectFile": "Select the library and the file to upload",
+    "fileSizeExceeds": "File size exceeds the maximum size allowed, extract the file or contact the admin",
+    "uploadSuccess": "Resource uploaded successfully",
+    "uploadError": "Failed to upload resource",
+    "deleteLibrarySuccess": "Library deleted successfully",
+    "deleteResourceSuccess": "Resource deleted successfully",
+    "fetchLibrariesError": "Failed to fetch libraries",
+    "responsableFormation": "Formation Manager",
+    "updateMaxSize": "Update Max Size",
+    "newMaxSize": "New Max Size (in MB)",
+    "classesDetails": "Classes Details"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "sessions": "Sessions",
+    "sections": "Sections",
+    "calendar": "Calendar",
+    "classes": "Classes",
+    "libraries": "Libraries",
+    "verification": "Verification",
+    "approvals": "Approvals"
+  },
+  "notifications": {
+    "newMessageFrom": "New message from {{name}}",
+    "newMessage": "New message",
+    "newQuizNotification": "New quiz notification!"
+  },
+  "buttons": {
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "createLibrary": "Create Library",
+    "uploadResource": "Upload Resource",
+    "deleteLibrary": "Delete Library",
+    "deleteResource": "Delete Resource"
+  },
+  "tooltips": {
+    "email": "Email",
+    "phone": "Phone Number",
+    "gender": "Gender",
+    "cin": "CIN",
+    "age": "Age"
+  },
+  "placeholders": {
+    "enterNewMaxSize": "Enter new max size"
+  },
+  "charts": {
+    "coursesCreated": "Courses Created",
+    "studentsOverTime": "Students Over Time",
+    "instructorsOverTime": "Instructors Over Time",
+    "evaluationsOverTime": "Evaluations Over Time"
+  }
+
+
+
+}

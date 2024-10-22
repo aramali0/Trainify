@@ -1,0 +1,13 @@
+{
+  "questions_answers": {
+    "title": "Questions & Answers"
+  },
+  "evaluation_summary": "Evaluation Summary",
+  "type": "Type",
+  "time_taken": "Time Taken",
+  "loading": "Loading...",
+  "answers": "Answers",
+  "all_correct": "All Correct",
+  "some_incorrect": "Some Incorrect",
+  "no_questions": "No questions or answers available."
+}

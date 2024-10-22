@@ -1,0 +1,48 @@
+{
+    "titles": {
+        "courses": "Cours",
+        "sessions": "Sessions"
+    },
+    "buttons": {
+        "createCourse": "Créer un cours",
+        "updateCourse": "Mettre à jour le cours",
+        "favorite": "Ajouter aux favoris",
+        "unfavorite": "Retirer des favoris",
+        "sendRequest": "Envoyer une demande",
+        "showSessions": "Afficher les sessions",
+        "showLibrary": "Afficher la bibliothèque",
+        "createSession": "Créer une session"
+    },
+    "filters": {
+        "allSessions": "Toutes les sessions",
+        "futureSessions": "Sessions futures",
+        "pastSessions": "Sessions passées",
+        "ongoingSessions": "Sessions en cours"
+    },
+    "messages": {
+        "loading": "Chargement...",
+        "requestSentSuccessfully": "Demande envoyée avec succès",
+        "noSessionsAvailable": "Aucune session disponible."
+    },
+    "errors": {
+        "failedToLoadCourses": "Échec du chargement des cours",
+        "errorSendingRequest": "Erreur lors de l'envoi de la demande",
+        "noSessionsAvailable": "Aucune session disponible",
+        "failedToLoadSessions": "Échec du chargement des sessions"
+    },
+    "course": {
+        "altImage": "Image du cours",
+        "sessions": "Sessions",
+        "duration": "Durée",
+        "hours": "heures",
+        "language": "Langue",
+        "createdAt": "Créé le",
+        "lastUpdated": "Dernière mise à jour"
+    },
+    "session": {
+        "title": "Titre",
+        "description": "Description",
+        "startDate": "Date de début",
+        "endDate": "Date de fin"
+    }
+}

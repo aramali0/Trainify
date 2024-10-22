@@ -1,0 +1,8 @@
+{
+  "unauthorized": {
+    "title": "403",
+    "heading": "Access Denied!",
+    "description": "You do not have permission to view this page. Please contact the administrator if you believe this is a mistake.",
+    "backToHome": "Back To Home"
+  }
+}

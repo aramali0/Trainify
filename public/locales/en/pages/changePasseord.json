@@ -1,0 +1,11 @@
+{
+    "changePasswordPage": {
+        "title": "Change Password",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmNewPassword": "Confirm New Password",
+        "passwordMismatch": "New passwords do not match",
+        "changeSuccess": "Password changed successfully!",
+        "changeError": "Failed to change password"
+    }
+}

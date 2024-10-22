@@ -1,0 +1,26 @@
+{
+    "titles": {
+        "responsableFormation": "مدير التدريب",
+        "updateMaxSize": "تحديث الحجم الأقصى"
+    },
+    "labels": {
+        "maxSize": "الحجم الأقصى",
+        "yearsOld": "سنوات",
+        "accountCreated": "تم إنشاء الحساب",
+        "newMaxSize": "الحجم الأقصى الجديد (بـ MB)"
+    },
+    "buttons": {
+        "edit": "تعديل",
+        "cancel": "إلغاء",
+        "saveChanges": "حفظ التغييرات"
+    },
+    "messages": {
+        "loadError": "فشل تحميل تفاصيل مدير التدريب",
+        "maxSizeUpdated": "تم تحديث الحجم الأقصى بنجاح",
+        "updateError": "فشل تحديث الحجم الأقصى",
+        "loading": "جار التحميل..."
+    },
+    "placeholders": {
+        "enterNewMaxSize": "أدخل الحجم الأقصى الجديد"
+    }
+}

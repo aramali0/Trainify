@@ -1,0 +1,20 @@
+{
+    "labels": {
+        "sessionDate": "Session Date",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "duration": "Duration",
+        "minutes": "minutes",
+        "sections": "Sections"
+    },
+    "buttons": {
+        "showLess": "Show Less",
+        "more": "More",
+        "editSession": "Edit Session",
+        "createConference": "Create Conference",
+        "joinConference": "Join Conference"
+    },
+    "messages": {
+        "noSectionsAvailable": "No sections available."
+    }
+}

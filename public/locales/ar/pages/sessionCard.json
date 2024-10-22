@@ -1,0 +1,20 @@
+{
+    "labels": {
+        "sessionDate": "تاريخ الجلسة",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "duration": "المدة",
+        "minutes": "دقائق",
+        "sections": "الأقسام"
+    },
+    "buttons": {
+        "showLess": "عرض أقل",
+        "more": "المزيد",
+        "editSession": "تعديل الجلسة",
+        "createConference": "إنشاء مؤتمر",
+        "joinConference": "الانضمام إلى المؤتمر"
+    },
+    "messages": {
+        "noSectionsAvailable": "لا توجد أقسام متاحة."
+    }
+}

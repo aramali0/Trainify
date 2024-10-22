@@ -1,0 +1,44 @@
+{
+  "addParticipant": {
+    "title": "Ajouter un nouveau participant",
+    "description": "Remplissez les détails ci-dessous pour créer un nouvel utilisateur.",
+    "uploadImage": "Télécharger une photo de profil",
+    "noImage": "Pas d'image",
+    "fields": {
+      "matricule": "ID Matricule",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "phone": "Numéro de téléphone",
+      "age": "Âge",
+      "cin": "CIN",
+      "unit": "Sélectionnez une unité",
+      "entreprise": "Sélectionnez une entreprise"
+    },
+    "submit": {
+      "addParticipant": "Ajouter un participant",
+      "adding": "Ajout en cours..."
+    }
+  },
+
+   "validate" : {
+  "firstNameRequired": "Le prénom est requis",
+  "firstNameLetters": "Le prénom doit contenir uniquement des lettres",
+  "lastNameRequired": "Le nom de famille est requis",
+  "lastNameLetters": "Le nom de famille doit contenir uniquement des lettres",
+  "emailRequired": "L'e-mail est requis",
+  "emailValid": "Veuillez entrer une adresse e-mail valide",
+  "matriculeRequired": "L'identifiant matricule est requis",
+  "passwordRequired": "Le mot de passe est requis",
+  "passwordLength": "Le mot de passe doit contenir au moins 8 caractères",
+  "phoneRequired": "Le numéro de téléphone est requis",
+  "phoneValid": "Veuillez entrer un numéro de téléphone valide",
+  "ageRequired": "L'âge est requis",
+  "ageValid": "L'âge doit être un nombre valide",
+  "ageRange": "Veuillez entrer un âge valide entre 1 et 120",
+  "cinFormat": "La CIN doit être au format 'AB123456789'",
+  "selectEntreprise": "Veuillez sélectionner une entreprise",
+  "selectUnit": "Veuillez sélectionner une unité"
+   }
+}

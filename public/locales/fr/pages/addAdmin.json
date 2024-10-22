@@ -1,0 +1,19 @@
+{
+    "addAdmin": {
+        "pageTitle": "Ajouter un nouvel administrateur",
+        "instructions": "Remplissez les détails ci-dessous pour créer un nouvel utilisateur.",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "email": "Adresse e-mail",
+        "password": "Mot de passe",
+        "phoneNumber": "Numéro de téléphone",
+        "matricule": "Matricule ID",
+        "gender": "Sexe",
+        "age": "Âge",
+        "cin": "CIN",
+        "uploadImage": "Télécharger l'image de profil",
+        "submit": "Ajouter l'administrateur",
+        "addUserSuccess": "Administrateur ajouté avec succès",
+        "addUserError": "Erreur lors de l'ajout de l'administrateur"
+    }
+}

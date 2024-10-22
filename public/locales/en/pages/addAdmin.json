@@ -1,0 +1,19 @@
+{
+    "addAdmin": {
+        "pageTitle": "Add New Admin",
+        "instructions": "Fill in the details below to create a new user.",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email address",
+        "password": "Password",
+        "phoneNumber": "Phone Number",
+        "matricule": "Matricule ID",
+        "gender": "Gender",
+        "age": "Age",
+        "cin": "CIN",
+        "uploadImage": "Upload Profile Image",
+        "submit": "Add Admin",
+        "addUserSuccess": "Admin added successfully",
+        "addUserError": "Error adding admin"
+    }
+}

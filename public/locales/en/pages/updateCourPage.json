@@ -1,0 +1,28 @@
+{
+    "title": "Update Course",
+    "titleLabel": "Title",
+    "subtitleLabel": "Subtitle",
+    "descriptionLabel": "Description",
+    "durationLabel": "Duration (hours)",
+    "languageLabel": "Language",
+    "classLabel": "Classes",
+    "instructorLabel": "Instructors",
+    "imageLabel": "Course Image",
+    "updateButton": "Update Course",
+    "errors": {
+        "title": "Title must contain only letters and spaces.",
+        "subtitle": "Subtitle must contain only letters and spaces.",
+        "description": "Description is required.",
+        "duration": "Duration must be a positive number.",
+        "image": "Image size should not exceed 2MB."
+    },
+    "languageOptions": {
+        "english": "English",
+        "french": "French",
+        "arabic": "Arabic"
+    },
+    "loadingClasses": "Loading classes...",
+    "loadingInstructors": "Loading instructors...",
+    "success": "Course updated successfully",
+    "fail": "Failed to update course"
+}

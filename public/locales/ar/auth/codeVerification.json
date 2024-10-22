@@ -1,0 +1,13 @@
+{
+  "codeVerification": {
+    "title": "تحقق من الرمز",
+    "description": "يرجى إدخال الرمز المرسل إلى بريدك الإلكتروني.",
+    "verificationCode": "رمز التحقق",
+    "verifyButton": "تحقق من الرمز",
+    "resendButton": "إعادة إرسال الرمز",
+    "popupMessage": "انتظر قبول مسؤول التدريب",
+    "successMessage": "تم إعادة إرسال الرمز بنجاح",
+    "errorMessage": "فشل التحقق من الرمز",
+    "successVerificationMessage": "التحقق ناجح!"
+  }
+}

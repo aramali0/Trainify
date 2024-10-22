@@ -1,0 +1,31 @@
+{
+    "titles": {
+        "courses": "الدورات"
+    },
+    "buttons": {
+        "createCourse": "إنشاء دورة",
+        "updateCourse": "تحديث الدورة",
+        "favorite": "إضافة إلى المفضلة",
+        "unfavorite": "إزالة من المفضلة",
+        "sendRequest": "إرسال الطلب",
+        "showSessions": "عرض الجلسات",
+        "showLibrary": "عرض المكتبة"
+    },
+    "messages": {
+        "loading": "جار التحميل...",
+        "requestSentSuccessfully": "تم إرسال الطلب بنجاح"
+    },
+    "errors": {
+        "failedToLoadCourses": "فشل في تحميل الدورات",
+        "errorSendingRequest": "حدث خطأ أثناء إرسال الطلب"
+    },
+    "course": {
+        "altImage": "صورة الدورة",
+        "sessions": "الجلسات",
+        "duration": "المدة",
+        "hours": "ساعات",
+        "language": "اللغة",
+        "createdAt": "تاريخ الإنشاء",
+        "lastUpdated": "آخر تحديث"
+    }
+}

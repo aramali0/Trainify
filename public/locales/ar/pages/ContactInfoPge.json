@@ -1,0 +1,15 @@
+{
+  "updateContactInformation": "تحديث معلومات الاتصال",
+  "email": "البريد الإلكتروني",
+  "location": "الموقع",
+  "phone": "الهاتف",
+  "contactInfoUpdated": "تم تحديث معلومات الاتصال بنجاح",
+  "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+  "invalidPhone": "يجب أن يحتوي رقم الهاتف على أرقام فقط.",
+  "invalidLocation": "يجب أن يحتوي الموقع على حروف وأرقام وفواصل ونقاط ومسافات فقط.",
+  "errorFetchingContactInfo": "خطأ في جلب معلومات الاتصال:",
+  "errorUpdatingContactInfo": "خطأ في تحديث معلومات الاتصال:",
+  "failedToUpdateContactInfo": "فشل تحديث معلومات الاتصال",
+  "direction": "rtl",
+  "update": "تحديث"
+}

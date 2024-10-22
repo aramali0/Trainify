@@ -1,0 +1,87 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.content {
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1280px) {
+    .grid {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .toggleButton {
+        display: none;
+    }
+}
+
+.contactList {
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.toggleButton {
+    display: none;
+}
+
+@media (max-width: 1279px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contactList {
+        display: block;
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+        background-color: white;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .contactList.active {
+        transform: translateX(0);
+    }
+
+    .toggleButton {
+        display: block;
+        font-size: 1.5em;
+        background: none;
+        border: none;
+        cursor: pointer;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 20;
+        transition: transform 0.3s ease;
+    }
+
+    .activeToggle {
+        transform: rotate(90deg);
+    }
+}

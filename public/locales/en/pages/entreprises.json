@@ -1,0 +1,8 @@
+{
+    "title": "Enterprises",
+    "createEntrepriseButton": "Create Enterprise",
+    "loading": "Loading...",
+    "errors": {
+        "loadEnterprises": "Failed to load enterprises"
+    }
+}

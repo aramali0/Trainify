@@ -1,0 +1,23 @@
+{
+  "header": {
+    "createLibrary": "Create New Library"
+  },
+  "placeholder": {
+    "libraryName": "Library Name"
+  },
+  "button": {
+    "createLibrary": "Create Library",
+    "creating": "Creating..."
+  },
+  "validation": {
+    "emptyLibraryName": "Library name cannot be empty",
+    "invalidLibraryName": "Library name can only contain letters, spaces, and dashes",
+    "libraryNameLength": "Library name must be between 3 and 50 characters"
+  },
+  "success": {
+    "libraryCreated": "Library created successfully"
+  },
+  "error": {
+    "libraryCreationFailed": "Failed to create library"
+  }
+}

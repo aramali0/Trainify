@@ -1,0 +1,42 @@
+{
+            "titles": {
+                "createBanner": "Create New Banner",
+                "translations": "Translations",
+                "links": "Links"
+            },
+            "labels": {
+                "previewImage": "Preview Image",
+                "noImage": "No Image Selected",
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "link1Text": "Link 1 Text",
+                "link2Text": "Link 2 Text",
+                "link1Href": "Link 1 URL",
+                "link2Href": "Link 2 URL"
+            },
+            "buttons": {
+                "createBanner": "Create Banner"
+            },
+            "errors": {
+                "imageTooLarge": "Image size should not exceed 2MB.",
+                "invalidTitle": "Invalid title format.",
+                "invalidSubtitle": "Invalid subtitle format.",
+                "invalidLink1Text": "Invalid Link 1 Text format.",
+                "invalidLink2Text": "Invalid Link 2 Text format.",
+                "invalidLink1Href": "Invalid Link 1 URL.",
+                "invalidLink2Href": "Invalid Link 2 URL.",
+                "failedToCreateBanner": "Failed to create banner. Please try again."
+            },
+            "aria": {
+                "uploadImage": "Upload Background Image",
+                "title": "{{lang}} Title",
+                "subtitle": "{{lang}} Subtitle",
+                "link1Text": "{{lang}} Link 1 Text",
+                "link2Text": "{{lang}} Link 2 Text",
+                "link1Href": "Link 1 URL",
+                "link2Href": "Link 2 URL"
+            },
+            "messages": {
+                "bannerCreatedSuccessfully": "Banner created successfully!"
+            }
+}

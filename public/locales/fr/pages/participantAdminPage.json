@@ -1,0 +1,20 @@
+{
+    "titles": {
+        "participants": "Participants"
+    },
+    "labels": {
+        "yearsOld": "ans",
+        "selectUnit": "Sélectionner l'unité"
+    },
+    "buttons": {
+        "showMore": "Voir Plus",
+        "showLess": "Voir Moins"
+    },
+    "messages": {
+        "loadError": "Échec du chargement des étudiants",
+        "noStudents": "Aucun étudiant trouvé."
+    },
+    "placeholders":{
+        "selectUnit":"Sélectionner l'unité"
+    }
+}

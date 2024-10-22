@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "updateAboutUs": "Mettre à jour À propos de nous"
+    },
+    "labels": {
+        "title_en": "Titre (Anglais)",
+        "title_fr": "Titre (Français)",
+        "title_ar": "Titre (Arabe)",
+        "description_en": "Description (Anglais)",
+        "description_fr": "Description (Français)",
+        "description_ar": "Description (Arabe)",
+        "uploadImage": "Télécharger l'image"
+    },
+    "buttons": {
+        "saveChanges": "Enregistrer les modifications"
+    },
+    "errors": {
+        "failedToLoadAboutUs": "Échec du chargement des données À propos de nous",
+        "invalidImageType": "Type d'image invalide",
+        "imageSizeLimit": "La taille de l'image dépasse 2 Mo",
+        "invalidTitle": "Format de titre invalide",
+        "descriptionTooShort": "La description est trop courte"
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "addEntreprise": {
+    "title": "إضافة مؤسسة",
+    "fields": {
+      "logo": "الشعار",
+      "commercialName": "الاسم التجاري",
+      "rcNumber": "رقم السجل التجاري",
+      "cnssNumber": "رقم CNSS",
+      "ifNumber": "رقم IF",
+      "tpNumber": "رقم TP",
+      "numberOfEmployees": "عدد الموظفين",
+      "hierarchicalUnits": "الوحدات الهرمية",
+      "parentUnit": "الوحدة الأم",
+      "unitName": "اسم الوحدة",
+      "unitType": "نوع الوحدة",
+      "addUnit": "إضافة وحدة",
+      "removeUnit": "إزالة وحدة",
+      "submit": "إرسال",
+        "parentUnitInfo":"إذا لم تكن الوحدة لها وحدة أم، اتركها كـ \"لا يوجد وحدة أم (وحدة جذرية)\".",
+        "success":"تمت إضافة المؤسسة بنجاح",
+        "error":"حدث خطأ أثناء إضافة المؤسسة",
+        "responsables": "المسؤولين",
+        "selectResponsables": "اختر مسؤولًا",
+        "noParent": "لا يوجد وحدة أم (وحدة جذرية)",
+        "selectParentOrLeaveEmpty": "اختر وحدة أم أو اتركها كـ 'لا يوجد وحدة أم (وحدة جذرية)'"
+
+    },
+    "validation": {
+      "commercialNameRequired": "الاسم التجاري مطلوب",
+      "rcNumberRequired": "رقم السجل التجاري مطلوب",
+      "cnssNumberRequired": "رقم CNSS مطلوب",
+      "ifNumberRequired": "رقم IF مطلوب",
+      "tpNumberRequired": "رقم TP مطلوب",
+      "numberOfEmployeesRequired": "عدد الموظفين مطلوب",
+      "numericOnly": "يجب أن يكون رقمًا",
+      "lettersOnly": "يمكن أن يحتوي فقط على حروف ومسافات",
+      "imageTooLarge": "يجب ألا يتجاوز حجم الصورة 2 ميجا بايت",
+      "unitSelfParentError": "لا يمكن للوحدة أن تكون الأم لنفسها",
+      "unitSameTypeParentError": "لا يمكن للوحدة أن تكون لها أم من نفس النوع"
+    }
+  }
+}

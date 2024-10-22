@@ -1,0 +1,25 @@
+{
+    "profilePage": {
+        "title": "Edit Profile",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "gender": "Gender",
+        "CIN": "CIN",
+        "age": "Age",
+        "updateProfile": "Update Profile",
+        "loadingError": "Failed to load user data",
+        "profileUpdateSuccess": "Profile updated successfully!",
+        "profileUpdateError": "Failed to update profile",
+        "changePassword": "Change Password",
+        "validation": {
+            "firstName": "First name must contain only alphabetic characters",
+            "lastName": "Last name must contain only alphabetic characters",
+            "email": "Invalid email address",
+            "phone": "Phone number must be between 4 to 15 digits",
+            "cin": "CIN must be in the format 'AB123456789' (2 uppercase letters followed by 4 or 9 digits)",
+            "age": "Age must be a positive number"
+        }
+    }
+}

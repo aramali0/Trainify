@@ -1,0 +1,23 @@
+{
+    "editEntreprise": "تعديل المؤسسة",
+    "rcLabel": "رقم السجل التجاري",
+    "cnssLabel": "رقم CNSS",
+    "ifLabel": "رقم IF",
+    "tpLabel": "رقم TP",
+    "employeesLabel": "الموظفين",
+    "settingsTitle": "الإعدادات",
+    "showQuizResult": "عرض نتيجة الاختبار",
+    "showQuizCorrection": "عرض تصحيح الاختبار",
+    "showExcelMethode": "عرض طريقة Excel",
+    "responsablesButton": "المسؤولون",
+    "participantButton": "المشارك",
+    "formateursButton": "المدربون",
+    "errors": {
+        "updateFailed": "فشل في تحديث {{attribute}}. يرجى المحاولة مرة أخرى."
+    },
+    "attributes": {
+        "showQuizResult": "نتيجة الاختبار",
+        "showQuizCorrection": "تصحيح الاختبار",
+        "showExcelMethode": "طريقة Excel"
+    }
+}

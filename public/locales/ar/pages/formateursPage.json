@@ -1,0 +1,24 @@
+{
+    "instructors": "المعلمون",
+    "loading": "جار التحميل...",
+    "loadFailed": "فشل تحميل المعلمين",
+    "selectTypeFormateur": "اختر نوع المعلم",
+    "showMore": "عرض المزيد",
+    "showLess": "عرض أقل",
+    "type": "النوع",
+    "cin": "رقم الهوية",
+    "age": "العمر",
+    "email": "البريد الإلكتروني",
+    "phoneNumber": "رقم الهاتف",
+    "typeFormateur": {
+        "INTERNAL": "داخلي",
+        "EXTERNAL": "خارجي",
+        "INTERNE": "داخلي",
+        "EXTERNE": "خارجي"
+    },
+    "gender": {
+        "gender": "الجنس",
+        "male": "ذكر",
+        "female": "أنثى"
+    }
+}

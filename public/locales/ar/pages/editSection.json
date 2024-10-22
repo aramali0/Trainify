@@ -1,0 +1,21 @@
+{
+    "editSection": "تعديل القسم",
+    "title": "العنوان",
+    "content": "المحتوى",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "session": "الجلسة",
+    "loadingSessions": "جارٍ تحميل الجلسات...",
+    "errors": {
+        "titleRequired": "العنوان مطلوب.",
+        "titleInvalid": "يجب أن يحتوي العنوان على أحرف ومسافات فقط.",
+        "contentRequired": "المحتوى مطلوب.",
+        "contentInvalid": "يجب أن يحتوي المحتوى على أحرف ومسافات فقط.",
+        "startDateRequired": "تاريخ البدء مطلوب.",
+        "endDateRequired": "تاريخ الانتهاء مطلوب.",
+        "endDateInvalid": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء.",
+        "sessionRequired": "الجلسة مطلوبة."
+    },
+    "updateSuccess": "تمت تحديث القسم بنجاح",
+    "updateFailure": "فشل في تحديث القسم"
+}

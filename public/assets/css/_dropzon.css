@@ -1,0 +1,9 @@
+/* Dropzone */
+
+.dropzone {
+    @apply min-h-[230px] bg-white rounded-md border-2 border-dashed border-default-200 flex items-center justify-center flex-wrap dark:bg-default-50;
+}
+
+.dropzone .dz-preview.dz-image-preview {
+    @apply bg-transparent
+}

@@ -1,0 +1,13 @@
+{
+  "login": {
+    "title": "Log In",
+    "subtitle": "Glad You’re Back!",
+    "emailLabel": "Email address",
+    "passwordLabel": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "submitButton": "Log In",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidCredentials": "Invalid email or password"
+  }
+}

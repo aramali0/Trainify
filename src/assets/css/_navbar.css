@@ -1,0 +1,21 @@
+
+
+.menu .active {
+    @apply text-primary;
+}
+
+.menu .hs-dropdown-menu {
+    .active {
+        @apply bg-default-400/10;
+    }
+}
+
+.admin-menu {
+    .active {
+        @apply !text-primary !bg-primary/10;
+    }
+
+    .hs-collapse .active {
+        @apply !text-primary !bg-transparent;
+    }
+}

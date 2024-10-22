@@ -1,0 +1,11 @@
+{
+  "librariesTitle": "Bibliothèques",
+  "librariesSubtitle": "Bibliothèques Disponibles",
+  "noResources": "Aucune ressource disponible.",
+  "toastError": "Échec de la récupération des bibliothèques",
+  "toastErrorResources": "Échec de la récupération des ressources",
+  "toastErrorLoadingResource": "Échec du chargement de la ressource",
+  "videoViewerTitle": "Visionneuse Vidéo",
+  "videoUnsupported": "Votre navigateur ne supporte pas la balise vidéo.",
+  "close": "Fermer"
+}

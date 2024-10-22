@@ -1,0 +1,21 @@
+{
+  "feedback": {
+    "title": "Soumettre des commentaires",
+    "organization": "Organisation",
+    "organizationPlaceholder": "Entrez votre organisation",
+    "platformExperience": "Expérience sur la plateforme",
+    "platformExperiencePlaceholder": "Décrivez votre expérience avec la plateforme",
+    "satisfactionLevel": "Niveau de satisfaction",
+    "selectSatisfaction": "Sélectionnez le niveau de satisfaction",
+    "verySatisfied": "Très satisfaisant",
+    "satisfied": "Satisfaisant",
+    "neutral": "Neutre",
+    "dissatisfied": "Insatisfaisant",
+    "veryDissatisfied": "Très insatisfaisant",
+    "remarks": "Remarques",
+    "additionalCommentsPlaceholder": "Commentaires supplémentaires",
+    "submitButton": "Soumettre des commentaires",
+    "successMessage": "Commentaires soumis avec succès !",
+    "errorMessage": "Échec de la soumission des commentaires. Veuillez réessayer."
+  }
+}

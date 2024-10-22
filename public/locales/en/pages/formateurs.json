@@ -1,0 +1,28 @@
+{
+    "titles": {
+        "instructors": "Instructors"
+    },
+    "labels": {
+        "type": "Type",
+        "internal": "Internal",
+        "external": "External"
+    },
+    "tooltips": {
+        "email": "Email",
+        "phone": "Phone Number",
+        "gender": "Gender",
+        "cin": "CIN",
+        "age": "Age"
+    },
+    "buttons": {
+        "showMore": "Show More",
+        "showLess": "Show Less"
+    },
+    "messages": {
+        "loadError": "Failed to load instructors",
+        "loading": "Loading..."
+    },
+    "placeholders": {
+        "selectType": "Select Type Formateur"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "welcomeTitle": "مرحباً بعودتك!",
+  "welcomeDescription": "إليك لمحة سريعة عن نشاط منصتك.",
+  "viewCourses": "عرض الدورات",
+  "courses": "الدورات",
+  "students": "الطلاب",
+  "averageScore": "متوسط النتيجة",
+  "combinedChart": "مخطط النشاط المشترك",
+  "coursesCreated": "الدورات التي تم إنشاؤها كل شهر",
+  "studentsOverTime": "الطلاب مع مرور الوقت",
+  "evaluationsOverTime": "التقييمات مع مرور الوقت",
+  "classesDetails": "تفاصيل الفصول"
+}

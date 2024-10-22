@@ -1,0 +1,22 @@
+{
+    "addSession": "Ajouter une nouvelle session",
+    "name": "Nom",
+    "duration": "Durée (minutes)",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "course": "Cours",
+    "loading": "Chargement des cours...",
+    "addSessionButton": "Ajouter une session",
+    "sessionAdded": "Session ajoutée avec succès",
+    "sessionFailed": "Échec de l'ajout de la session",
+    "loadFailed": "Échec du chargement des cours",
+    "errors": {
+        "nameRequired": "Le nom est requis.",
+        "nameInvalid": "Le nom ne peut contenir que des lettres, des chiffres, des espaces et les caractères - _ . ,",
+        "durationInvalid": "La durée doit être un nombre positif.",
+        "startDateRequired": "La date de début est requise.",
+        "endDateRequired": "La date de fin est requise.",
+        "endDateInvalid": "La date de fin doit être après la date de début.",
+        "courseRequired": "Le cours est requis."
+    }
+}

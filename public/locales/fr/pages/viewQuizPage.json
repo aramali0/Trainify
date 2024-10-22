@@ -1,0 +1,12 @@
+ {
+ "viewQuiz": {
+            "title": "Quiz",
+            "editQuiz": "Modifier le quiz",
+            "loading": "Chargement du quiz...",
+            "noQuestions": "Aucune question disponible"
+        },
+        "errors": {
+            "failedToLoadQuestions": "Échec du chargement des questions",
+            "failedToLoadOptions": "Échec du chargement des options"
+        }
+    }

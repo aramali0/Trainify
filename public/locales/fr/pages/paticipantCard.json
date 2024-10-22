@@ -1,0 +1,9 @@
+{
+  "buttons": {
+    "verify": "Vérifier",
+    "refuse": "Refuser"
+  },
+  "error": {
+    "processing_participant": "Échec du traitement du participant."
+  }
+}

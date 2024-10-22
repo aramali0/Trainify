@@ -1,0 +1,34 @@
+{
+    "adminPricingPanel": {
+        "title": "لوحة تحكم التسعير",
+        "addNewPlan": "أضف خطة جديدة",
+        "editPricingPlan": "تحرير خطة التسعير",
+        "addPricingPlan": "إضافة خطة تسعير جديدة",
+        "planName": "اسم الخطة",
+        "price": "السعر",
+        "per": "لكل",
+        "link": "الرابط",
+        "features": "الميزات (مفصولة بفواصل)",
+        "popular": "شائع",
+        "updatePlan": "تحديث الخطة",
+        "addPlan": "إضافة خطة",
+        "successUpdate": "تم تحديث الخطة بنجاح",
+        "successAdd": "تمت إضافة الخطة بنجاح",
+        "successDelete": "تم حذف الخطة بنجاح",
+        "errorFetching": "خطأ في جلب خطط التسعير:",
+        "errorSaving": "فشل في حفظ الخطة.",
+        "planValidation": "يجب أن يتكون اسم الخطة من حروف ومسافات فقط.",
+        "perValidation": "يجب أن يتكون الخيار من حروف ومسافات فقط.",
+        "priceValidation": "يجب أن يكون السعر رقمًا صالحًا ، مثل 10 أو 10.99",
+        "featuresValidation": "يجب أن تكون الميزات أحرفًا مفصولة بفواصل.",
+        "linkValidation": "يجب أن يكون الرابط عنوان URL صالحًا يبدأ بـ http أو https.",
+        "planNameFr": "اسم الخطة (بالفرنسية)",
+        "planNameAr": "اسم الخطة (بالعربية)",
+        "featuresFr": "الميزات (بالفرنسية)",
+        "featuresAr": "الميزات (بالعربية)",
+        "featuresEn": "الميزات (بالإنجليزية)",
+        "planNameEn": "اسم الخطة (بالإنجليزية)",
+        "delete": "حذف"
+
+    }
+}

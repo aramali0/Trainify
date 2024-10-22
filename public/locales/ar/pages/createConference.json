@@ -1,0 +1,15 @@
+{
+  "createConference": "إنشاء مؤتمر",
+  "title": "العنوان",
+  "platform": "المنصة",
+  "url": "رابط",
+  "startTime": "وقت البدء",
+  "creating": "جارٍ الإنشاء...",
+  "titleError": "لا يمكن أن يكون العنوان فارغًا",
+  "titleValidationError": "يجب أن يحتوي العنوان على أحرف ومسافات فقط.",
+  "platformError": "لا يمكن أن تكون المنصة فارغة",
+  "platformValidationError": "يجب أن تحتوي المنصة على أحرف ومسافات فقط.",
+  "urlError": "الرجاء إدخال رابط صالح",
+  "startTimeError": "لا يمكن أن يكون وقت البدء فارغًا",
+  "startTimeFutureError": "يجب أن يكون وقت البدء في المستقبل"
+}

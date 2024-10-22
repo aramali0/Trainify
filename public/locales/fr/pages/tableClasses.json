@@ -1,0 +1,10 @@
+{
+    "table": {
+        "no": "N°",
+        "title": "Titre",
+        "numberOfParticipants": "Nombre de Participants",
+        "numberOfCourses": "Nombre de Cours",
+        "noResources": "Aucune ressource disponible",
+        "loading": "Chargement..."
+    }
+}

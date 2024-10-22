@@ -1,0 +1,11 @@
+{
+    "changePasswordPage": {
+        "title": "Changer le mot de passe",
+        "currentPassword": "Mot de passe actuel",
+        "newPassword": "Nouveau mot de passe",
+        "confirmNewPassword": "Confirmer le nouveau mot de passe",
+        "passwordMismatch": "Les nouveaux mots de passe ne correspondent pas",
+        "changeSuccess": "Mot de passe changé avec succès!",
+        "changeError": "Échec du changement de mot de passe"
+    }
+}

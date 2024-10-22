@@ -1,0 +1,16 @@
+{
+  "title": "قائمة التقييمات",
+  "filterBySection": "تصفية حسب القسم",
+  "selectSection": "اختر قسما",
+  "filterByQuiz": "تصفية حسب الاختبار",
+  "selectQuiz": "اختر اختبارا",
+  "loading": "جارٍ تحميل التقييمات...",
+  "score": "النتيجة",
+  "date": "التاريخ",
+  "time": "المدة",
+  "participant": "المشارك",
+  "noEvaluations": "لم يتم العثور على تقييمات",
+  "previous": "السابق",
+  "next": "التالي",
+  "correction": "عرض التصحيح"
+}

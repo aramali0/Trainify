@@ -1,0 +1,7 @@
+{
+    "notFound": {
+        "oops": "Ooops! Page Not Found",
+        "message": "Oops! It looks like you're lost. The page you were looking for couldn't be found. Don't worry, it happens to the best of us.",
+        "backToHome": "Back To Home"
+    }
+}

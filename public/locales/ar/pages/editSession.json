@@ -1,0 +1,25 @@
+{
+    "editSession": "تعديل الجلسة",
+    "name": "الاسم",
+    "sessionDate": "تاريخ الجلسة",
+    "duration": "المدة (بالدقائق)",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "course": "الدورة",
+    "loading": "جارٍ تحميل المقررات...",
+    "errors": {
+        "loadSessionFailed": "فشل في تحميل تفاصيل الجلسة",
+        "loadCoursesFailed": "فشل في تحميل المقررات",
+        "nameRequired": "الاسم مطلوب.",
+        "nameInvalid": "يجب أن يحتوي الاسم على أحرف ومسافات فقط.",
+        "sessionDateRequired": "تاريخ الجلسة مطلوب.",
+        "durationInvalid": "يجب أن تكون المدة رقمًا موجبًا.",
+        "startDateRequired": "تاريخ البدء مطلوب.",
+        "endDateRequired": "تاريخ الانتهاء مطلوب.",
+        "endDateInvalid": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء.",
+        "courseRequired": "المقرر مطلوب.",
+        "updateSessionFailed": "فشل في تحديث الجلسة"
+    },
+    "sessionUpdated": "تم تحديث الجلسة بنجاح",
+    "updateSession": "تحديث الجلسة"
+}

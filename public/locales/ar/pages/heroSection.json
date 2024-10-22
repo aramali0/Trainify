@@ -1,0 +1,61 @@
+{
+    "hero": {
+        "title": "مرحبًا بعودتك!",
+        "description": "إليك نظرة سريعة على نشاط منصتك.",
+        "buttonText": "انقر هنا",
+        "uploadCertificate": "تحميل الشهادة",
+        "addUser": "إضافة مستخدم",
+        "addAdmin": "إضافة مدير",
+        "heroImageAlt": "صورة البطل"
+    },
+    "sidebar": {
+        "dashboard": "لوحة التحكم",
+        "courses": "الدورات",
+        "sessions": "الجلسات",
+        "sections": "الأقسام",
+        "calendar": "التقويم",
+        "classes": "الفصول",
+        "libraries": "المكتبات",
+        "verification": "التحقق",
+        "approvals": "الموافقات"
+    },
+    "dashboard": {
+        "title": "لوحة التحكم"
+    },
+    "notifications": {
+        "newMessageFrom": "رسالة جديدة من {{name}}",
+        "newMessage": "رسالة جديدة",
+        "newQuizNotification": "إشعار اختبار جديد!"
+    },
+    "buttons": {
+        "showMore": "عرض المزيد",
+        "showLess": "عرض أقل",
+        "edit": "تعديل",
+        "cancel": "إلغاء",
+        "saveChanges": "حفظ التغييرات",
+        "createLibrary": "إنشاء مكتبة",
+        "uploadResource": "تحميل المورد",
+        "deleteLibrary": "حذف المكتبة",
+        "deleteResource": "حذف المورد"
+    },
+    "tooltips": {
+        "email": "البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "gender": "الجنس",
+        "cin": "الرقم التعريفي",
+        "age": "العمر"
+    },
+    "placeholders": {
+        "enterNewMaxSize": "أدخل الحجم الأقصى الجديد"
+    },
+    "messages": {
+        "selectFile": "حدد المكتبة والملف المراد تحميله",
+        "fileSizeExceeds": "حجم الملف يتجاوز الحد الأقصى المسموح به، قم باستخراج الملف أو الاتصال بالمسؤول",
+        "uploadSuccess": "تم تحميل المورد بنجاح",
+        "uploadError": "فشل تحميل المورد",
+        "deleteLibrarySuccess": "تم حذف المكتبة بنجاح",
+        "deleteResourceSuccess": "تم حذف المورد بنجاح",
+        "fetchLibrariesError": "فشل تحميل المكتبات",
+        "loading": "جار التحميل..."
+    }
+}

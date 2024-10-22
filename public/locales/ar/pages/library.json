@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "libraryManagement": "إدارة المكتبة",
+        "libraries": "المكتبات",
+        "videoViewer": "عارض الفيديو"
+    },
+    "buttons": {
+        "createLibrary": "إنشاء مكتبة",
+        "uploadResource": "تحميل المورد",
+        "deleteLibrary": "حذف المكتبة",
+        "deleteResource": "حذف المورد"
+    },
+    "messages": {
+        "noResources": "لا توجد موارد متاحة",
+        "fetchLibrariesError": "فشل تحميل المكتبات",
+        "uploadSuccess": "تم تحميل المورد بنجاح",
+        "uploadError": "فشل تحميل المورد",
+        "deleteLibrarySuccess": "تم حذف المكتبة بنجاح",
+        "deleteResourceSuccess": "تم حذف المورد بنجاح",
+        "loadError": "فشل تحميل المورد",
+        "fileSizeExceeds": "حجم الملف يتجاوز الحد الأقصى المسموح به، قم تقليل حجم الملف أو الاتصال بالمسؤول",
+        "selectFile": "حدد المكتبة والملف المراد تحميله"
+    }
+}

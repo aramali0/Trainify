@@ -1,0 +1,33 @@
+{
+    "actionType": {
+        "COURSE": "دورة",
+        "CLASS": "فصل",
+        "LIBRARY": "مكتبة",
+        "QUIZ": "اختبار",
+        "RESOURCE": "مورد"
+    },
+    "requestId": "معرف الطلب",
+    "createdOn": "تم إنشاؤه في",
+    "approve": "الموافقة",
+    "reject": "رفض",
+    "requestUpdate": "طلب التحديث",
+    "showDetails": "عرض التفاصيل",
+    "chargeFormationNotFound": "المكلف بالتدريب: غير موجود",
+    "comment": "تعليق",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "pending": "إجراءات الموافقة المعلقة",
+    "loadingRequests": "جار تحميل إجراءات الموافقة...",
+    "noPendingRequests": "لا توجد إجراءات معلقة للموافقة",
+    "courses": "الدورات",
+    "participants": "المشاركون",
+    "close": "إغلاق",
+    "course": "دورة",
+    "resourceType": "نوع المورد",
+    "library": "مكتبة",
+    "loadingDetails": "جار تحميل التفاصيل...",
+    "enterComment": "أدخل تعليقك هنا..."
+
+
+
+}

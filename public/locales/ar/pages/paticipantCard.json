@@ -1,0 +1,9 @@
+{
+  "buttons": {
+    "verify": "تحقق",
+    "refuse": "رفض"
+  },
+  "error": {
+    "processing_participant": "فشل في معالجة المشارك."
+  }
+}

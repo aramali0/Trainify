@@ -1,0 +1,24 @@
+{
+    "titles": {
+        "updateAboutUs": "تحديث عنّا"
+    },
+    "labels": {
+        "title_en": "العنوان (بالإنجليزية)",
+        "title_fr": "العنوان (بالفرنسية)",
+        "title_ar": "العنوان (بالعربية)",
+        "description_en": "الوصف (بالإنجليزية)",
+        "description_fr": "الوصف (بالفرنسية)",
+        "description_ar": "الوصف (بالعربية)",
+        "uploadImage": "رفع الصورة"
+    },
+    "buttons": {
+        "saveChanges": "حفظ التغييرات"
+    },
+    "errors": {
+        "failedToLoadAboutUs": "فشل تحميل بيانات عنّا",
+        "invalidImageType": "نوع الصورة غير صالح",
+        "imageSizeLimit": "تجاوز حجم الصورة 2 ميغابايت",
+        "invalidTitle": "صيغة العنوان غير صالحة",
+        "descriptionTooShort": "الوصف قصير جداً"
+    }
+}
