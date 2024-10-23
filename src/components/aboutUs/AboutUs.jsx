@@ -11,11 +11,9 @@ const AboutUsSection = () => {
             try {
                 const response = await axiosInstance.get('/about-us');
                 const data = response.data;
-                console.log('About Us data:', data);
-
                 if (data.imagePath) {
                     try {
-                        const imageResponse = await axiosInstance.get(`http://localhost:8087/api${data.imagePath}`, { responseType: 'blob' });
+                        const imageResponse = await axiosInstance.get(`${axiosInstance.defaults.baseURL}/${data.imagePath}`, { responseType: 'blob' });
                         data.imageUrl = URL.createObjectURL(imageResponse.data);
                     } catch (error) {
                         console.error('Error fetching About Us image:', error);

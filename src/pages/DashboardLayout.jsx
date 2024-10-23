@@ -30,7 +30,7 @@ const DashboardLayout = ({ role, nom }) => {
     useEffect(() => {
         const fetchImageWithAuth = async () => {
             try {
-                const response = await axiosInstance.get(`http://localhost:8087/api${user.profileImagePath}`, {
+                const response = await axiosInstance.get(`${axiosInstance.defaults.baseURL}/${user.profileImagePath}`, {
                     responseType: 'blob'
                 });
                 const imageUrl = URL.createObjectURL(response.data);
@@ -74,7 +74,7 @@ const DashboardLayout = ({ role, nom }) => {
     }, [id]);
 
     useEffect(() => {
-        const socket = new SockJS('http://localhost:8087/api/ws');
+        const socket = new SockJS(`${axiosInstance.defaults.baseURL}/wss`);
         const client = new Client({
             webSocketFactory: () => socket,
             debug: (str) => {
@@ -115,7 +115,7 @@ const DashboardLayout = ({ role, nom }) => {
         return () => {
             if (client) client.deactivate();
         };
-    }, [id, receiver.firstName, t]);
+    }, [id]);
 
     // Mark all quiz notifications as read
     const markQuizNotificationsAsRead = () => {

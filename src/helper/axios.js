@@ -2,7 +2,9 @@ import axios from 'axios';
 import { logout } from './auth';
 import i18next from 'i18next';
 
-const API_URL = 'https://trainify-server-production.up.railway.app/api'; // Replace with your API URL
+// const API_URL = 'https://trainify-server-production.up.railway.app/api'; // Replace with your API URL
+
+const API_URL = 'http://localhost:8081/api'; // Replace with your API URL
 
 const axiosInstance = axios.create({
     baseURL: API_URL,

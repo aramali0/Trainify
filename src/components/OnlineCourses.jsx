@@ -13,7 +13,6 @@ const OnlineCourses = () => {
         const fetchFavoriteCourses = async () => {
             try {
                 const response = await axiosInstance.get('/cours/favorites');
-                console.log('Fetched courses:', response.data); // Log the fetched courses
 
                 const coursesWithFormateurs = await Promise.all(
                     response.data.map(async (course) => {
@@ -51,7 +50,6 @@ const OnlineCourses = () => {
             );
 
             const names = responses.map(response => `${response.data.firstName} ${response.data.lastName}`);
-            console.log('Formateur names:', names); // Log the formateur names
             return names;
         } catch (error) {
             console.error('Failed to fetch formateur names:', error);
@@ -62,7 +60,7 @@ const OnlineCourses = () => {
     const fetchCourseImage = async (imagePath) => {
         try {
             if (imagePath) {
-                const response = await axiosInstance.get(`http://localhost:8087/api${imagePath}`, { responseType: 'blob' });
+                const response = await axiosInstance.get(`${axiosInstance.defaults.baseURL}/${imagePath}`, { responseType: 'blob' });
                 return URL.createObjectURL(response.data);
             } else {
                 return "https://via.placeholder.com/400"; // Fallback image

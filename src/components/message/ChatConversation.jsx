@@ -49,7 +49,7 @@ const ChatConversation = ({ activeReceiver, onNewMessage }) => {
     }, [messages]);
 
     useEffect(() => {
-        const socket = new SockJS('http://localhost:8087/api/ws');
+        const socket = new SockJS(`${axiosInstance.defaults.baseURL}/wss`);
         const client = new Client({
             webSocketFactory: () => socket,
             debug: (str) => {
