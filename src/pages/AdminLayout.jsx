@@ -72,7 +72,7 @@ const { t, i18n } = useTranslation('pages/adminLayout'); // Initialize translati
     }, [id]);
 
     useEffect(() => {
-        const socket = new SockJS(`${axiosInstance.defaults.baseURL.replace('http', 'https')}/wss`);
+        const socket = new SockJS(`${axiosInstance.defaults.baseURL}/ws`);
         const client = new Client({
             webSocketFactory: () => socket,
             debug: (str) => {
