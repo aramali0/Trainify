@@ -7,6 +7,7 @@ import { getUser } from '../helper/auth';
 import axiosInstanceForRessources from '../helper/axiosForResoures';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
+import { ClipLoader } from 'react-spinners';
 
 const customStyles = {
     container: (provided) => ({

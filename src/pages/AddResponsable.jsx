@@ -6,6 +6,7 @@ import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
+import { ClipLoader } from 'react-spinners';
 
 const AddResonsablePage = ({setShowResponsableForm,setShowEntreprisesForm,setEntreprise}) => {
 
