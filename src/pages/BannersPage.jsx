@@ -30,7 +30,7 @@ const BannersPage = () => {
 
     const fetchImageWithAuth = async (backgroundImage) => {
         try {
-            const response = await axiosInstance.get(`http://localhost:8087/api${backgroundImage}`, {
+            const response = await axiosInstance.get(`${backgroundImage}`, {
                 responseType: 'blob' // Handle binary data
             });
             return URL.createObjectURL(response.data);

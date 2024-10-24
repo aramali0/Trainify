@@ -5,27 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 const BannerItem = ({ backgroundImage, title, subtitle, link1, link2 }) => {
 
-    const [loadedImageUrl, setLoadedImageUrl] = useState(null);
     const { t, i18n } = useTranslation(['home/banner']);
-
-    useEffect(() => {
-        const fetchImageWithAuth = async () => {
-            try {
-                const response = await axiosInstance.get(`http://localhost:8087/api${backgroundImage}`, {
-                    responseType: 'blob'  // Handle binary data
-                });
-                const imageUrl = URL.createObjectURL(response.data);
-                setLoadedImageUrl(imageUrl);
-            } catch (error) {
-                console.error("Error fetching image:", error);
-            }
-        };
-
-        if (backgroundImage) {
-            fetchImageWithAuth();
-        } else {
-        }
-    }, [backgroundImage]);
 
     return (
         <div
@@ -33,7 +13,7 @@ const BannerItem = ({ backgroundImage, title, subtitle, link1, link2 }) => {
             data-overlay-dark="8"
             dir={i18n.dir()}
 
-            style={{ backgroundImage: `url(${loadedImageUrl})` }}
+            style={{ backgroundImage: `url(${backgroundImage})` }}
         >
             <div className="container pt-6 pt-md-0">
                 <div className="row align-items-center">
