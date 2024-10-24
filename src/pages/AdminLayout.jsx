@@ -25,7 +25,7 @@ const { t, i18n } = useTranslation('pages/adminLayout'); // Initialize translati
     useEffect(() => {
         const fetchImageWithAuth = async () => {
             try {
-                const response = await axiosInstance.get(`http://localhost:8087/api${user.profileImagePath}`, {
+                const response = await axiosInstance.get(`${axiosInstance.defaults.baseURL}/${user.profileImagePath}`, {
                     responseType: 'blob'  // Handle binary data
                 });
                 const imageUrl = URL.createObjectURL(response.data);
@@ -72,7 +72,7 @@ const { t, i18n } = useTranslation('pages/adminLayout'); // Initialize translati
     }, [id]);
 
     useEffect(() => {
-        const socket = new SockJS('http://localhost:8087/api/ws');
+        const socket = new SockJS(`${axiosInstance.defaults.baseURL.replace('http', 'https')}/wss`);
         const client = new Client({
             webSocketFactory: () => socket,
             debug: (str) => {
