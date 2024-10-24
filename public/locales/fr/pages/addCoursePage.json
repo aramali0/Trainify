@@ -11,6 +11,8 @@
     "addCourseButton": "Ajouter le cours",
     "loadingClasses": "Chargement des classes...",
     "loadingInstructors": "Chargement des formateurs...",
+    "submit": "Soumettre",
+    "loading": "Chargement...",
     "errors": {
         "loadClasses": "Échec du chargement des classes",
         "loadInstructors": "Échec du chargement des formateurs",

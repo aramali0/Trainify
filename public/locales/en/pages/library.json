@@ -19,6 +19,7 @@
         "deleteResourceSuccess": "Resource deleted successfully",
         "loadError": "Failed to load resource",
         "fileSizeExceeds": "File size exceeds the maximum size allowed,reduce the file or contact the admin",
+        "videoNotSupported": "                            Your browser does not support the video tag.",
         "selectFile": "Select the library and the file to upload"
     }
 }

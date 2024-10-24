@@ -16,6 +16,7 @@
     "male":"Male",
     "female" :"Female",
     "submit": "Submit",
+    "loading": "Loading...",
     "errors": {
       "matricule_required": "Matricule is required",
       "first_name_required": "First name is required",

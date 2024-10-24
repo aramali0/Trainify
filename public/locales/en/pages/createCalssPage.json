@@ -8,7 +8,8 @@
         "selectCourses": "Select Courses"
     },
     "buttons": {
-        "createClass": "Create Class"
+        "createClass": "Create Class",
+        "creating": "Creating..."
     },
     "messages": {
         "classCreated": "Class created successfully",

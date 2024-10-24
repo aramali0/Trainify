@@ -8,7 +8,8 @@
         "selectCourses": "اختر الدورات"
     },
     "buttons": {
-        "createClass": "إنشاء فصل"
+        "createClass": "إنشاء فصل",
+        "creating": "جاري الإنشاء..."
     },
     "messages": {
         "classCreated": "تم إنشاء الفصل بنجاح",

@@ -327,7 +327,7 @@ const LibraryPage = ({ nom, user, path }) => {
                     {file?.type === 'video' && (
                         <video controls className="w-full max-w-lg mx-auto" controlsList="nodownload">
                             <source src={file.url} type="video/mp4" />
-                            Your browser does not support the video tag.
+                            {t('messages.videoNotSupported')}
                         </video>
                     )}
                 </Modal.Body>

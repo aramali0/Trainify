@@ -72,9 +72,10 @@
     "enterNewMaxSize": "Enter new max size"
   },
   "charts": {
-    "coursesCreated": "Courses Created",
+    "coursesCreatedByMonth": "Courses Created",
     "studentsOverTime": "Students Over Time",
     "instructorsOverTime": "Instructors Over Time",
+    "combinedActivityChart": "Combined Activity",
     "evaluationsOverTime": "Evaluations Over Time"
   }
 

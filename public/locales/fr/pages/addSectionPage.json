@@ -5,6 +5,8 @@
     "startDate": "Date de début",
     "endDate": "Date de fin",
     "session": "Session",
+    "submit": "Soumettre",
+    "loading": "Chargement...",
     "loadingSessions": "Chargement des sessions...",
     "errors": {
         "titleRequired": "Le titre est requis.",

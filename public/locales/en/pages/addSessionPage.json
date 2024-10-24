@@ -10,6 +10,7 @@
     "sessionAdded": "Session added successfully",
     "sessionFailed": "Failed to add session",
     "loadFailed": "Failed to load courses",
+    "submit": "Submit", 
     "errors": {
         "nameRequired": "Name is required.",
         "nameInvalid": "Name must contain only letters, numbers, spaces, and the characters - _ . ,",

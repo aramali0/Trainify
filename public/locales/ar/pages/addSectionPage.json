@@ -5,6 +5,8 @@
     "startDate": "تاريخ البدء",
     "endDate": "تاريخ الانتهاء",
     "session": "الجلسة",
+    "submit": "إرسال",
+    "loading": "جارٍ التحميل...",
     "loadingSessions": "جارٍ تحميل الجلسات...",
     "errors": {
         "titleRequired": "العنوان مطلوب.",

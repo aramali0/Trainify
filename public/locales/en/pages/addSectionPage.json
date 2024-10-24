@@ -5,6 +5,8 @@
     "startDate": "Start Date",
     "endDate": "End Date",
     "session": "Session",
+    "submit": "Submit",
+    "loading": "Loading...",
     "loadingSessions": "Loading sessions...",
     "errors": {
         "titleRequired": "Title is required.",

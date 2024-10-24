@@ -10,6 +10,7 @@
     "sessionAdded": "Session ajoutée avec succès",
     "sessionFailed": "Échec de l'ajout de la session",
     "loadFailed": "Échec du chargement des cours",
+    "submit": "Soumettre",
     "errors": {
         "nameRequired": "Le nom est requis.",
         "nameInvalid": "Le nom ne peut contenir que des lettres, des chiffres, des espaces et les caractères - _ . ,",

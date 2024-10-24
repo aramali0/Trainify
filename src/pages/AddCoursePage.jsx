@@ -52,6 +52,7 @@ const AddCoursePage = ({ nom, path }) => {
         isAproved: false,
     });
 
+    const [isLoading, setLoading] = useState(false);
     const [classes, setClasses] = useState([]);
     const [instructors, setInstructors] = useState([]);
     const [loadingClasses, setLoadingClasses] = useState(true);
@@ -157,6 +158,7 @@ const AddCoursePage = ({ nom, path }) => {
 
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        setLoading(true);
         if (!validateForm()) return;
 
         const formData = new FormData();
@@ -186,6 +188,9 @@ const AddCoursePage = ({ nom, path }) => {
             setErrors({ titre: '', subTitre: '', description: '', duree: '', image: '' });
         } catch (error) {
             toast.error(t("errors.addCourse"));
+        }
+        finally {
+            setLoading(false);
         }
     };
 
@@ -323,9 +328,24 @@ const AddCoursePage = ({ nom, path }) => {
 
                 {/* Submit Button */}
                 <div className="mt-6">
-                    <button type="submit" className="w-full p-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-                        {t("addCourseButton")}
-                    </button>
+                <button
+                    type="submit"
+                    disabled={isLoading}
+                    className={`group relative w-full flex justify-center items-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white ${
+                        isLoading
+                            ? 'bg-indigo-400 cursor-not-allowed'
+                            : 'bg-indigo-600 hover:bg-indigo-700'
+                    } focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
+                >
+                    {isLoading ? (
+                        <>
+                            <ClipLoader size={20} color="#ffffff" className="mr-2" />
+                            {t('loading')}
+                        </>
+                    ) : (
+                        t('submit')
+                    )}
+                </button>
                 </div>
             </form>
         </div>

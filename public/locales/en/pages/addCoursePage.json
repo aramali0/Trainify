@@ -11,6 +11,8 @@
     "addCourseButton": "Add Course",
     "loadingClasses": "Loading classes...",
     "loadingInstructors": "Loading instructors...",
+    "submit": "Submit",
+    "loading": "Loading...",
     "errors": {
         "loadClasses": "Failed to load classes",
         "loadInstructors": "Failed to load instructors",

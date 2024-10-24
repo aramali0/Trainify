@@ -91,7 +91,6 @@ const { t, i18n } = useTranslation('pages/adminLayout'); // Initialize translati
                         toast.info("New message");
                     }
 
-                    // Fetch the updated unread messages count
                     axiosInstance.get(`/messages/unread/${id}`).then((response) => {
                         setUnreadMessages(response.data);
                     });

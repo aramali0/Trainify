@@ -74,7 +74,7 @@ const DashboardLayout = ({ role, nom }) => {
     }, [id]);
 
     useEffect(() => {
-        const socket = new SockJS(`${axiosInstance.defaults.baseURL}/wss`);
+        const socket = new SockJS(`${axiosInstance.defaults.baseURL}/ws`);
         const client = new Client({
             webSocketFactory: () => socket,
             debug: (str) => {

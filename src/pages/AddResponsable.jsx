@@ -317,11 +317,23 @@ const AddResonsablePage = ({setShowResponsableForm,setShowEntreprisesForm,setEnt
 
                     <div>
                         <button
-                            type="submit"
-                            className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                        >
-                                {t('add_responsable.submit')}
-                        </button>
+                    type="submit"
+                    disabled={isLoading}
+                    className={`group relative w-full flex justify-center items-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white ${
+                        isLoading
+                            ? 'bg-indigo-400 cursor-not-allowed'
+                            : 'bg-indigo-600 hover:bg-indigo-700'
+                    } focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
+                >
+                    {isLoading ? (
+                        <>
+                            <ClipLoader size={20} color="#ffffff" className="mr-2" />
+                            {t('add_responsable.loading')}
+                        </>
+                    ) : (
+                        t('add_responsable.submit')
+                    )}
+                </button>
                     </div>
                 </form>
         </div>

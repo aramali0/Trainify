@@ -11,6 +11,8 @@
     "addCourseButton": "إضافة دورة",
     "loadingClasses": "جارٍ تحميل الفصول...",
     "loadingInstructors": "جارٍ تحميل المعلمين...",
+    "submit": "إرسال",
+    "loading": "جارٍ التحميل...",
     "errors": {
         "loadClasses": "فشل تحميل الفصول",
         "loadInstructors": "فشل تحميل المعلمين",
