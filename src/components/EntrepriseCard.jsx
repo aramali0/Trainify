@@ -28,7 +28,7 @@ const EntrepriseCard = ({ entreprise }) => {
       try {
         if (localEntreprise.logo) {
           const response = await axiosInstance.get(
-            `http://localhost:8087/api${localEntreprise.logo}`,
+            `${localEntreprise.logo}`,
             { responseType: 'blob' }
           );
           setLogoUrl(URL.createObjectURL(response.data));

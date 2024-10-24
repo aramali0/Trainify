@@ -59,7 +59,7 @@ const UpdateUserPage = () => {
                 setSelectedRoles(selectedRoles);
 
                 if (fetchedUser.profileImagePath) {
-                    const imageResponse = await axiosInstance.get(`http://localhost:8087/api${fetchedUser.profileImagePath}`, {
+                    const imageResponse = await axiosInstance.get(`${fetchedUser.profileImagePath}`, {
                         responseType: 'blob'
                     });
                     const imageUrl = URL.createObjectURL(imageResponse.data);

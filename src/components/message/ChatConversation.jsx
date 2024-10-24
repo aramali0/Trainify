@@ -18,7 +18,6 @@ const ChatConversation = ({ activeReceiver, onNewMessage }) => {
     const messageEndRef = useRef(null);
     const user = getUser(); 
     const [stompClient, setStompClient] = useState(null);
-
     useEffect(() => {
         const fetchMessages = async () => {
             try {

@@ -30,7 +30,7 @@ const DashboardLayout = ({ role, nom }) => {
     useEffect(() => {
         const fetchImageWithAuth = async () => {
             try {
-                const response = await axiosInstance.get(`${axiosInstance.defaults.baseURL}/${user.profileImagePath}`, {
+                const response = await axiosInstance.get(`${user.profileImagePath}`, {
                     responseType: 'blob'
                 });
                 const imageUrl = URL.createObjectURL(response.data);

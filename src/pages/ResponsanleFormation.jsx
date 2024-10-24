@@ -24,7 +24,7 @@ const ResponsableFormationCard = () => {
                 setResponsables(response.data);
                 const images = await Promise.all(response.data?.map(async (responsable) => {
                     if (responsable.profileImagePath) {
-                        const imageResponse = await axiosInstance.get(`http://localhost:8087/api${responsable.profileImagePath}`, {
+                        const imageResponse = await axiosInstance.get(`${responsable.profileImagePath}`, {
                             responseType: 'blob',
                         });
                         return URL.createObjectURL(imageResponse.data);

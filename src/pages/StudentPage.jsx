@@ -17,7 +17,7 @@ const StudentCard = ({ student }) => {
     useEffect(() => {
         const fetchImageWithAuth = async () => {
             try {
-                const response = await axiosInstance.get(`http://localhost:8087/api${student.imagePath}`, {
+                const response = await axiosInstance.get(`${student.imagePath}`, {
                     responseType: 'blob'
                 });
                 const imageUrl = URL.createObjectURL(response.data);

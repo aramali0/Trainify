@@ -13,7 +13,7 @@ const AboutUsSection = () => {
                 const data = response.data;
                 if (data.imagePath) {
                     try {
-                        const imageResponse = await axiosInstance.get(`${axiosInstance.defaults.baseURL}/${data.imagePath}`, { responseType: 'blob' });
+                        const imageResponse = await axiosInstance.get(`${data.imagePath}`, { responseType: 'blob' });
                         data.imageUrl = URL.createObjectURL(imageResponse.data);
                     } catch (error) {
                         console.error('Error fetching About Us image:', error);

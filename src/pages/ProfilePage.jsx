@@ -29,7 +29,7 @@ const ProfilePage = () => {
                 setUser(response.data);
 
                 if (response.data.profileImagePath) {
-                    const imageResponse = await axiosInstance.get(`/${response.data.profileImagePath}`, {
+                    const imageResponse = await axiosInstance.get(`${response.data.profileImagePath}`, {
                         responseType: 'blob'
                     });
                     const imageUrl = URL.createObjectURL(imageResponse.data);

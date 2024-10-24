@@ -18,7 +18,7 @@ const UserCard = ({ user }) => {
         const fetchImage = async () => {
             if (user.profileImagePath) {
                 try {
-                    const response = await axiosInstance.get(`/${user.profileImagePath}`, {
+                    const response = await axiosInstance.get(`${user.profileImagePath}`, {
                         responseType: 'blob'
                     });
                     const imageUrl = URL.createObjectURL(response.data);

@@ -27,7 +27,7 @@ const UpdateBanner = () => {
                 setBanner(response.data);
 
                 if (response.data.backgroundImage) {
-                    const imageResponse = await axiosInstance.get(`/${response.data.backgroundImage}`, {
+                    const imageResponse = await axiosInstance.get(`${response.data.backgroundImage}`, {
                         responseType: 'blob'
                     });
                     const imageUrl = URL.createObjectURL(imageResponse.data);
@@ -42,7 +42,7 @@ const UpdateBanner = () => {
         };
 
         fetchBanner();
-    }, [id, t]);
+    }, [id]);
 
     const handleChange = (e) => {
         setBanner({

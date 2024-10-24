@@ -13,7 +13,7 @@ const ParticipantCard = ({ participant, onVerify }) => {
     useEffect(() => {
         const fetchImageWithAuth = async () => {
             try {
-                const response = await axiosInstance.get(`http://localhost:8087/api${participant.profileImagePath}`, {
+                const response = await axiosInstance.get(`${participant.profileImagePath}`, {
                     responseType: 'blob',
                 });
                 const imageUrl = URL.createObjectURL(response.data);

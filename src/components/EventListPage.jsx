@@ -18,7 +18,7 @@ const EventListPage = () => {
                         fetchedEvents.map(async (event) => {
                             if (event.imagePath) {
                                 try {
-                                    const imageResponse = await axiosInstance.get(`http://localhost:8087/api${event.imagePath}`, { responseType: 'blob' });
+                                    const imageResponse = await axiosInstance.get(`${event.imagePath}`, { responseType: 'blob' });
                                     event.imageUrl = URL.createObjectURL(imageResponse.data);
                                 } catch (error) {
                                     console.error('Error fetching event image:', error);

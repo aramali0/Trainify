@@ -20,7 +20,7 @@ const SessionsPage = ({ path, nom }) => {
     useEffect(() => {
         const fetchSessions = async () => {
             console.log("Fetching sessions: path:", path);
-            try {
+           try {
                 let response;
                 if (courseId) {
                     // Fetch sessions for a specific course

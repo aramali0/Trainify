@@ -10,7 +10,7 @@ const UserCard = ({ user, onUpdate, onDelete, onBlock }) => {
     useEffect(() => {
         const fetchImageWithAuth = async () => {
             try {
-                const response = await axiosInstance.get(`http://localhost:8087/api${user.profileImagePath}`, {
+                const response = await axiosInstance.get(`${user.profileImagePath}`, {
                     responseType: 'blob',
                 });
                 const imageUrl = URL.createObjectURL(response.data);

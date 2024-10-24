@@ -16,7 +16,7 @@ const CourseCard = ({ nom, handleSend2ResponsableFormation, isChargeFormation, c
         const fetchImageWithAuth = async () => {
             try {
                 if (course.imagePath) {
-                    const response = await axiosInstance.get(`http://localhost:8087/api${course.imagePath}`, { responseType: 'blob' });
+                    const response = await axiosInstance.get(`${course.imagePath}`, { responseType: 'blob' });
                     setLoadedImageUrl(URL.createObjectURL(response.data));
                 } else {
                     setLoadedImageUrl("https://via.placeholder.com/400");

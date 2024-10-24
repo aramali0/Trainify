@@ -25,7 +25,7 @@ const { t, i18n } = useTranslation('pages/adminLayout'); // Initialize translati
     useEffect(() => {
         const fetchImageWithAuth = async () => {
             try {
-                const response = await axiosInstance.get(`${axiosInstance.defaults.baseURL}/${user.profileImagePath}`, {
+                const response = await axiosInstance.get(`${user.profileImagePath}`, {
                     responseType: 'blob'  // Handle binary data
                 });
                 const imageUrl = URL.createObjectURL(response.data);
