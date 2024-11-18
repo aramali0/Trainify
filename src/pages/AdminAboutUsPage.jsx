@@ -61,15 +61,15 @@ const AdminAboutUsPage = () => {
         const newErrors = {};
         
         // Add validation for each title and description field
-        Object.keys(aboutUsData).forEach((key) => {
-            if (key.startsWith('title') && !/^[a-zA-Z\s\u0600-\u06FF]+$/.test(aboutUsData[key])) {
-                newErrors[key] = t('errors.invalidTitle');
-            }
-            if (key.startsWith('description') && aboutUsData[key]?.length < 10) {
-                newErrors[key] = t('errors.descriptionTooShort');
-            }
+        // Object.keys(aboutUsData).forEach((key) => {
+        //     if (key.startsWith('title') && !/^[a-zA-Z\s\u0600-\u06FF&/?|'"]+$/.test(aboutUsData[key])) {
+        //         newErrors[key] = t('errors.invalidTitle');
+        //     }
+        //     if (key.startsWith('description') && aboutUsData[key]?.length < 10) {
+        //         newErrors[key] = t('errors.descriptionTooShort');
+        //     }
 
-        });
+        // });
 
         return newErrors;
     };
