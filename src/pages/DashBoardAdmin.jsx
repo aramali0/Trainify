@@ -5,7 +5,7 @@ import DashboardCard from '../components/Dashboard/DashBoardCard';
 import axiosInstance from '../helper/axios';
 import ReactPaginate from 'react-paginate';
 import ChartCard from '../components/Dashboard/ChartCart';
-import welcomeImage from '../assets/images/home/hero-img.png';
+import welcomeImage from '../assets/PHOTO1.jpg';
 import award from '../assets/images/icons/award.png';
 import graduation from '../assets/images/icons/graduat.png';
 import school from '../assets/images/icons/school.png';

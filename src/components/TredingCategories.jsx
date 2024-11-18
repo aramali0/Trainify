@@ -11,20 +11,26 @@ import iconPhotography from '../assets/img/icons/icon-08.png';
 import iconRocketScience from '../assets/img/icons/icon-07.png';
 import iconMath from '../assets/img/icons/icon-06.png';
 import iconFoodRecipe from '../assets/img/icons/icon-05.png';
+import selfDevelopment from '../assets/self-development.png'
+import developpementLogiciel from '../assets/developpement-de-logiciels.png'
+import hygiene from '../assets/hygiene.png'
+import ideation from '../assets/ideation.png'
 import background from '../assets/images/home/brainstorm-meeting.jpg';
 
 const TrendingCategories = () => {
     const { t } = useTranslation(['home/trendingCategories']);
 
     const categories = [
-        { img: iconChemistry, name: t('chemistry') },
-        { img: iconPhysics, name: t('physics') },
-        { img: iconLanguage, name: t('language') },
-        { img: iconBusiness, name: t('business') },
-        { img: iconPhotography, name: t('photography') },
-        { img: iconRocketScience, name: t('rocketScience') },
-        { img: iconMath, name: t('math') },
-        { img: iconFoodRecipe, name: t('foodRecipe') },
+        { img: selfDevelopment, name: t('physics') },
+        { img: ideation, name: t('Systéme d’Information') },
+        { img: developpementLogiciel, name: t('Business Intelligence') },
+        { img: ideation, name: t('language') },
+        { img: developpementLogiciel, name: t('business') },
+        { img: hygiene, name: t('Santé et sécurité') },
+        { img: selfDevelopment, name: t('Coaching et développement ...') },
+        { img: developpementLogiciel, name: t('Informatique') },
+        { img: hygiene, name: t('Gestion des risques') },
+        { img: ideation, name: t('chemistry') },
     ];
 
     return (
@@ -47,19 +53,27 @@ const TrendingCategories = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row mt-n1-9">
-                    {categories.map((category, index) => (
-                        <div className="col-sm-6 col-lg-4 col-xl-3 mt-1-9" key={index}>
-                            <Link to="/courses-list" className="category-item-01">
-                                <div className="category-img">
-                                    <img src={category.img} alt={category.name} />
-                                </div>
-                                <div className="ms-3">
-                                    <h3 className="h4 mb-0 text-white">{category.name}</h3>
-                                </div>
-                            </Link>
+                <div className="row mt-n1-9 justify-center flex flex-wrap">
+                {categories.map((category, index) => (
+                    <div
+                    className="col-sm-6 col-lg-4 col-xl-3 mt-6 h-40 flex"
+                    key={index}
+                    >
+                    <Link
+                        to="/courses-list"
+                        className="category-item-01 flex flex-col items-center justify-center text-center bg-white/60 rounded-lg p-4 w-full h-full"
+                    >
+                        <div className="category-img">
+                        <img src={category.img} alt={category.name} className="w-12 h-12" />
                         </div>
-                    ))}
+                        <div className="mt-3">
+                        <h3 className="text-lg font-semibold text-black w-full truncate">
+                            {category.name}
+                        </h3>
+                        </div>
+                    </Link>
+                    </div>
+                ))}
                 </div>
             </div>
         </section>

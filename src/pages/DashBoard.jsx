@@ -1,4 +1,3 @@
-// src/pages/Dashboard.js
 import React, { useEffect, useState } from 'react';
 import HeroSection from '../components/Dashboard/HeroSection';
 import DashboardCard from '../components/Dashboard/DashBoardCard';
@@ -7,7 +6,7 @@ import Table from '../components/Dashboard/Table';
 import Pagination from '../components/Dashboard/Pagination';
 import axiosInstance from '../helper/axios';
 import { getUser } from '../helper/auth';
-import welcomeImage from '../assets/images/home/hero-img.png';
+import welcomeImage from '../assets/PHOTO1.jpg';
 import graduation from '../assets/images/icons/graduat.png';
 import grow from '../assets/images/icons/grow.png';
 import school from '../assets/images/icons/school.png';

@@ -1,9 +1,6 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import logoDark from '../assets/images/logo-dark.png';
-import logoLight from '../assets/images/logo-light.png';
-import authBg1 from '../assets/images/other/auth-cardbg-1.png';
-import authBg2 from '../assets/images/other/auth-cardbg-2.png';
+import logoDark from '../assets/ehc_logo.svg';
 import '../assets/css/Login.css'; // Reusing existing CSS for consistency
 
 const ChooseRole = () => {
@@ -25,6 +22,8 @@ const ChooseRole = () => {
                 return '/responsable';
             case 'ROLE_PARTICIPANT':
                 return '/participant';
+            case 'ROLE_CHARGE':
+                return '/charge-formation';
             default:
                 return '/';
         }
@@ -37,8 +36,10 @@ const ChooseRole = () => {
             <div className="login-content">
                 <div className="login-card">
                     <div className="logo-container">
-                        <img className="logo" src={logoDark} alt="Logo Dark" />
-                        <img className="logo dark" src={logoLight} alt="Logo Light" />
+                        <img className="h-20 w-20"
+                        height={70}
+                        width={70}
+                         src={logoDark} alt="Logo Dark" />
                     </div>
 
                     <h4 className="login-title">Choose Your Role</h4>
@@ -51,11 +52,6 @@ const ChooseRole = () => {
                             </div>
                         ))}
                     </div>
-                </div>
-
-                <div className="background-images">
-                    <img src={authBg1} alt="Auth Background 1" className="background-image bg1" />
-                    <img src={authBg2} alt="Auth Background 2" className="background-image bg2" />
                 </div>
             </div>
         </div>

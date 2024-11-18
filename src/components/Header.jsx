@@ -54,7 +54,9 @@ const Header = () => {
                                 <nav className="navbar navbar-expand-lg navbar-light p-0">
                                     <div className="navbar-header navbar-header-custom">
                                         <Link to="/" className="navbar-brand">
-                                            <img id="ehc" src={logo} alt="logo" />
+                                            <img id="ehc"
+                                            className='h-[150px] w-[150px]'
+                                             src={logo} alt="logo" />
                                         </Link>
                                     </div>
 

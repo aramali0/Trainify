@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import footerLogo from '../assets/img/logos/footer-light-logo.png';
+import footerLogo from '../assets/ehc_logo.svg';
 import insta1 from '../assets/img/content/footer-insta-01.jpg';
 import insta2 from '../assets/img/content/footer-insta-02.jpg';
 import LanguageSelector from './Dashboard/LanguageSelector';
@@ -19,12 +19,12 @@ const Footer = () => {
     <footer className="bg-dark">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 col-lg-3 mb-2-5 mb-lg-0">
+          <div className="col-md-6 col-lg-3 mt-12">
             <Link to="/" className="footer-logo">
-              <img src={footerLogo} className="mb-4" alt="Footer Logo" />
+              <img src={footerLogo} className="mb-4 ml-16 h-[100px] flex justify-center" alt="Footer Logo" />
             </Link>
             <p className="mb-1-6 text-white">{t('footerText')}</p>
-            <form className="quform newsletter" onSubmit={handleSubmit}>
+            {/* <form className="quform newsletter" onSubmit={handleSubmit}>
               <div className="quform-elements">
                 <div className="row">
                   <div className="col-md-12">
@@ -51,7 +51,8 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-            </form>
+            </form> */}
+
           </div>
 
           <div className="col-md-6 col-lg-2 mb-2-5 mb-lg-0">
@@ -95,9 +96,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        <div className="navbar-header navbar-header-custom">
-            <LanguageSelector />
-        </div>
         </div>
         <div className="footer-bar text-center">
           <p className="mb-0 text-white font-weight-500">

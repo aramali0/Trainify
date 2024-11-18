@@ -50,7 +50,7 @@ const Information = () => {
                                         <h4 className="ms-4 mb-0">{service.title}</h4>
                                     </div>
                                     <div>
-                                        <p className="mb-3">{service.description}</p>
+                                        <p className="mb-3 h-[150px] flex justify-center">{service.description}</p>
                                         <Link to={service.link.href} className="butn-style1 secondary">
                                             {service.link.text} +
                                         </Link>

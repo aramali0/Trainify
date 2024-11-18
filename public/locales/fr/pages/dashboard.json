@@ -4,11 +4,11 @@
     "welcomeBack": "Bienvenue de retour!",
     "overviewDescription": "Voici un aperçu rapide de l'activité de votre plateforme.",
     "viewCourses": "Voir les cours",
-    "courses": "Cours",
-    "students": "Étudiants",
+    "courses": "Formations",
+    "students": "Participants",
     "instructors": "Formateurs",
-    "score": "Score",
-    "resources": "Ressources",
+    "score": "Evaluations",
+    "resources": "Ressources pédagogiques ",
     "noResources": "Aucune ressource disponible",
     "loading": "Chargement...",
     "accountCreated": "Compte créé",
@@ -32,11 +32,11 @@
     "responsableFormation": "Responsable de Formation",
     "updateMaxSize": "Mettre à jour la taille maximale",
     "newMaxSize": "Nouvelle Taille Max (en Mo)",
-    "classesDetails": "Détails des classes"
+    "classesDetails": "Etat récapitulative des classes de formations"
   },
   "sidebar": {
     "dashboard": "Tableau de bord",
-    "courses": "Cours",
+    "courses": "Formations",
     "sessions": "Sessions",
     "sections": "Sections",
     "calendar": "Calendrier",
@@ -72,11 +72,11 @@
     "enterNewMaxSize": "Entrez la nouvelle taille maximale"
   },
   "charts":{
-    "coursesCreatedByMonth": "Cours Créés",
-    "studentsOverTime": "Étudiants au fil du temps",
-    "instructorsOverTime": "Formateurs au fil du temps",
-    "combinedActivityChart": "Activité Combinée",
-    "evaluationsOverTime": "Évaluations au fil du temps"
+    "coursesCreatedByMonth": "Créer une formation",
+    "studentsOverTime": "Indicateurs de suivi des participants",
+    "instructorsOverTime": "indicateur de  suivi des Formateurs",
+    "combinedActivityChart": "Indicateurs de suivi combinés ",
+    "evaluationsOverTime": "Indicateur de suivi des Evaluations "
   }
 
 }
