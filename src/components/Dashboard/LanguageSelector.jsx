@@ -27,7 +27,7 @@ const languageOptions = [
     value: 'ar',
     label: (
       <div className="flex items-center space-x-2">
-        <ReactCountryFlag countryCode="SA" svg style={{ width: '1.5em', height: '1.5em' }} title="العربية" />
+        <ReactCountryFlag countryCode="MA" svg style={{ width: '1.5em', height: '1.5em' }} title="العربية" />
         <span className='hidden md:inline-block'>العربية</span>
       </div>
     ),
