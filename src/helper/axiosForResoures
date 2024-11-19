@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://trainify-server-production.up.railway.app/api'; // Replace with your API URL
+const API_URL = 'https://trainify-server-production-d321.up.railway.app/api'; 
 
 // const API_URL = 'http://localhost:8081/api'; // Replace with your API URL
 
