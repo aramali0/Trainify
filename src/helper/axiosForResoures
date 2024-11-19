@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-const API_URL = 'https://trainify-server-production-d321.up.railway.app/api'; 
+// const API_URL = 'https://trainify-server-production-d321.up.railway.app/api'; 
 
-// const API_URL = 'http://localhost:8081/api'; // Replace with your API URL
+const API_URL = 'http://localhost:8081/api'; 
 
 const axiosInstanceForRessources = axios.create({
     baseURL: API_URL,
@@ -11,8 +11,6 @@ const axiosInstanceForRessources = axios.create({
     },
 });
 
-
-// Interceptor to add token to headers
 axiosInstanceForRessources.interceptors.request.use((config) => {
     const token = localStorage.getItem('token') || sessionStorage.getItem('token');
     if (token) {

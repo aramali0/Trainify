@@ -128,7 +128,7 @@ const { t, i18n } = useTranslation('pages/adminLayout'); // Initialize translati
             >
 
                 <div className="text-center text-2xl font-semibold py-4">
-                   {t('admin.dashboard')}
+                   {t('admin.admin')}
                 </div>
                <nav className="space-y-1">
           <Link to="/admin" className={`block py-2.5 px-4 rounded transition duration-200 ${location.pathname === "/admin" ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>

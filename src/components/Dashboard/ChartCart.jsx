@@ -4,7 +4,7 @@ import { Chart, registerables } from 'chart.js';
 // Register all the necessary components of Chart.js
 Chart.register(...registerables);
 
-const ChartCard = ({ title = "Chart", chartData ,subTitle="Number of Courses" }) => {
+const ChartCard = ({ title = "Chart", chartData, subTitle = "Number of Courses" }) => {
     const chartRef = useRef(null);
 
     useEffect(() => {
@@ -20,25 +20,40 @@ const ChartCard = ({ title = "Chart", chartData ,subTitle="Number of Courses" })
                     x: {
                         title: {
                             display: true,
-                            text: 'Month'
+                            text: 'Month',
+                            padding: 10, // Add padding to adjust spacing
+                            font: {
+                                size: 14 // Adjust font size for clarity
+                            }
                         }
                     },
                     y: {
                         title: {
                             display: true,
-                            text: subTitle, 
+                            text: subTitle,
+                            padding: 10,
+                            font: {
+                                size: 14
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            font: {
+                                size: 12 // Adjust legend font size
+                            }
                         }
                     }
                 }
             }
         });
 
-        console.log(subTitle);
-        // Cleanup the chart instance when the component unmounts or when chartData changes
         return () => {
             chartInstance.destroy();
         };
-    }, [chartData,subTitle]);
+    }, [chartData, subTitle]);
 
     return (
         <div className="xl:col-span-2">
@@ -47,7 +62,8 @@ const ChartCard = ({ title = "Chart", chartData ,subTitle="Number of Courses" })
                     <h4 className="text-lg font-semibold text-default-900">{title}</h4>
                 </div>
                 <div className="px-5 pt-5 border-t border-dashed border-default-200">
-                    <div id="earning_report" className="apex-chart">
+                    <div id="earning_report" className="apex-chart" style={{ height: '300px' }}>
+                        {/* Ensure the canvas has enough height */}
                         <canvas ref={chartRef}></canvas>
                     </div>
                 </div>

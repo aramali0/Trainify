@@ -3,12 +3,12 @@ import Slider from 'react-slick';
 import { useTranslation } from 'react-i18next';
 
 // Import images
-import avatar01 from '../assets/images/avatars/avatar-1.png';
-import avatar02 from '../assets/images/avatars/avatar-2.png';
-import avatar03 from '../assets/images/avatars/avatar-3.png';
-import avatar04 from '../assets/images/avatars/avatar-4.png';
-import avatar05 from '../assets/images/avatars/avatar-5.png';
-import avatar06 from '../assets/images/avatars/avatar-6.png';
+import avatar01 from '../assets/avatar/avatar1.jpg';
+import avatar02 from '../assets/avatar/avatar2.jpg';
+import avatar03 from '../assets/avatar/avatar3.jpg';
+import avatar04 from '../assets/avatar/avatar4.jpg';
+import avatar05 from '../assets/avatar/avatar5.jpg';
+import avatar06 from '../assets/images/avatars/avatar-2.png';
 import bg03 from '../assets/img/bg/bg-03.jpg';
 
 const Testimonial = () => {
@@ -107,7 +107,8 @@ const Testimonial = () => {
                     className="position-absolute bottom-15 left-20 d-none d-lg-block rounded-circle"
                     alt="Avatar 01"
                     style={{
-                        width: '40px',
+                        width: '50px',
+                        height: '50px',
                         boxShadow: '0px 4px 10px rgba(255, 255, 255, 0.4)',
                         filter: 'brightness(1.1)',
                         transition: 'transform 0.3s, filter 0.3s',
@@ -119,6 +120,7 @@ const Testimonial = () => {
                     alt="Avatar 02"
                     style={{
                         width: '50px',
+                        height: '50px',
                         boxShadow: '0px 4px 10px rgba(255, 255, 255, 0.4)',
                         filter: 'brightness(1.1)',
                         transition: 'transform 0.3s, filter 0.3s',
@@ -129,7 +131,8 @@ const Testimonial = () => {
                     className="position-absolute left-20 top-20 d-none d-lg-block rounded-circle"
                     alt="Avatar 03"
                     style={{
-                        width: '60px',
+                        width: '50px',
+                        height: '50px',
                         boxShadow: '0px 4px 10px rgba(255, 255, 255, 0.4)',
                         filter: 'brightness(1.1)',
                         transition: 'transform 0.3s, filter 0.3s',
@@ -141,6 +144,7 @@ const Testimonial = () => {
                     alt="Avatar 04"
                     style={{
                         width: '50px',
+                        height: '50px',
                         boxShadow: '0px 4px 10px rgba(255, 255, 255, 0.4)',
                         filter: 'brightness(1.1)',
                         transition: 'transform 0.3s, filter 0.3s',
@@ -148,10 +152,11 @@ const Testimonial = () => {
                 />
                 <img
                     src={avatar05}
-                    className="position-absolute top-25 right-20 d-none d-lg-block rounded-circle"
+                    className="position-absolute top-25 right-26 d-none d-lg-block rounded-circle"
                     alt="Avatar 05"
                     style={{
-                        width: '40px',
+                        width: '50px',
+                        height: '50px',
                         boxShadow: '0px 4px 10px rgba(255, 255, 255, 0.4)',
                         filter: 'brightness(1.1)',
                         transition: 'transform 0.3s, filter 0.3s',

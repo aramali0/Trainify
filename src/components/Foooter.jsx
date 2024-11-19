@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import footerLogo from '../assets/ehc_logo.svg';
-import insta1 from '../assets/agil.jpeg';
-import insta2 from '../assets/equipe.jpg';
+import insta1 from '../assets/agile.jpg';
+import insta2 from '../assets/team.jpg';
 import LanguageSelector from './Dashboard/LanguageSelector';
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-6 col-lg-3 mt-12">
             <Link to="/" className="footer-logo">
-              <img src={footerLogo} className="mb-4 ml-16 h-[100px] flex justify-center" alt="Footer Logo" />
+              <img src={footerLogo} className="mb-4 ml-16 h-[150px] flex justify-center" alt="Footer Logo" />
             </Link>
             <p className="mb-1-6 text-white">{t('footerText')}</p>
             {/* <form className="quform newsletter" onSubmit={handleSubmit}>
@@ -55,9 +55,9 @@ const Footer = () => {
 
           </div>
 
-          <div className="col-md-6 col-lg-2 mb-2-5 mb-lg-0">
+          <div className="col-md-6 col-lg-2 mb-4-5 mb-lg-0">
             <h3 className="text-primary h5 mb-2-2">{t('aboutUs')}</h3>
-            <ul className="footer-list">
+            <ul className="footer-list mt-[55px]">
               <li><Link to="/about">{t('aboutUs')}</Link></li>
               <li><Link to="/courses-list">{t('Formations')}</Link></li>
               <li><Link to="/instructors">{t('instructor')}</Link></li>
@@ -65,9 +65,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-md-6 col-lg-2 mb-2-5 mb-lg-0">
+          <div className="col-md-6 col-lg-2 mb-4-5 mb-lg-0">
             <h3 className="text-primary h5 mb-2-2">{t('newsBlogs')}</h3>
-            <ul className="footer-list">
+            <ul className="footer-list mt-[55px]">
               <li><Link to="/blog-grid">{t('newsBlogs')}</Link></li>
               <li><Link to="/portfolio">{t('portfolio')}</Link></li>
               <li><Link to="/faq">{t('faq')}</Link></li>
@@ -78,7 +78,7 @@ const Footer = () => {
           <div className="col-md-6 col-lg-4">
             <h3 className="text-primary h5 mb-2-2">{t('popularCourses')}</h3>
             <div className="media footer-border">
-              {/* <img className="pe-3 border-radius-5 h-[100px] w-[100px]" src={insta1} alt="Popular Course 1" /> */}
+              <img className="pe-3 border-radius-5 h-[80px] w-[80px]" src={insta1} alt="Popular Course 1" />
               <div className="media-body align-self-center">
                 <h4 className="h6 mb-2">
                   <Link to="/blog-details" className="text-white text-primary-hover">{t('course1')}</Link>
@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="media">
-              {/* <img className="pe-3 border-radius-5 h-[100px] w-[100px]" src={insta2} alt="Popular Course 2" /> */}
+              <img className="pe-3 border-radius-5 h-[80px] w-[80px]" src={insta2} alt="Popular Course 2" />
               <div className="media-body align-self-center">
                 <h4 className="h6 mb-2">
                   <Link to="/blog-details" className="text-white text-primary-hover">{t('course2')}</Link>
