@@ -2,10 +2,10 @@
   "dashboard": {
     "welcomeTitle": "Bon retour!",
     "welcomeDescription": "Voici un aperçu rapide de l'activité de votre plateforme.",
-    "viewCoursesButton": "Voir les cours",
-    "courses": "Cours",
+    "viewCoursesButton": "Voir les Formations",
+    "courses": "Formations",
     "resources": "Ressources",
     "certificates": "Certificats",
-    "maxScore": "Score maximum"
+    "maxScore": "Evaluations"
   }
 }

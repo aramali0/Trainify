@@ -1,16 +1,16 @@
 {
     "titles" :{
-        "courses": "Courses"
+        "courses": "Formations"
     },
     "buttons":{
-        "createCourse": "Create Course"
+        "createCourse": "Create Formations"
     },
     "messages":{
         "loading": "Loading...",
         "requestSentSuccessfully": "Request sent successfully"
     },
     "errors":{
-        "failedToLoadCourses": "Failed to load courses",
+        "failedToLoadCourses": "Failed to load Formations",
         "errorSendingRequest": "Error sending request"
     }
 }

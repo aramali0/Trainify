@@ -3,8 +3,8 @@
     "title": "Dashboard",
     "welcomeBack": "Welcome Back!",
     "overviewDescription": "Here's a quick overview of your platform's activity.",
-    "viewCourses": "View Courses",
-    "courses": "Courses",
+    "viewCourses": "View Formations",
+    "courses": "Formations",
     "students": "Students",
     "instructors": "Instructors",
     "score": "Score",
@@ -72,11 +72,17 @@
     "enterNewMaxSize": "Enter new max size"
   },
   "charts": {
-    "coursesCreatedByMonth": "Courses Created",
+    "coursesCreatedByMonth": "Formations Created",
     "studentsOverTime": "Students Over Time",
     "instructorsOverTime": "Instructors Over Time",
     "combinedActivityChart": "Combined Activity",
-    "evaluationsOverTime": "Evaluations Over Time"
+    "evaluationsOverTime": "Evaluations Over Time",
+    "nombreCours": "Number of Formations",
+    "coursesCreated": "Formations Created",
+    "nombreStudents": "Number of Students",
+    "nombreInstructors": "Number of Instructors",
+    "combinedActivity": "Combined Activity",
+    "nombreEvaluations": "Number of Evaluations"
   }
 
 

@@ -297,22 +297,27 @@ const Dashboard = ({ path, nom }) => {
                     <ChartCard
                         title={t('charts.combinedActivityChart')}
                         chartData={combinedChartData}
+                        subTitle={t('charts.combinedActivity')}
                     />
                     <ChartCard
                         title={t('charts.coursesCreatedByMonth')}
                         chartData={chartData}
+                        subTitle={t('charts.nombreCours')}
                     />
                     <ChartCard
                         title={t('charts.studentsOverTime')}
                         chartData={studentChartData}
+                        subTitle={t('charts.nombreStudents')}
                     />
                     <ChartCard
                         title={t('charts.instructorsOverTime')}
                         chartData={instructorChartData}
+                        subTitle={t('charts.nombreInstructors')}
                     />
                     <ChartCard
                         title={t('charts.evaluationsOverTime')}
                         chartData={evaluationChartData}
+                        subTitle={t('charts.nombreEvaluations')}
                     />
                 </div>
 

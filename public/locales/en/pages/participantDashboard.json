@@ -2,8 +2,8 @@
   "dashboard": {
     "welcomeTitle": "Welcome Back!",
     "welcomeDescription": "Here's a quick overview of your platform's activity.",
-    "viewCoursesButton": "View Courses",
-    "courses": "Courses",
+    "viewCoursesButton": "View Formations",
+    "courses": "Formations",
     "resources": "Resources",
     "certificates": "Certificates",
     "maxScore": "Max Score"

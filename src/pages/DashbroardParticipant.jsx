@@ -5,7 +5,7 @@ import axiosInstance from '../helper/axios';
 import { getUser } from '../helper/auth';
 import EvaluationChart from '../components/EvaluationChart';
 import { useTranslation } from 'react-i18next'; // For translation
-import welcomeImage from '../assets/images/home/hero-img.png';
+import welcomeImage from '../assets/PHOTO1.jpg';
 import graduation from '../assets/images/icons/graduat.png';
 import school from '../assets/images/icons/school.png';
 import award from '../assets/images/icons/award.png';

@@ -1,7 +1,7 @@
 {
   "loading": "Chargement...",
   "error": {
-    "fetchCourses": "Échec du chargement des cours."
+    "fetchCourses": "Échec du chargement des formations."
   },
   "discoverNew": "Découvrez de nouveaux",
   "ourOnlineCourses": "Nos formations",

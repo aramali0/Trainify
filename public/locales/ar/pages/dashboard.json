@@ -77,6 +77,12 @@
     "instructorsOverTime": "المعلمين مع مرور الوقت",
     "evaluationsOverTime": "التقييمات مع مرور الوقت",
     "combinedActivityChart": "الرسم البياني للنشاط المشترك",
-    "coursesCreatedByMonth": "الدورات التي تم إنشاؤها حسب الشهر"
+    "coursesCreatedByMonth": "الدورات التي تم إنشاؤها حسب الشهر",
+    "nombreDeCours": "عدد الدورات",
+    "nombreDeFormateurs": "عدد المدربين",
+    "nombreStudents": "عدد الطلاب",
+    "nombreEvaluations": "عدد التقييمات",
+    "students": "الطلاب",
+    "combinedActivity": "النشاط المشترك"
   }
 }

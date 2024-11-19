@@ -4,15 +4,14 @@ import { Chart, registerables } from 'chart.js';
 // Register all the necessary components of Chart.js
 Chart.register(...registerables);
 
-const ChartCard = ({ title = "Chart", chartData }) => {
+const ChartCard = ({ title = "Chart", chartData ,subTitle="Number of Courses" }) => {
     const chartRef = useRef(null);
 
     useEffect(() => {
         const ctx = chartRef.current.getContext("2d");
 
-        // Create a new chart instance
         const chartInstance = new Chart(ctx, {
-            type: 'line', // Specify your chart type here (e.g., 'line', 'bar', etc.)
+            type: 'line', 
             data: chartData,
             options: {
                 responsive: true,
@@ -27,18 +26,19 @@ const ChartCard = ({ title = "Chart", chartData }) => {
                     y: {
                         title: {
                             display: true,
-                            text: 'Number of Courses'
+                            text: subTitle, 
                         }
                     }
                 }
             }
         });
 
+        console.log(subTitle);
         // Cleanup the chart instance when the component unmounts or when chartData changes
         return () => {
             chartInstance.destroy();
         };
-    }, [chartData]);
+    }, [chartData,subTitle]);
 
     return (
         <div className="xl:col-span-2">
@@ -48,7 +48,6 @@ const ChartCard = ({ title = "Chart", chartData }) => {
                 </div>
                 <div className="px-5 pt-5 border-t border-dashed border-default-200">
                     <div id="earning_report" className="apex-chart">
-                        {/* Render the canvas where the chart will be drawn */}
                         <canvas ref={chartRef}></canvas>
                     </div>
                 </div>

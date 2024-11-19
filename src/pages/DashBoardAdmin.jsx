@@ -279,6 +279,7 @@ const DashboardAdmin = () => {
                     <ChartCard
                         title={t(`dashboardAdmin.usersRegisteredBy${viewMode === 'monthly' ? 'Month' : 'Day'}`)}
                         chartData={viewMode === 'monthly' ? userChartData.monthly : userChartData.daily}
+                        subTitle={t('dashboardAdmin.nombreUtilisateurs')}
                     />
                 </div>
             </div>

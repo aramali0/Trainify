@@ -6,7 +6,7 @@ import Table from '../../components/Dashboard/Table';
 import Pagination from '../../components/Dashboard/Pagination';
 import axiosInstance from '../../helper/axios';
 import { getUser } from '../../helper/auth';
-import welcomeImage from '../../assets/images/home/hero-img.png';
+import welcomeImage from '../../assets/PHOTO1.jpg';
 import graduation from '../../assets/images/icons/graduat.png';
 import grow from '../../assets/images/icons/grow.png';
 import school from '../../assets/images/icons/school.png';
@@ -26,7 +26,6 @@ const DashboardFormateur = ({ path }) => {
         labels: [],
         datasets: [
             {
-                label: t('coursesCreated'),
                 data: [],
                 fill: false,
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
@@ -39,7 +38,7 @@ const DashboardFormateur = ({ path }) => {
         labels: [],
         datasets: [
             {
-                label: t('studentsEnrolled'),
+                label:t('Indicateurs de suivi Participants'),
                 data: [],
                 fill: false,
                 backgroundColor: 'rgba(255, 159, 64, 0.2)',
@@ -52,7 +51,7 @@ const DashboardFormateur = ({ path }) => {
         labels: [],
         datasets: [
             {
-                label: t('evaluationsCompleted'),
+                label: t('Indicateur de Suivi des Evaluations'),
                 data: [],
                 fill: false,
                 backgroundColor: 'rgba(153, 102, 255, 0.2)',
@@ -128,7 +127,7 @@ const DashboardFormateur = ({ path }) => {
                     labels,
                     datasets: [
                         {
-                            label: t('studentsEnrolled'),
+                            label:t('studentsOverTime'),
                             data,
                             fill: false,
                             backgroundColor: 'rgba(255, 159, 64, 0.2)',
@@ -166,7 +165,7 @@ const DashboardFormateur = ({ path }) => {
                     labels,
                     datasets: [
                         {
-                            label: t('evaluationsCompleted'),
+                            label: t('evaluationsOverTime'),
                             data,
                             fill: false,
                             backgroundColor: 'rgba(153, 102, 255, 0.2)',
@@ -197,14 +196,14 @@ const DashboardFormateur = ({ path }) => {
                         borderColor: 'rgba(75, 192, 192, 1)',
                     },
                     {
-                        label: t('studentsEnrolled'),
+                        label: t('studentsOverTime'),
                         data: studentChartData.datasets[0].data,
                         fill: false,
                         backgroundColor: 'rgba(255, 159, 64, 0.2)',
                         borderColor: 'rgba(255, 159, 64, 1)',
                     },
                     {
-                        label: t('evaluationsCompleted'),
+                        label: t('evaluationsOverTime'),
                         data: evaluationChartData.datasets[0].data,
                         fill: false,
                         backgroundColor: 'rgba(153, 102, 255, 0.2)',
@@ -271,18 +270,22 @@ const DashboardFormateur = ({ path }) => {
                 <ChartCard
                     title={t('combinedChart')}
                     chartData={combinedChartData}
+                    subTitle={t('combinedActivity')}
                 />
                 <ChartCard
-                    title={t('coursesOverTime')}
+                    title={t('coursesCreated')}
                     chartData={chartData}
+                    subTitle={t('nombreCours')}
                 />
                 <ChartCard
                     title={t('studentsOverTime')}
                     chartData={studentChartData}
+                    subTitle={t('nombreStudents')}
                 />
                 <ChartCard
                     title={t('evaluationsOverTime')}
                     chartData={evaluationChartData}
+                    subTitle={t('nombreEvaluations')}
                 />
             </div>
 

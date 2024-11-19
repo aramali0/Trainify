@@ -29,7 +29,6 @@ const EntreprisesPage = () => {
 
     const handleCreateEntreprise = () => navigate('/admin/entreprises/add');
 
-    // Check if the current language is Arabic for RTL support
     const isArabic = localStorage.getItem('i18nextLng') === 'ar';
 
     return (

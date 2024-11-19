@@ -10,6 +10,7 @@
     "usersRegistered": "المستخدمين المسجلين",
     "usersRegisteredByMonth": "المستخدمين المسجلين شهريًا",
     "usersRegisteredByDay": "المستخدمين المسجلين يوميًا",
+    "nombreUtilisateurs": "عدد المستخدمين",
     "onlineUsers": "المستخدمين المتصلين",
     "onlineUsersCount": "حاليًا {{count}} مستخدم متصل",
     "previous": "السابق",

@@ -3,12 +3,12 @@
     "title": "Tableau de bord",
     "welcomeBack": "Bienvenue de retour!",
     "overviewDescription": "Voici un aperçu rapide de l'activité de votre plateforme.",
-    "viewCourses": "Voir les cours",
+    "viewCourses": "Voir les Formations",
     "courses": "Formations",
     "students": "Participants",
     "instructors": "Formateurs",
     "score": "Evaluations",
-    "resources": "Ressources pédagogiques ",
+    "resources": "Ressources",
     "noResources": "Aucune ressource disponible",
     "loading": "Chargement...",
     "accountCreated": "Compte créé",
@@ -72,11 +72,17 @@
     "enterNewMaxSize": "Entrez la nouvelle taille maximale"
   },
   "charts":{
-    "coursesCreatedByMonth": "Créer une formation",
+    "coursesCreatedByMonth": "Indicateur de  suivi des Formations",
+    "nombreCours":"Nombre des Formations",
+    "coursesCreated": "Indicateur de  suivi des Formations",
     "studentsOverTime": "Indicateurs de suivi des participants",
-    "instructorsOverTime": "indicateur de  suivi des Formateurs",
-    "combinedActivityChart": "Indicateurs de suivi combinés ",
-    "evaluationsOverTime": "Indicateur de suivi des Evaluations "
+    "nombreStudents":"Nombre des participants",
+    "instructorsOverTime": "Indicateur de suivi des Formateurs",
+    "nombreInstructors": "Nombre des formateurs",
+    "combinedActivityChart": "Indicateurs de suivi combinés",
+    "combinedActivity": "Indicateurs de suivi",
+    "evaluationsOverTime": "Indicateurs de Suivi des Evaluations",
+    "nombreEvaluations": "Nombre des évaluations"
   }
 
 }

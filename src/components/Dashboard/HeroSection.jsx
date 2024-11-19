@@ -46,14 +46,14 @@ const HeroSection = ({
                                             </Link>
                                         </>
                                     )}
-                                    {buttonTextKey && nom !== "/admin" && (
+                                    {/* {buttonTextKey && nom !== "/admin" && (
                                         <a
                                             href={buttonLink || '#'}
                                             className="shrink h-10 md:h-11 py-2 px-4 md:px-5 inline-block font-semibold tracking-wide border duration-500 text-sm md:text-base text-center bg-primary hover:bg-primary-700 border-primary hover:border-primary-700 text-white rounded-full truncate"
                                         >
                                             {t(buttonTextKey)}
                                         </a>
-                                    )}
+                                    )} */}
                                     {nom === "/admin" && (
                                         <>
                                             <Link to="/admin/add-admin"

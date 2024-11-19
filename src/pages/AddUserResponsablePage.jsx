@@ -400,9 +400,8 @@ const handleFileUpload = async (e) => {
                                 name="lastName"
                                 type="text"
                                 required
-                                className=
-                                {t('lastName')}
-                                placeholder="Last Name"
+                                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                                placeholder={t('lastName')}
                                 value={lastName}
                                 onChange={(e) => setLastName(e.target.value)}
                             />
@@ -459,8 +458,9 @@ const handleFileUpload = async (e) => {
                         </div>
 
                         <div className="mb-4">
-                            <label htmlFor="age" className="sr-only"> </label>
+                            <label htmlFor="age" className="sr-only">
                                 {t('age')}
+                                 </label>
                             <input
                                 id="age"
                                 name="age"

@@ -6,7 +6,6 @@ import Select from 'react-select';
 import { getUser } from '../helper/auth';
 import axiosInstanceForRessources from '../helper/axiosForResoures';
 import { useTranslation } from 'react-i18next';
-import i18next from 'i18next';
 import { ClipLoader } from 'react-spinners';
 
 const customStyles = {
@@ -72,7 +71,8 @@ const AddCoursePage = ({ nom, path }) => {
                 const response = await axiosInstance.get(nom === "admin" ? `classes` : `${path}/${userId}/classes`);
                 setClasses(response.data.map(c => ({ value: c.id, label: c.titre })));
             } catch (error) {
-                toast.error(t("errors.loadClasses"));
+                // toast.error(t("errors.loadClasses"));
+                console.log(error)
             } finally {
                 setLoadingClasses(false);
             }
@@ -83,7 +83,8 @@ const AddCoursePage = ({ nom, path }) => {
                 const response = await axiosInstance.get(nom === "admin" ? `formateurs` : `${path}/${userId}/formateurs`);
                 setInstructors(response.data.map(i => ({ value: i.id, label: i.firstName })));
             } catch (error) {
-                toast.error(t("errors.loadInstructors"));
+                // toast.error(t("errors.loadInstructors"));
+                console.log(error)
             } finally {
                 setLoadingInstructors(false);
             }
@@ -195,7 +196,6 @@ const AddCoursePage = ({ nom, path }) => {
         }
     };
 
-    // Add RTL styles for Arabic
     const isArabic = i18n.language === 'ar';
 
     return (

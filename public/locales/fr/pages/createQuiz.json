@@ -15,11 +15,11 @@
             "removeQuestion": "Supprimer la question",
             "addQuestion": "Ajouter une question",
             "submit": "Ajouter le quiz",
-            "loading": "Ajout en cours...",
+            "loading": "Ajout en Formation...",
             "evaluationOptions": {
               "preliminaryAssessment": "Évaluation préliminaire",
-              "hotEvaluation": "Évaluation chaude",
-              "coldAssessment": "Évaluation froide"
+              "hotEvaluation": "Évaluation a chaud",
+              "coldAssessment": "Évaluation a froid"
             },
             "questionTypeOptions": {
               "multipleChoice": "Choix multiple",

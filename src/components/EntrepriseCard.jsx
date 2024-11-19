@@ -73,7 +73,7 @@ const EntrepriseCard = ({ entreprise }) => {
 
       // Make the PATCH request
       const response = await axiosInstance.patch(
-        `http://localhost:8087/api/entreprises/${localEntreprise.id}${endpoint}`,
+        `/entreprises/${localEntreprise.id}${endpoint}`,
         null,
         {
           params: { [attribute]: !currentValue },

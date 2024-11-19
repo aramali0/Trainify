@@ -8,7 +8,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SockJS from 'sockjs-client';
 import FeedbackForm from './FeeBackForm';
-import { useTranslation } from 'react-i18next';  // Import translation hook
+import { useTranslation } from 'react-i18next';  
 import LanguageSelector from '../components/Dashboard/LanguageSelector';
 
 const DashboardLayout = ({ role, nom }) => {
@@ -16,16 +16,16 @@ const DashboardLayout = ({ role, nom }) => {
     const [user, setUser] = useState({});
     const [unreadMessages, setUnreadMessages] = useState(0);
     const [receiver, setReceiver] = useState({});
-    const [quizNotifications, setQuizNotifications] = useState([]);  // Store quiz notifications
-    const [unreadQuizNotifications, setUnreadQuizNotifications] = useState(0);  // Unread quiz count
-    const [showQuizNotifications, setShowQuizNotifications] = useState(false);  // Show/hide quiz notifications dropdown
+    const [quizNotifications, setQuizNotifications] = useState([]);  
+    const [unreadQuizNotifications, setUnreadQuizNotifications] = useState(0);  
+    const [showQuizNotifications, setShowQuizNotifications] = useState(false);  
     const res = getUser();
     const id = getUser().userId;
     const location = useLocation();
     const [client, setClient] = useState(null);
     const [loadedImageUrl, setLoadedImageUrl] = useState(null);
 
-    const { t, i18n } = useTranslation('pages/dashboardLayout');  // useTranslation hook to handle translations
+    const { t, i18n } = useTranslation('pages/dashboardLayout');  
 
     useEffect(() => {
         const fetchImageWithAuth = async () => {

@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import footerLogo from '../assets/ehc_logo.svg';
-import insta1 from '../assets/img/content/footer-insta-01.jpg';
-import insta2 from '../assets/img/content/footer-insta-02.jpg';
+import insta1 from '../assets/agil.jpeg';
+import insta2 from '../assets/equipe.jpg';
 import LanguageSelector from './Dashboard/LanguageSelector';
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-dark">
+    <footer className="bg-dark pb-6">
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-3 mt-12">
@@ -59,7 +59,7 @@ const Footer = () => {
             <h3 className="text-primary h5 mb-2-2">{t('aboutUs')}</h3>
             <ul className="footer-list">
               <li><Link to="/about">{t('aboutUs')}</Link></li>
-              <li><Link to="/courses-list">{t('courses')}</Link></li>
+              <li><Link to="/courses-list">{t('Formations')}</Link></li>
               <li><Link to="/instructors">{t('instructor')}</Link></li>
               <li><Link to="/event-list">{t('event')}</Link></li>
             </ul>
@@ -78,7 +78,7 @@ const Footer = () => {
           <div className="col-md-6 col-lg-4">
             <h3 className="text-primary h5 mb-2-2">{t('popularCourses')}</h3>
             <div className="media footer-border">
-              <img className="pe-3 border-radius-5" src={insta1} alt="Popular Course 1" />
+              {/* <img className="pe-3 border-radius-5 h-[100px] w-[100px]" src={insta1} alt="Popular Course 1" /> */}
               <div className="media-body align-self-center">
                 <h4 className="h6 mb-2">
                   <Link to="/blog-details" className="text-white text-primary-hover">{t('course1')}</Link>
@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="media">
-              <img className="pe-3 border-radius-5" src={insta2} alt="Popular Course 2" />
+              {/* <img className="pe-3 border-radius-5 h-[100px] w-[100px]" src={insta2} alt="Popular Course 2" /> */}
               <div className="media-body align-self-center">
                 <h4 className="h6 mb-2">
                   <Link to="/blog-details" className="text-white text-primary-hover">{t('course2')}</Link>
@@ -97,11 +97,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer-bar text-center">
+        {/* <div className="footer-bar text-center">
           <p className="mb-0 text-white font-weight-500">
             &copy; <span>{new Date().getFullYear()}</span> {t('copyright')}
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
