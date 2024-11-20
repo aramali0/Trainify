@@ -1,0 +1,10 @@
+{
+  "evaluationList": {
+    "title": "تقييماتك",
+    "loading": "جارٍ التحميل...",
+    "noEvaluations": "لم يتم العثور على تقييمات.",
+    "answerQuestions": "الإجابة على الأسئلة",
+    "errorFetching": "خطأ في جلب التقييمات:",
+    "errorLoading": "فشل في تحميل التقييمات."
+  }
+}

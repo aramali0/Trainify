@@ -1,0 +1,16 @@
+{
+  "answerEvaluation": {
+    "loading": "جارٍ التحميل...",
+    "errorFetching": "خطأ في جلب التقييم:",
+    "errorLoading": "فشل في تحميل التقييم.",
+    "notFound": "التقييم غير موجود.",
+    "successMessage": "تم الإرسال بنجاح! إجمالي النسبة المئوية الخاصة بك:",
+    "errorSubmitting": "خطأ أثناء إرسال الرد:",
+    "submitFailed": "فشل في إرسال الإجابات.",
+    "submitButton": "إرسال",
+    "option1": "1 - غير مرضٍ",
+    "option2": "2 - يمكن تحسينه",
+    "option3": "3 - مرضٍ",
+    "option4": "4 - مرضٍ للغاية"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "common": {
+    "loading": "Loading"
+  },
+  "evaluationList": {
+    "title": "Evaluations",
+    "type": "Type",
+    "viewResponses": "View Responses",
+    "noEvaluations": "No evaluations found."
+  },
+  "error": {
+    "fetchingEvaluations": "Error fetching evaluations:",
+    "failedToLoadEvaluations": "Failed to load evaluations."
+  }
+}

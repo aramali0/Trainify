@@ -1,0 +1,16 @@
+{
+  "answerEvaluation": {
+    "loading": "Chargement...",
+    "errorFetching": "Erreur lors de la récupération de l'évaluation :",
+    "errorLoading": "Échec du chargement de l'évaluation.",
+    "notFound": "Évaluation introuvable.",
+    "successMessage": "Soumis avec succès ! Votre pourcentage total :",
+    "errorSubmitting": "Erreur lors de la soumission de la réponse :",
+    "submitFailed": "Échec de la soumission des réponses.",
+    "submitButton": "Soumettre",
+    "option1": "1 - Non satisfaisant",
+    "option2": "2 - Peut s'améliorer",
+    "option3": "3 - Satisfaisant",
+    "option4": "4 - Très satisfaisant"
+  }
+}

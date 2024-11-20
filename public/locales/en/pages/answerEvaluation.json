@@ -1,0 +1,16 @@
+{
+  "answerEvaluation": {
+    "loading": "Loading...",
+    "errorFetching": "Error fetching evaluation:",
+    "errorLoading": "Failed to load evaluation.",
+    "notFound": "Evaluation not found.",
+    "successMessage": "Submitted successfully! Your total percentage:",
+    "errorSubmitting": "Error submitting response:",
+    "submitFailed": "Failed to submit answers.",
+    "submitButton": "Submit",
+    "option1": "1 - Not Satisfactory",
+    "option2": "2 - Could Improve",
+    "option3": "3 - Satisfactory",
+    "option4": "4 - Very Satisfactory"
+  }
+}

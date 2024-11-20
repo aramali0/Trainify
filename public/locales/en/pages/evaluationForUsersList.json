@@ -1,0 +1,10 @@
+{
+  "evaluationList": {
+    "title": "Your Evaluations",
+    "loading": "Loading...",
+    "noEvaluations": "No evaluations found.",
+    "answerQuestions": "Answer Questions",
+    "errorFetching": "Error fetching evaluations:",
+    "errorLoading": "Failed to load evaluations."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "common": {
+    "loading": "جارٍ التحميل..."
+  },
+  "evaluation": {
+    "responsesTitle": "استجابات التقييم",
+    "user": "المستخدم",
+    "percentage": "النسبة المئوية",
+    "answers": "الإجابات",
+    "userId": "معرّف المستخدم",
+    "noResponses": "لم يتم العثور على استجابات."
+  },
+  "error": {
+    "fetchingResponses": "خطأ في تحميل الاستجابات:",
+    "failedToLoadResponses": "فشل في تحميل الاستجابات."
+  }
+}

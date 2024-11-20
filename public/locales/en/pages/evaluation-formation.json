@@ -1,0 +1,17 @@
+{
+  "common": {
+    "loading": "Loading..."
+  },
+  "evaluation": {
+    "responsesTitle": "Evaluation Responses",
+    "user": "User",
+    "percentage": "Percentage",
+    "answers": "Answers",
+    "userId": "User ID",
+    "noResponses": "No responses found."
+  },
+  "error": {
+    "fetchingResponses": "Error fetching responses:",
+    "failedToLoadResponses": "Failed to load responses."
+  }
+}

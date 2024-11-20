@@ -1,0 +1,15 @@
+{
+  "common": {
+    "loading": "Chargement"
+  },
+  "evaluationList": {
+    "title": "Évaluations",
+    "type": "Type",
+    "viewResponses": "Voir les réponses",
+    "noEvaluations": "Aucune évaluation trouvée."
+  },
+  "error": {
+    "fetchingEvaluations": "Erreur lors de la récupération des évaluations :",
+    "failedToLoadEvaluations": "Échec du chargement des évaluations."
+  }
+}

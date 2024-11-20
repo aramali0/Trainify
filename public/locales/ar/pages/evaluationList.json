@@ -1,0 +1,15 @@
+{
+  "common": {
+    "loading": "جارٍ التحميل"
+  },
+  "evaluationList": {
+    "title": "التقييمات",
+    "type": "النوع",
+    "viewResponses": "عرض الردود",
+    "noEvaluations": "لم يتم العثور على تقييمات."
+  },
+  "error": {
+    "fetchingEvaluations": "خطأ في جلب التقييمات:",
+    "failedToLoadEvaluations": "فشل في تحميل التقييمات."
+  }
+}

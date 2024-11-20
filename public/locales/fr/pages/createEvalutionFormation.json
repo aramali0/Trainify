@@ -1,0 +1,19 @@
+{
+  "createEvaluation": {
+    "title": "Créer une évaluation",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Entrez le titre de l'évaluation",
+    "typeLabel": "Type",
+    "participant": "Participant",
+    "formateur": "Formateur",
+    "questionsLabel": "Questions",
+    "questionPlaceholder": "Entrez une question",
+    "addQuestion": "Ajouter une question",
+    "enterQuestion": "Veuillez entrer une question.",
+    "fillAllFields": "Veuillez remplir tous les champs et ajouter au moins une question.",
+    "successMessage": "Évaluation créée avec succès.",
+    "failMessage": "Échec de la création de l'évaluation.",
+    "errorCreating": "Erreur lors de la création de l'évaluation :",
+    "submit": "Soumettre"
+  }
+}

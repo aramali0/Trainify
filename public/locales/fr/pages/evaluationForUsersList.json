@@ -1,0 +1,10 @@
+{
+  "evaluationList": {
+    "title": "Vos évaluations",
+    "loading": "Chargement...",
+    "noEvaluations": "Aucune évaluation trouvée.",
+    "answerQuestions": "Répondre aux questions",
+    "errorFetching": "Erreur lors de la récupération des évaluations :",
+    "errorLoading": "Échec du chargement des évaluations."
+  }
+}

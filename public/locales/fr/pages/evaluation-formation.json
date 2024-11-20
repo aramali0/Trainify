@@ -1,0 +1,17 @@
+{
+  "common": {
+    "loading": "Chargement..."
+  },
+  "evaluation": {
+    "responsesTitle": "Réponses à l'évaluation",
+    "user": "Utilisateur",
+    "percentage": "Pourcentage",
+    "answers": "Réponses",
+    "userId": "ID d'utilisateur",
+    "noResponses": "Aucune réponse trouvée."
+  },
+  "error": {
+    "fetchingResponses": "Erreur lors du chargement des réponses :",
+    "failedToLoadResponses": "Échec du chargement des réponses."
+  }
+}

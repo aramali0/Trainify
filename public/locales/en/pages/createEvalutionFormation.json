@@ -1,0 +1,19 @@
+{
+  "createEvaluation": {
+    "title": "Create Evaluation",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Enter evaluation title",
+    "typeLabel": "Type",
+    "participant": "Participant",
+    "formateur": "Formateur",
+    "questionsLabel": "Questions",
+    "questionPlaceholder": "Enter a question",
+    "addQuestion": "Add Question",
+    "enterQuestion": "Please enter a question.",
+    "fillAllFields": "Please fill all fields and add at least one question.",
+    "successMessage": "Evaluation created successfully.",
+    "failMessage": "Failed to create evaluation.",
+    "errorCreating": "Error creating evaluation:",
+    "submit": "Submit"
+  }
+}

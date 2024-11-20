@@ -1,0 +1,19 @@
+{
+  "createEvaluation": {
+    "title": "إنشاء تقييم",
+    "titleLabel": "العنوان",
+    "titlePlaceholder": "أدخل عنوان التقييم",
+    "typeLabel": "النوع",
+    "participant": "المشارك",
+    "formateur": "المُدَرِّب",
+    "questionsLabel": "الأسئلة",
+    "questionPlaceholder": "أدخل سؤالاً",
+    "addQuestion": "إضافة سؤال",
+    "enterQuestion": "يرجى إدخال سؤال.",
+    "fillAllFields": "يرجى ملء جميع الحقول وإضافة سؤال واحد على الأقل.",
+    "successMessage": "تم إنشاء التقييم بنجاح.",
+    "failMessage": "فشل في إنشاء التقييم.",
+    "errorCreating": "خطأ في إنشاء التقييم:",
+    "submit": "إرسال"
+  }
+}

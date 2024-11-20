@@ -99,6 +99,11 @@ import ResponsableFormationPage from './pages/ResponsanleFormation';
 import QuestionAnswersPage from './pages/QuestionAnswersPage';
 import ApprovalActionsPage from './pages/ApprovalActionPage';
 import ChargeFormationApprovalsPage from './pages/ChargeFormationAprovalPage';
+import EvaluationResponsesPage from './pages/EvaluationResponsesPage';
+import EvaluationListPage from './pages/EvaluationListPage';
+import CreateEvaluationPage from './pages/CreateEvaluationPage';
+import EvaluationListForUserPage from './pages/EvaluationListForUserPage';
+import AnswerEvaluationPage from './pages/AnswerEvaluationPage';
 
 function App() {
   return (
@@ -209,6 +214,9 @@ function App() {
               <Route path="evaluation/:evaluationId/questions" element={<QuestionAnswersPage path="/responsables" />} />
               <Route path="action-approval" element={<ApprovalActionsPage />} /> 
               <Route path="courses/:courseId" element={<CoursesPage path="/responsables" nom="/responsable" />} /> {/* Charts Route */}
+              <Route path="evaluation-formations/:evaluationId" element={<EvaluationResponsesPage />} /> {/* Charts Route */}
+              <Route path="evaluation-formations" element={<EvaluationListPage />} /> {/* Charts Route */}
+              <Route path="evaluation-formations/create" element={<CreateEvaluationPage />} /> {/* Charts Route */}
             </Route>
           </Route>
 
@@ -279,6 +287,8 @@ function App() {
               <Route path="latest-evaluations" element={<EvulationPage path="/formateurs" nom="/formateur" />} /> {/* Add this route */}
               <Route path="sessions/:sessionId/create-conference" element={<CreateConferencePage />} />
               <Route path="evaluation/:evaluationId/questions" element={<QuestionAnswersPage path="/formateur" />} />
+              <Route path="evaluation-formations" element={<EvaluationListForUserPage nom="/formateur" role="FORMATEUR" />} />
+              <Route path="evaluation-formations/:evaluationId" element={<AnswerEvaluationPage nom="/formateur" />} />
             </Route>
           </Route>
 
@@ -303,6 +313,8 @@ function App() {
               <Route path="resources" element={<LibrariesAndResourcesPage />} />
               <Route path="evaluations" element={<EvaluationDetails />} />
               <Route path="certificates" element={<CertificatesPage />} />
+              <Route path="evaluation-formations" element={<EvaluationListForUserPage nom="/participant" role="PARTICIPANT" />} />
+              <Route path="evaluation-formations/:evaluationId/answer" element={<AnswerEvaluationPage nom="/participant" />} />
             </Route>
           </Route>
           <Route path="*" element={<NotFound />} />
