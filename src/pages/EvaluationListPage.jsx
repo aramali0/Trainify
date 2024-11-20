@@ -20,7 +20,7 @@ const EvaluationListPage = () => {
                 setEvaluations(response.data);
             } catch (error) {
                 console.error(t('error.fetchingEvaluations'), error);
-                toast.error(t('error.failedToLoadEvaluations'));
+                // toast.error(t('error.failedToLoadEvaluations'));
             } finally {
                 setIsLoading(false);
             }

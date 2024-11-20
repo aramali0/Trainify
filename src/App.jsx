@@ -288,7 +288,7 @@ function App() {
               <Route path="sessions/:sessionId/create-conference" element={<CreateConferencePage />} />
               <Route path="evaluation/:evaluationId/questions" element={<QuestionAnswersPage path="/formateur" />} />
               <Route path="evaluation-formations" element={<EvaluationListForUserPage nom="/formateur" role="FORMATEUR" />} />
-              <Route path="evaluation-formations/:evaluationId" element={<AnswerEvaluationPage nom="/formateur" />} />
+              <Route path="evaluation-formations/:evaluationId/answer" element={<AnswerEvaluationPage nom="/formateur" />} />
             </Route>
           </Route>
 

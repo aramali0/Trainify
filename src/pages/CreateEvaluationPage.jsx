@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { getUser } from '../helper/auth';
-import { FaPlus, FaTrash, FaFileAlt } from 'react-icons/fa';
+import { FaPlus, FaTrash  } from 'react-icons/fa';
 
 const CreateEvaluationPage = () => {
     const [title, setTitle] = useState('');
