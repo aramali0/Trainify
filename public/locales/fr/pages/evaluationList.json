@@ -6,7 +6,8 @@
     "title": "Évaluations",
     "type": "Type",
     "viewResponses": "Voir les réponses",
-    "noEvaluations": "Aucune évaluation trouvée."
+    "noEvaluations": "Aucune évaluation trouvée.",
+    "createEvaluation": "Créer une évaluation"
   },
   "error": {
     "fetchingEvaluations": "Erreur lors de la récupération des évaluations :",

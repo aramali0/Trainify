@@ -6,7 +6,8 @@
     "title": "Evaluations",
     "type": "Type",
     "viewResponses": "View Responses",
-    "noEvaluations": "No evaluations found."
+    "noEvaluations": "No evaluations found.",
+    "createEvaluation": "Create Evaluation"
   },
   "error": {
     "fetchingEvaluations": "Error fetching evaluations:",

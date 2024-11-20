@@ -4,7 +4,7 @@ import axiosInstance from '../helper/axios';
 import { toast } from 'react-toastify';
 import { getUser } from '../helper/auth';
 import { useNavigate } from 'react-router-dom';
-import { FaClipboardList, FaEye } from 'react-icons/fa';
+import { FaClipboardList, FaEye, FaPlus } from 'react-icons/fa';
 
 const EvaluationListPage = () => {
     const [evaluations, setEvaluations] = useState([]);
@@ -31,9 +31,24 @@ const EvaluationListPage = () => {
 
     return (
         <div className="max-w-7xl mx-auto p-6 bg-gradient-to-r from-gray-100 to-gray-200">
-            <h1 className="text-3xl md:text-5xl font-extrabold text-gray-800 mb-8 text-center">
+            <div className='flex justify-between items-center'>
+
+            <h1 className="text-3xl md:text-3xl font-extrabold text-gray-800 mb-8 text-center">
                 {t('evaluationList.title')}
             </h1>
+
+            {/* Create Evaluation Button */}
+            <div className="flex justify-end mb-6">
+                <button
+                    onClick={() => navigate('/responsable/evaluation-formations/create')}
+                    className="flex items-center px-4 py-2 bg-green-600 text-white font-semibold text-lg rounded-lg hover:bg-green-700 transition"
+                >
+                    <FaPlus className="mr-2" />
+                    {t('evaluationList.createEvaluation')}
+                </button>
+            </div>
+            </div>
+
             {isLoading ? (
                 <div className="flex justify-center items-center text-xl text-gray-600">
                     {t('common.loading')}...

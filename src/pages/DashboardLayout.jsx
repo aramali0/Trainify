@@ -173,6 +173,9 @@ const DashboardLayout = ({ role, nom }) => {
                     { nom === "/charge-formation" && <Link to={`${nom}/approvals`} className={`block py-2.5 px-4 rounded transition duration-200 ${location.pathname === `${nom}/approvals` ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
                         {t('sidebar.approvals')}
                     </Link>}
+                    { (nom === "/responsable" || nom == "/formateur" || nom == "/participant") && <Link to={`${nom}/evaluation-formations`} className={`block py-2.5 px-4 rounded transition duration-200 ${location.pathname === `${nom}/evaluation-formations` ? 'bg-gray-700' : 'hover:bg-gray-700'}`}>
+                        {t('sidebar.evalFormations')}
+                    </Link>}
                 </nav>
             </aside>
 
