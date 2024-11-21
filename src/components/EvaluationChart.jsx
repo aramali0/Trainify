@@ -51,52 +51,62 @@ const EvaluationChart = () => {
             <div className="h-96 w-full">
                 <Line
                     data={data}
-                    options={{
-                        responsive: true,
-                        plugins: {
-                            legend: {
-                                position: 'top',
-                                labels: {
-                                    color: '#333',
-                                    font: {
-                                        size: 14
-                                    }
-                                }
-                            },
-                            tooltip: {
-                                callbacks: {
-                                    label: function (tooltipItem) {
-                                        return `${t('score')}: ${tooltipItem.raw}`;
-                                    }
+                options={{
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                color: '#333',
+                                font: {
+                                    size: 14
                                 }
                             }
                         },
-                        scales: {
-                            x: {
-                                beginAtZero: true,
-                                grid: {
-                                    display: false
-                                },
-                                ticks: {
-                                    color: '#333'
-                                }
-                            },
-                            y: {
-                                beginAtZero: true,
-                                grid: {
-                                    borderDash: [2, 2],
-                                    color: 'rgba(0, 0, 0, 0.1)',
-                                },
-                                ticks: {
-                                    color: '#333'
+                        tooltip: {
+                            callbacks: {
+                                label: function (tooltipItem) {
+                                    return `${t('score')}: ${tooltipItem.raw}`;
                                 }
                             }
-                        },
-                        animation: {
-                            duration: 1500,
-                            easing: 'easeOutQuart',
                         }
-                    }}
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                color: '#333'
+                            }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                borderDash: [2, 2],
+                                color: 'rgba(0, 0, 0, 0.1)',
+                            },
+                            ticks: {
+                                color: '#333'
+                            },
+                            title: {
+                                display: true,
+                                text: t('Suivi des Evaluations'), // Assuming 'yAxisSubtitle' is a key in your translations
+                                color: '#333',
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            }
+                        }
+                    },
+                    animation: {
+                        duration: 1500,
+                        easing: 'easeOutQuart',
+                    }
+                }}
+
                 />
             </div>
         </div>
