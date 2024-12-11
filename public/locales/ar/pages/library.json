@@ -21,6 +21,12 @@
         "loadError": "فشل تحميل المورد",
         "fileSizeExceeds": "حجم الملف يتجاوز الحد الأقصى المسموح به، قم تقليل حجم الملف أو الاتصال بالمسؤول",
         "videoNotSupported": "متصفحك لا يدعم عنصر الفيديو.",    
+        "fetchFormationsError": "فشل تحميل الدورات",
         "selectFile": "حدد المكتبة والملف المراد تحميله"
+    },
+
+    "labels":{
+        "searchLibrary":"بحث في المكتبة",
+        "selectFormation":"اختر الدورة"
     }
 }

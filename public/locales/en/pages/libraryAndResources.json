@@ -7,5 +7,10 @@
   "toastErrorLoadingResource": "Failed to load resource",
   "videoViewerTitle": "Video Viewer",
   "videoUnsupported": "Your browser does not support the video tag.",
-  "close": "Close"
+  "fetchFormationsError": "Failed to fetch formations",
+  "close": "Close",
+  "labels":{
+      "searchLibrary":"Search Library",
+      "selectFormation":"Select Formation"
+  }
 }

@@ -21,6 +21,11 @@
         "loadError": "Échec du chargement de la ressource",
         "fileSizeExceeds": "La taille du fichier dépasse la taille maximale autorisée, réduisez le fichier ou contactez l'administrateur",
         "videoNotSupported": "Votre navigateur ne prend pas en charge la balise vidéo.",
+        "fetchFormationsError": "Échec du chargement des formations",
         "selectFile": "Sélectionnez la bibliothèque et le fichier à télécharger"
+    },
+    "labels": {
+        "searchLibrary": "Rechercher dans la Bibliothèque",
+        "selectFormation": "Sélectionner la Formation"
     }
 }

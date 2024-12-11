@@ -8,6 +8,8 @@ import { Spinner, Modal } from 'react-bootstrap'; // Using react
 import { useTranslation } from 'react-i18next';
 import Switch from 'react-switch'; // Optional: For better-looking switches
 import {  FaFolder, FaFileAlt, FaPlus, FaChevronDown, FaChevronUp, FaTrash, FaUpload, FaFilePdf, FaFileWord, FaFileExcel, FaFileImage, FaFileVideo, FaFileAudio, FaFileArchive, FaFileCode  } from 'react-icons/fa';
+import Select from 'react-select'; // Import react-select
+
 
 const LibraryPage = ({ nom, user, path }) => {
     const { courseId } = useParams();
@@ -19,6 +21,9 @@ const LibraryPage = ({ nom, user, path }) => {
     const [loading, setLoading] = useState(false); // Spinner state
     const [hasDownloadAccess, setDownloadAccess] = useState(false); 
     const [showModal, setShowModal] = useState(false); // State for modal display
+    const [libraryName, setLibraryName] = useState('');
+    const [formationId, setFormationId] = useState(null);
+    const [formations, setFormations] = useState([]); // New state for all formations
     const navigate = useNavigate();
     const {t} = useTranslation('pages/library'); // Initialize translation hook
     const translate = (key) => t(key); // Translation function
@@ -43,34 +48,71 @@ const LibraryPage = ({ nom, user, path }) => {
     };
 
 
-        const fetchLibraries = async () => {
-            try {
-                let response;
-                if (courseId != null) {
-                    response = await axiosInstance.get(`/libraries/cour/${courseId}`);
-                } else {
-                    switch (user) {
-                        case "admin":
-                            response = await axiosInstance.get(`/libraries`);
-                            break;
-                        case "responsable":
-                            response = await axiosInstance.get(`libraries/responsable/${userId}`);
-                            break;
-                        case "formateur":
-                            response = await axiosInstance.get(`libraries/formateur/${userId}`);
-                            break;
-                        case "charge-formation":
-                            response = await axiosInstance.get(`libraries/charge-formation/${userId}`);
-                            break;
-                        default:
-                            break;
-                    }
-                }
-                setLibraries(response.data);
-            } catch (error) {
-                toast.error(translate("messages.fetchLibrariesError"));
+// Fetch formations
+    const fetchFormations = async () => {
+        try {
+            let response;
+            switch (user) {
+                case 'responsable':
+                    response = await axiosInstance.get(`/cours/responsables/${userId}`);
+                    break;
+                case 'formateur':
+                    response = await axiosInstance.get(`/cours/formateurs/${userId}`);
+                    break;
+                case 'charge-formation':
+                    response = await axiosInstance.get(`/cours/charge-formation/${userId}`);
+                    break;
+                default:
+                    break;
             }
-        };
+            setFormations(response.data.map(f => ({ value: f.id, label: f.titre }))); // Format the response for React Select
+        } catch (error) {
+            console.error(error);
+            toast.error(translate("messages.fetchFormationsError"));
+        }
+    };
+
+    // Fetch libraries with optional filters
+    const fetchLibraries = async () => {
+        try {
+            let response;
+            const params = {};
+            if (libraryName) params.libraryName = libraryName;
+            if (formationId) params.formationId = formationId; // Include formationId in the params
+
+            if (courseId != null) {
+                response = await axiosInstance.get(`/libraries/cour/${courseId}`, { params });
+            } else {
+                switch (user) {
+                    case 'admin':
+                        response = await axiosInstance.get(`/libraries`, { params });
+                        break;
+                    case 'responsable':
+                        response = await axiosInstance.get(`libraries/responsable/${userId}`, { params });
+                        break;
+                    case 'formateur':
+                        response = await axiosInstance.get(`libraries/formateur/${userId}`, { params });
+                        break;
+                    case 'charge-formation':
+                        response = await axiosInstance.get(`libraries/charge-formation/${userId}`, { params });
+                        break;
+                    default:
+                        break;
+                }
+            }
+            setLibraries(response.data);
+        } catch (error) {
+            toast.error(translate("messages.fetchLibrariesError"));
+        }
+    };
+
+ const handleFormationChange = (selectedOption) => {
+        setFormationId(selectedOption ? selectedOption.value : null); // Update formationId
+    };
+
+const handleSearchChange = (e) => {
+        setLibraryName(e.target.value); // Update search query
+    };
 
     useEffect(() => {
         const getDownlaodAccess = async () => {
@@ -96,7 +138,6 @@ const LibraryPage = ({ nom, user, path }) => {
                         default:
                             break;
                     }
-                    console.log("response.data: ", response.data);
                     setDownloadAccess(response.data);
                 }}
              catch (error) {
@@ -106,8 +147,9 @@ const LibraryPage = ({ nom, user, path }) => {
         };
 
         getDownlaodAccess();
+        courseId == null && fetchFormations();
         fetchLibraries();
-    }, [courseId, userId]);
+    }, [courseId,formationId,libraryName]);
 
 
     const handleCreateLibrary = () => {
@@ -287,6 +329,28 @@ const getFileIcon = (fileName) => {
         <div className="p-6 bg-gray-100">
             <ToastContainer />
             <h1 className="text-3xl font-bold mb-4 text-gray-800">{translate("titles.libraryManagement")}</h1>
+
+            {/* Formation Filter */}
+            {courseId == null && <div className="mb-6">
+                <Select
+                    value={formations.find(f => f.value === formationId)} // Select the currently selected formation
+                    onChange={handleFormationChange} // Handle change event
+                    options={formations} // Options from the backend
+                    isClearable
+                    placeholder={translate("labels.selectFormation")}
+                    className="react-select-container"
+                    classNamePrefix="react-select"
+                />
+            </div>}
+            <div className="mb-6">
+                <input
+                    type="text"
+                    value={libraryName}
+                    onChange={handleSearchChange}
+                    className="p-2 border border-gray-300 rounded-lg w-full"
+                    placeholder={translate("labels.searchLibrary")}
+                />
+            </div>
 
             {(nom !== "/participant") && courseId && (
                 <div className="flex justify-end mb-6">

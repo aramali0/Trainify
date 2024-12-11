@@ -7,5 +7,10 @@
   "toastErrorLoadingResource": "فشل في تحميل المورد",
   "videoViewerTitle": "عارض الفيديو",
   "videoUnsupported": "المتصفح الخاص بك لا يدعم علامة الفيديو.",
-  "close": "إغلاق"
+  "fetchFormationsError": "فشل تحميل الدورات",
+  "close": "إغلاق",
+  "labels":{
+      "searchLibrary":"بحث في المكتبة",
+      "selectFormation":"اختر الدورة"
+  }
 }

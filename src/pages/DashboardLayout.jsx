@@ -125,9 +125,9 @@ const DashboardLayout = ({ role, nom }) => {
     return (
         <div className={`flex h-screen overflow-hidden bg-gray-100 ${i18n.language === 'ar' ? 'rtl' : ''}`} dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
             <ToastContainer />
-            <div className="feedback-section">
+            {/* <div className="feedback-section">
                 <FeedbackForm />
-            </div>
+            </div> */}
             <aside
                 className={`bg-gray-900 text-white w-64 space-y-6 py-7 px-2 absolute inset-y-0 transition duration-300 ease-in-out transform ${
                     isSidebarOpen

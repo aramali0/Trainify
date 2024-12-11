@@ -7,5 +7,10 @@
   "toastErrorLoadingResource": "Échec du chargement de la ressource",
   "videoViewerTitle": "Visionneuse Vidéo",
   "videoUnsupported": "Votre navigateur ne supporte pas la balise vidéo.",
-  "close": "Fermer"
+  "fetchFormationsError": "Échec du chargement des formations",
+  "close": "Fermer",
+  "labels": {
+    "searchLibrary": "Rechercher dans la Bibliothèque",
+    "selectFormation": "Sélectionner la Formation"
+  }
 }
