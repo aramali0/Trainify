@@ -3,12 +3,11 @@ import axiosInstance from '../helper/axios';
 import axiosInstanceForRessources from '../helper/axiosForResoures';
 import { toast, ToastContainer } from 'react-toastify';
 import { useParams, useNavigate } from 'react-router-dom';
-import { FaFolder, FaFileAlt, FaPlus, FaChevronDown, FaChevronUp, FaTrash, FaUpload } from 'react-icons/fa';
 import { getUser } from '../helper/auth';
 import { Spinner, Modal } from 'react-bootstrap'; // Using react
 import { useTranslation } from 'react-i18next';
 import Switch from 'react-switch'; // Optional: For better-looking switches
-
+import {  FaFolder, FaFileAlt, FaPlus, FaChevronDown, FaChevronUp, FaTrash, FaUpload, FaFilePdf, FaFileWord, FaFileExcel, FaFileImage, FaFileVideo, FaFileAudio, FaFileArchive, FaFileCode  } from 'react-icons/fa';
 
 const LibraryPage = ({ nom, user, path }) => {
     const { courseId } = useParams();
@@ -211,70 +210,78 @@ const LibraryPage = ({ nom, user, path }) => {
     };
 
     // Function to display the resource
-    const handleResourceView = async (resourceId, resourceTitle, resourceType , isDownloadable) => {
-        try {
-            const response = await axiosInstance.get(`/resources/${resourceId}`, {
-                responseType: 'blob',
-            });
+const handleResourceView = async (resourceId, resourceTitle, resourceType, isDownloadable) => {
+    try {
+        const response = await axiosInstance.get(`/resources/${resourceId}`, {
+            responseType: 'blob',
+        });
 
-            const url = window.URL.createObjectURL(new Blob([response.data]));
-            const fileExtension = resourceTitle.split('.').pop().toLowerCase();
+        const fileExtension = resourceTitle.split('.').pop().toLowerCase();
+        const mimeTypeMap = {
+            mp4: 'video/mp4',
+            avi: 'video/x-msvideo',
+            mov: 'video/quicktime',
+        };
 
-            if (['mp4', 'avi', 'mov'].includes(fileExtension)) {
-                // Display video in modal
-                setFile({ url, type: 'video'  ,isDownloadable});
-                setShowModal(true);  // Show modal for video
-            } else {
-                // Trigger download for files
-                const link = document.createElement('a');
-                link.href = url;
-                link.setAttribute('download', resourceTitle); // This will trigger the download
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            }
-        } catch (error) {
-            toast.error(translate("messages.loadError"));
+        const mimeType = mimeTypeMap[fileExtension] || 'application/octet-stream';
+        const url = window.URL.createObjectURL(new Blob([response.data], { type: mimeType }));
+
+        if (['mp4', 'avi', 'mov'].includes(fileExtension)) {
+            // Display video in modal
+            setFile({ url, type: 'video', isDownloadable });
+            setShowModal(true); // Show modal for video
+        } else {
+            // Trigger download for other files
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', resourceTitle); // Ensure proper extension is added
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
+    } catch (error) {
+        toast.error(translate('messages.loadError'));
+    }
+};
+
+
+    const checkExtention = (fileName) => {
+        const ext =  fileName.split('.').pop().toLowerCase();
+        return ['mp4', 'avi', 'mov'].includes(ext); 
     };
 
     // Function to determine the appropriate icon based on file extension
-    const getFileIcon = (fileName) => {
-        const ext = fileName.split('.').pop().toLowerCase();
 
-        switch (ext) {
-            case 'pdf':
-                return <FaFileAlt className="text-red-500" />; // Updated to generic icon for simplicity
-            case 'doc':
-            case 'docx':
-                return <FaFileAlt className="text-blue-500" />;
-            case 'xls':
-            case 'xlsx':
-                return <FaFileAlt className="text-green-500" />;
-            case 'jpg':
-            case 'jpeg':
-            case 'png':
-            case 'gif':
-                return <FaFileAlt className="text-yellow-500" />;
-            case 'mp4':
-            case 'avi':
-            case 'mov':
-                return <FaFileAlt className="text-purple-500" />;
-            case 'mp3':
-            case 'wav':
-                return <FaFileAlt className="text-orange-500" />;
-            case 'zip':
-            case 'rar':
-                return <FaFileAlt className="text-gray-500" />;
-            case 'html':
-            case 'css':
-            case 'js':
-            case 'json':
-                return <FaFileAlt className="text-teal-500" />;
-            default:
-                return <FaFileAlt className="text-gray-500" />;
-        }
+const getFileIcon = (fileName) => {
+    const ext = fileName?.split('.').pop().toLowerCase();
+
+    const iconMap = {
+        pdf: <FaFilePdf className="text-red-500" />,
+        doc: <FaFileWord className="text-blue-500" />,
+        docx: <FaFileWord className="text-blue-500" />,
+        xls: <FaFileExcel className="text-green-500" />,
+        xlsx: <FaFileExcel className="text-green-500" />,
+        jpg: <FaFileImage className="text-yellow-500" />,
+        jpeg: <FaFileImage className="text-yellow-500" />,
+        png: <FaFileImage className="text-yellow-500" />,
+        gif: <FaFileImage className="text-yellow-500" />,
+        mp4: <FaFileVideo className="text-purple-500" />,
+        avi: <FaFileVideo className="text-purple-500" />,
+        mov: <FaFileVideo className="text-purple-500" />,
+        mp3: <FaFileAudio className="text-orange-500" />,
+        wav: <FaFileAudio className="text-orange-500" />,
+        zip: <FaFileArchive className="text-gray-500" />,
+        rar: <FaFileArchive className="text-gray-500" />,
+        html: <FaFileCode className="text-teal-500" />,
+        css: <FaFileCode className="text-teal-500" />,
+        js: <FaFileCode className="text-teal-500" />,
+        json: <FaFileCode className="text-teal-500" />,
     };
+
+    // Default icon if extension not matched
+    return iconMap[ext] || <FaFileAlt className="text-gray-500" />;
+};
+
 
     return (
         <div className="p-6 bg-gray-100">
@@ -353,7 +360,7 @@ const LibraryPage = ({ nom, user, path }) => {
                                                             onClick={() => handleDeleteResource(resource.id)}
                                                         />
                                                     )}
-                                                {hasDownloadAccess && (
+                                                {hasDownloadAccess && checkExtention(resource.title) && (
                                                     <>
                                                     <span className="text-sm text-gray-600">{translate('titles.downloadAccess')}</span>
                                                     <Switch

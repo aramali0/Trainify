@@ -48,9 +48,16 @@ const LibrariesAndResourcesPage = () => {
     const handleResourceView = async (resourceId, resourceTitle , isDownloadable) => {
         try {
             const response = await axiosInstance.get(`/resources/${resourceId}`, { responseType: 'blob' });
+            
+        const mimeTypeMap = {
+            mp4: 'video/mp4',
+            avi: 'video/x-msvideo',
+            mov: 'video/quicktime',
+        };
 
-            const url = window.URL.createObjectURL(new Blob([response.data]));
             const fileExtension = resourceTitle.split('.').pop().toLowerCase();
+            const mimeType = mimeTypeMap[fileExtension] || 'application/octet-stream';
+            const url = window.URL.createObjectURL(new Blob([response.data] , { type: mimeType }));
 
             if (['mp4', 'avi', 'mov'].includes(fileExtension)) {
                 setFile({ url, type: 'video' ,isDownloadable});
@@ -64,6 +71,7 @@ const LibrariesAndResourcesPage = () => {
                 document.body.removeChild(link);
             }
         } catch (error) {
+            console.error('Error fetching resource:', error);
             toast.error(t('toastErrorLoadingResource'));
         }
     };
@@ -153,7 +161,7 @@ const LibrariesAndResourcesPage = () => {
                 </Modal.Header>
                 <Modal.Body className="text-center">
                     {file?.type === 'video' && (
-                        <video controls className="w-full max-w-lg mx-auto" controlsList={file?.isDownloadable ? "nodownload" : "download"}>
+                        <video controls className="w-full max-w-lg mx-auto" controlsList={file?.isDownloadable ? "download" : "nodownload"}>
                             <source src={file.url} type="video/mp4" />
                             {t('videoUnsupported')}
                         </video>
