@@ -5,8 +5,9 @@ import { toast, ToastContainer } from 'react-toastify';
 import { useParams, useNavigate } from 'react-router-dom';
 import { FaFolder, FaFileAlt, FaPlus, FaChevronDown, FaChevronUp, FaTrash, FaUpload } from 'react-icons/fa';
 import { getUser } from '../helper/auth';
-import { Spinner, Modal } from 'react-bootstrap'; // Using react-bootstrap
+import { Spinner, Modal } from 'react-bootstrap'; // Using react
 import { useTranslation } from 'react-i18next';
+import Switch from 'react-switch'; // Optional: For better-looking switches
 
 
 const LibraryPage = ({ nom, user, path }) => {
@@ -17,6 +18,7 @@ const LibraryPage = ({ nom, user, path }) => {
     const [file, setFile] = useState(null);
     const [resources, setResources] = useState([]);
     const [loading, setLoading] = useState(false); // Spinner state
+    const [hasDownloadAccess, setDownloadAccess] = useState(false); 
     const [showModal, setShowModal] = useState(false); // State for modal display
     const navigate = useNavigate();
     const {t} = useTranslation('pages/library'); // Initialize translation hook
@@ -41,7 +43,7 @@ const LibraryPage = ({ nom, user, path }) => {
         }
     };
 
-    useEffect(() => {
+
         const fetchLibraries = async () => {
             try {
                 let response;
@@ -71,8 +73,43 @@ const LibraryPage = ({ nom, user, path }) => {
             }
         };
 
+    useEffect(() => {
+        const getDownlaodAccess = async () => {
+            try {
+                let response;
+
+                if (courseId != null) {
+                    return;
+                } else {
+                    switch (user) {
+                        // case "admin":
+                        //     response = await axiosInstance.get(`/libraries`);
+                        //     break;
+                        case "responsable":
+                            response = await axiosInstance.get(`/entreprises/${userId}/isDownloadVideo/responsable`);
+                            break;
+                        case "formateur":
+                            response = await axiosInstance.get(`/entreprises/${userId}/isDownloadVideo/formateur`);
+                            break;
+                        case "charge-formation":
+                            response = await axiosInstance.get(`/entreprises/${userId}/isDownloadVideo/charge-formation`);
+                            break;
+                        default:
+                            break;
+                    }
+                    console.log("response.data: ", response.data);
+                    setDownloadAccess(response.data);
+                }}
+             catch (error) {
+                console.log("error: ", error);
+                toast.error(translate("messages.fetchDownloadAccessError"));
+            }
+        };
+
+        getDownlaodAccess();
         fetchLibraries();
-    }, [courseId, user, userId]);
+    }, [courseId, userId]);
+
 
     const handleCreateLibrary = () => {
         navigate(`${nom}/courses/${courseId}/create-library`);
@@ -161,9 +198,20 @@ const LibraryPage = ({ nom, user, path }) => {
             toast.error(error.response?.data || translate("messages.fetchLibrariesError"));
         }
     };
+    
+    const handleToggle = async (resource) => {
+        try {
+            await axiosInstance.patch(`/resources/${resource.id}/download-video-status?downloadVideoStatus=${!resource.isDownloadable}`);
+            const response = await axiosInstance.get(`/resources/library/${selectedLibrary}/dtos`);
+            setResources(response.data);
+        } catch (error) {
+            console.log("error: ", error);
+            toast.error(translate("messages.loadError"));
+        }
+    };
 
     // Function to display the resource
-    const handleResourceView = async (resourceId, resourceTitle, resourceType) => {
+    const handleResourceView = async (resourceId, resourceTitle, resourceType , isDownloadable) => {
         try {
             const response = await axiosInstance.get(`/resources/${resourceId}`, {
                 responseType: 'blob',
@@ -174,7 +222,7 @@ const LibraryPage = ({ nom, user, path }) => {
 
             if (['mp4', 'avi', 'mov'].includes(fileExtension)) {
                 // Display video in modal
-                setFile({ url, type: 'video' });
+                setFile({ url, type: 'video'  ,isDownloadable});
                 setShowModal(true);  // Show modal for video
             } else {
                 // Trigger download for files
@@ -296,7 +344,7 @@ const LibraryPage = ({ nom, user, path }) => {
                                                     <FaFileAlt
                                                         className="text-teal-600 hover:text-teal-700 cursor-pointer"
                                                         title={translate("buttons.uploadResource")}
-                                                        onClick={() => handleResourceView(resource.id, resource.title, resource.type)}
+                                                        onClick={() => handleResourceView(resource.id, resource.title, resource.type , resource.isDownloadable)}
                                                     />
                                                     {nom !== "/participant" && (
                                                         <FaTrash
@@ -305,7 +353,23 @@ const LibraryPage = ({ nom, user, path }) => {
                                                             onClick={() => handleDeleteResource(resource.id)}
                                                         />
                                                     )}
+                                                {hasDownloadAccess && (
+                                                    <>
+                                                    <span className="text-sm text-gray-600">{translate('titles.downloadAccess')}</span>
+                                                    <Switch
+                                                        onChange={() => handleToggle(resource)}
+                                                        checked={resource.isDownloadable}
+                                                        onColor="#4ade80"
+                                                        offColor="#d1d5db"
+                                                        checkedIcon={false}
+                                                        uncheckedIcon={false}
+                                                        height={20}
+                                                        width={48}
+                                                    />
+                                                    </>
+                                                )}
                                                 </div>
+
                                             </li>
                                         ))
                                     ) : (
@@ -325,8 +389,8 @@ const LibraryPage = ({ nom, user, path }) => {
                 </Modal.Header>
                 <Modal.Body className="text-center h-full w-full">
                     {file?.type === 'video' && (
-                        <video controls className="w-full max-w-lg mx-auto" controlsList="nodownload">
-                            <source src={file.url} type="video/mp4" />
+                        <video controls className="w-full max-w-lg mx-auto" controlsList={file?.isDownloadable ? "download" : "nodownload"} >
+                            <source src={file.url} type="video/mp4"  />
                             {t('messages.videoNotSupported')}
                         </video>
                     )}

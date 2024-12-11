@@ -1,7 +1,9 @@
 {
     "titles": {
+
         "libraryManagement": "Library Management",
         "libraries": "Libraries",
+        "downloadAccess": "Download Access",
         "videoViewer": "Video Viewer"
     },
     "buttons": {

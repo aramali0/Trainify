@@ -1,6 +1,7 @@
 {
     "titles": {
         "libraryManagement": "Gestion de la Bibliothèque",
+        "downloadAccess": "Accès au Téléchargement",
         "libraries": "Bibliothèques",
         "videoViewer": "Visionneuse Vidéo"
     },

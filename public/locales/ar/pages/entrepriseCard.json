@@ -12,6 +12,7 @@
     "responsablesButton": "المسؤولون",
     "participantButton": "المشارك",
     "formateursButton": "المدربون",
+    "downloadVideo": "عرض تحميل الفيديو",
     "errors": {
         "updateFailed": "فشل في تحديث {{attribute}}. يرجى المحاولة مرة أخرى."
     },

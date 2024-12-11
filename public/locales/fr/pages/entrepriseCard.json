@@ -12,6 +12,7 @@
     "responsablesButton": "Responsables",
     "participantButton": "Participant",
     "formateursButton": "Formateurs",
+    "downloadVideo": "Afficher la vidéo de téléchargement",
     "errors": {
         "updateFailed": "Échec de la mise à jour de {{attribute}}. Veuillez réessayer."
     },

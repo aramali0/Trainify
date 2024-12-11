@@ -21,6 +21,7 @@ const EntrepriseCard = ({ entreprise }) => {
     showQuizResult: false,
     showQuizCorrection: false,
     showExcelMethode: false,
+    showDownloadVideo: false,
   });
 
   useEffect(() => {
@@ -67,10 +68,13 @@ const EntrepriseCard = ({ entreprise }) => {
         case 'showExcelMethode':
           endpoint = `/show-excel-methode`;
           break;
+        case 'showDownloadVideo':
+          endpoint = `/download-video`;
+          break;
         default:
           throw new Error('Invalid attribute');
       }
-
+      
       // Make the PATCH request
       const response = await axiosInstance.patch(
         `/entreprises/${localEntreprise.id}${endpoint}`,
@@ -174,6 +178,20 @@ const EntrepriseCard = ({ entreprise }) => {
                 onChange={() => handleToggle('showExcelMethode')}
                 checked={localEntreprise.showExcelMethode}
                 disabled={loading.showExcelMethode}
+                onColor="#4ade80"
+                offColor="#d1d5db"
+                checkedIcon={false}
+                uncheckedIcon={false}
+                height={20}
+                width={48}
+              />
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-sm text-gray-600">{t('downloadVideo')}</span>
+              <Switch
+                onChange={() => handleToggle('showDownloadVideo')}
+                checked={localEntreprise.showDownloadVideo}
+                disabled={loading.showDownloadVideo}
                 onColor="#4ade80"
                 offColor="#d1d5db"
                 checkedIcon={false}

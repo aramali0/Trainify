@@ -23,6 +23,7 @@ const AddResonsablePage = ({setShowResponsableForm,setShowEntreprisesForm,setEnt
     const [cin, setCin] = useState('');
     const [profileImage, setProfileImage] = useState(null);
     const [previewImage, setPreviewImage] = useState(null);
+    const [isLoading, setIsLoading] = useState(false);
     const [errors, setErrors] = useState({});
     const isRTL = i18next.language === 'ar';
     const handleImageChange = (e) => {
@@ -87,7 +88,7 @@ const AddResonsablePage = ({setShowResponsableForm,setShowEntreprisesForm,setEnt
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!validateForm()) return;
-
+        setIsLoading(true);
         const formData = new FormData();
         formData.append('matriculeId', matricule);
         formData.append('firstName', firstName);
@@ -120,6 +121,9 @@ const AddResonsablePage = ({setShowResponsableForm,setShowEntreprisesForm,setEnt
             console.error('Error adding user:', error);
             toast.error(t('add_responsable.addUserError'), { position: "top-right" });
             }
+        }
+        finally {
+            setIsLoading(false);
         }
     };
 
@@ -285,7 +289,7 @@ const AddResonsablePage = ({setShowResponsableForm,setShowEntreprisesForm,setEnt
                         <div className='mb-4' >
                             <label htmlFor="age" className="sr-only">
                                 {t('add_responsable.cin')}
-</label>
+                            </label>
                             <input
                                 id="cin"
                                 type="text"

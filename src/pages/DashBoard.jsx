@@ -91,7 +91,6 @@ const Dashboard = ({ path, nom }) => {
                     {
                         label: t('charts.coursesCreated'),
                         data: courseData,
-                        borderWidth: 10,
                         fill: false,
                         backgroundColor: 'rgba(75, 192, 192, 0.2)',
                         borderColor: 'rgba(75, 192, 192, 1)',
@@ -128,7 +127,6 @@ const Dashboard = ({ path, nom }) => {
                     {
                         label: t('charts.studentsOverTime'),
                         data: studentData,
-                        borderWidth: 10,
                         fill: false,
                         backgroundColor: 'rgba(255, 99, 132, 0.2)',
                         borderColor: 'rgba(255, 99, 132, 1)',
@@ -163,7 +161,6 @@ const Dashboard = ({ path, nom }) => {
                 datasets: [
                     {
                         label: t('charts.instructorsOverTime'),
-                        borderWidth: 10,
                         data: instructorData,
                         fill: false,
                         backgroundColor: 'rgba(54, 162, 235, 0.2)',
@@ -200,7 +197,6 @@ const Dashboard = ({ path, nom }) => {
                     {
                         label: t('charts.evaluationsOverTime'),
                         data: evaluationData,
-                        borderWidth: 10,
                         fill: false,
                         backgroundColor: 'rgba(153, 102, 255, 0.2)',
                         borderColor: 'rgba(153, 102, 255, 1)',
@@ -230,7 +226,6 @@ const Dashboard = ({ path, nom }) => {
                     {
                         label: t('charts.coursesCreated'),
                         data: coursesData.courseData,
-                        borderWidth: 10,
                         fill: false,
                         backgroundColor: 'rgba(75, 192, 192, 0.2)',
                         borderColor: 'rgba(75, 192, 192, 1)',
@@ -238,7 +233,6 @@ const Dashboard = ({ path, nom }) => {
                     {
                         label: t('charts.studentsOverTime'),
                         data: studentsData.studentData,
-                        borderWidth: 10,
                         fill: false,
                         backgroundColor: 'rgba(255, 99, 132, 0.2)',
                         borderColor: 'rgba(255, 99, 132, 1)',
@@ -246,7 +240,6 @@ const Dashboard = ({ path, nom }) => {
                     {
                         label: t('charts.instructorsOverTime'),
                         data: instructorsData.instructorData,
-                        borderWidth: 10,
                         fill: false,
                         backgroundColor: 'rgba(54, 162, 235, 0.2)',
                         borderColor: 'rgba(54, 162, 235, 1)',
@@ -254,7 +247,6 @@ const Dashboard = ({ path, nom }) => {
                     {
                         label: t('charts.evaluationsOverTime'),
                         data: evaluationsData.evaluationData,
-                        borderWidth: 10,
                         fill: false,
                         backgroundColor: 'rgba(153, 102, 255, 0.2)',
                         borderColor: 'rgba(153, 102, 255, 1)',
@@ -293,11 +285,15 @@ const Dashboard = ({ path, nom }) => {
                     nom={nom}
                 />
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 text-center lg:grid-cols-3 gap-6">
                     <DashboardCard title={t('dashboard.courses')} count={totalCourses} imgSrc={school} link={`${nom}/courses`} />
                     <DashboardCard title={t('dashboard.students')} count={totalStudents} imgSrc={graduation} link={`${nom}/students`} />
                     <DashboardCard title={t('dashboard.instructors')} count={totalInstructors} imgSrc={instructor} link={`${nom}/instructors`} />
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 text-center lg:grid-cols-3 gap-6">
                     <DashboardCard title={t('dashboard.score')} count={`${averageScore.toFixed(2)}%`} imgSrc={grow} link={`${nom}/latest-evaluations`} />
+                    <DashboardCard title={t('dashboard.resources')} count={totalResources} imgSrc={graduation} link={`${nom}/library`} />
                     <DashboardCard title={t('dashboard.resources')} count={totalResources} imgSrc={graduation} link={`${nom}/library`} />
                 </div>
 

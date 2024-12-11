@@ -12,6 +12,7 @@
     "responsablesButton": "Responsible",
     "participantButton": "Participant",
     "formateursButton": "Trainers",
+    "downloadVideo" : "Show download Video",
     "errors": {
         "updateFailed": "Failed to update {{attribute}}. Please try again."
     },

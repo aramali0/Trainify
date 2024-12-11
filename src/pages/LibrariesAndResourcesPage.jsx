@@ -4,10 +4,10 @@ import { toast, ToastContainer } from 'react-toastify';
 import { FaFolder, FaFileAlt, FaChevronDown, FaChevronUp, FaFilePdf, FaFileWord, FaFileExcel, FaFileImage, FaFileAudio, FaFileVideo, FaFileArchive, FaFileCode } from 'react-icons/fa';
 import { getUser } from '../helper/auth';
 import { Modal, Button } from 'react-bootstrap';  
-import { useTranslation } from 'react-i18next'; // For translations
+import { useTranslation } from 'react-i18next'; 
 
 const LibrariesAndResourcesPage = () => {
-    const { t,i18n } = useTranslation('pages/libraryAndResources'); // Hook for accessing translations
+    const { t,i18n } = useTranslation('pages/libraryAndResources'); 
     const [libraries, setLibraries] = useState([]);
     const [selectedLibrary, setSelectedLibrary] = useState(null);
     const [resources, setResources] = useState([]);
@@ -15,7 +15,7 @@ const LibrariesAndResourcesPage = () => {
     const [showModal, setShowModal] = useState(false);
     const participantId = getUser().userId;
 
-    const isRTL = i18n.dir() === 'rtl'; // Check if the language is RTL 
+    const isRTL = i18n.dir() === 'rtl'; 
 
     useEffect(() => {
         const fetchLibraries = async () => {
@@ -45,7 +45,7 @@ const LibrariesAndResourcesPage = () => {
         }
     };
 
-    const handleResourceView = async (resourceId, resourceTitle) => {
+    const handleResourceView = async (resourceId, resourceTitle , isDownloadable) => {
         try {
             const response = await axiosInstance.get(`/resources/${resourceId}`, { responseType: 'blob' });
 
@@ -53,7 +53,7 @@ const LibrariesAndResourcesPage = () => {
             const fileExtension = resourceTitle.split('.').pop().toLowerCase();
 
             if (['mp4', 'avi', 'mov'].includes(fileExtension)) {
-                setFile({ url, type: 'video' });
+                setFile({ url, type: 'video' ,isDownloadable});
                 setShowModal(true);
             } else {
                 const link = document.createElement('a');
@@ -153,7 +153,7 @@ const LibrariesAndResourcesPage = () => {
                 </Modal.Header>
                 <Modal.Body className="text-center">
                     {file?.type === 'video' && (
-                        <video controls className="w-full max-w-lg mx-auto" controlsList="nodownload">
+                        <video controls className="w-full max-w-lg mx-auto" controlsList={file?.isDownloadable ? "nodownload" : "download"}>
                             <source src={file.url} type="video/mp4" />
                             {t('videoUnsupported')}
                         </video>
