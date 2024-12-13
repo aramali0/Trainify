@@ -1,6 +1,7 @@
 {
   "common": {
-    "loading": "جارٍ التحميل..."
+    "loading": "جارٍ التحميل...",
+    "close": "إغلاق"
   },
   "evaluation": {
     "responsesTitle": "استجابات التقييم",
@@ -8,10 +9,20 @@
     "percentage": "النسبة المئوية",
     "answers": "الإجابات",
     "userId": "معرّف المستخدم",
-    "noResponses": "لم يتم العثور على استجابات."
+    "noResponses": "لم يتم العثور على استجابات.",
+    "totalScore": "النقاط الكلية",
+    "actions": "الإجراءات",
+    "seeMore": "عرض المزيد",
+    "responseDetails": "تفاصيل الاستجابة",
+    "blockDetails": "تفاصيل الكتلة",
+    "blockName": "اسم الكتلة"
+
   },
   "error": {
     "fetchingResponses": "خطأ في تحميل الاستجابات:",
-    "failedToLoadResponses": "فشل في تحميل الاستجابات."
+    "failedToLoadResponses": "فشل في تحميل الاستجابات.",
+    "fetchingBlockDetails": "خطأ في تحميل تفاصيل الكتلة:",
+    "failedToLoadBlockDetails": "فشل في تحميل تفاصيل الكتلة."
+
   }
 }

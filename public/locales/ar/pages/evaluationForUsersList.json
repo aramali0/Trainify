@@ -1,10 +1,13 @@
 {
   "evaluationList": {
     "title": "تقييماتك",
+    "course": "الدورة",
+    "date": "التاريخ",
     "loading": "جارٍ التحميل...",
     "noEvaluations": "لم يتم العثور على تقييمات.",
     "answerQuestions": "الإجابة على الأسئلة",
     "errorFetching": "خطأ في جلب التقييمات:",
+    "completed": "مكتمل",
     "errorLoading": "فشل في تحميل التقييمات."
   }
 }

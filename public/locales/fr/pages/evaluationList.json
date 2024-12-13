@@ -7,6 +7,9 @@
     "type": "Type",
     "viewResponses": "Voir les réponses",
     "noEvaluations": "Aucune évaluation trouvée.",
+    "filterByCourse": "Filtrer par Formation",
+    "selectCoursePlaceholder": "Filtrer par Formation",
+    "date": "Date",
     "createEvaluation": "Créer une évaluation"
   },
   "error": {

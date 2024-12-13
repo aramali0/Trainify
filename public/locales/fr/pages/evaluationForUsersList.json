@@ -1,10 +1,13 @@
 {
   "evaluationList": {
     "title": "Vos évaluations",
+    "course": "Formation",
+    "date": "Date",
     "loading": "Chargement...",
     "noEvaluations": "Aucune évaluation trouvée.",
-    "answerQuestions": "Répondre aux questions",
+    "answerQuestions": "Répondre", 
     "errorFetching": "Erreur lors de la récupération des évaluations :",
+    "completed": "Terminé",
     "errorLoading": "Échec du chargement des évaluations."
   }
 }

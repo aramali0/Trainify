@@ -1,6 +1,7 @@
 {
   "common": {
-    "loading": "Loading..."
+    "loading": "Loading...",
+        "close": "Close"
   },
   "evaluation": {
     "responsesTitle": "Evaluation Responses",
@@ -8,10 +9,19 @@
     "percentage": "Percentage",
     "answers": "Answers",
     "userId": "User ID",
-    "noResponses": "No responses found."
+    "noResponses": "No responses found.",
+    "totalScore": "Total Score",
+    "actions": "Actions",
+    "seeMore": "See More",
+    "responseDetails": "Response Details",
+    "blockDetails": "Block Details",
+    "blockName": "Block Name"
   },
-  "error": {
-    "fetchingResponses": "Error fetching responses:",
-    "failedToLoadResponses": "Failed to load responses."
-  }
-}
+
+      "error": {
+        "fetchingResponses": "Error fetching responses",
+        "failedToLoadResponses": "Failed to load responses",
+        "fetchingBlockDetails": "Error fetching block details",
+        "failedToLoadBlockDetails": "Failed to load block details"
+      }
+    }

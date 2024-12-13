@@ -1,6 +1,7 @@
 {
   "common": {
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "close": "Fermer"
   },
   "evaluation": {
     "responsesTitle": "Réponses à l'évaluation",
@@ -8,10 +9,18 @@
     "percentage": "Pourcentage",
     "answers": "Réponses",
     "userId": "ID d'utilisateur",
-    "noResponses": "Aucune réponse trouvée."
+    "noResponses": "Aucune réponse trouvée.",
+    "totalScore": "Score total",
+    "actions": "Actions",
+    "seeMore": "Voir plus",
+    "responseDetails": "Détails de la réponse",
+    "blockDetails": "Détails du bloc",
+    "blockName":"Nom du bloc"
   },
   "error": {
     "fetchingResponses": "Erreur lors du chargement des réponses :",
-    "failedToLoadResponses": "Échec du chargement des réponses."
+    "failedToLoadResponses": "Échec du chargement des réponses.",
+    "fetchingBlockDetails": "Erreur lors du chargement des détails du bloc :",
+    "failedToLoadBlockDetails": "Échec du chargement des détails du bloc."
   }
 }

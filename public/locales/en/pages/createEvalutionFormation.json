@@ -14,6 +14,14 @@
     "successMessage": "Evaluation created successfully.",
     "failMessage": "Failed to create evaluation.",
     "errorCreating": "Error creating evaluation:",
-    "submit": "Submit"
+    "courseLabel": "Select Course",
+    "selectCourse": "Please select a course",
+    "blocksLabel": "Evaluation Blocks",
+    "blockTitlePlaceholder": "Enter block title",
+    "blockWeightagePlaceholder": "Set block weightage (0-100)",
+    "addBlock": "Add Block",
+    "submit": "Submit Evaluation",
+    "errorFetchingCourses": "Error fetching courses. Please reload the page.",
+    "totalWeightageError": "The total weightage of all blocks must equal 100."
+    }
   }
-}

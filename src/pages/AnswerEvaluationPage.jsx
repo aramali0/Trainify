@@ -10,7 +10,7 @@ import { MdErrorOutline } from 'react-icons/md';
 const AnswerEvaluationPage = ({ nom }) => {
     const { evaluationId } = useParams();
     const [evaluation, setEvaluation] = useState(null);
-    const [answers, setAnswers] = useState({});
+    const [blockAnswers, setBlockAnswers] = useState({});
     const [isLoading, setIsLoading] = useState(true);
     const navigate = useNavigate();
     const userId = getUser().userId;
@@ -19,13 +19,18 @@ const AnswerEvaluationPage = ({ nom }) => {
     useEffect(() => {
         const fetchEvaluation = async () => {
             try {
-                const response = await axiosInstance.get(`/evaluations-formation/evaluation/${evaluationId}`);
+                const response = await axiosInstance.get(`/evaluations-formation/${evaluationId}`);
                 setEvaluation(response.data);
-                const initialAnswers = {};
-                response.data.questions.forEach((q) => {
-                    initialAnswers[q] = 1; // Default score for each question
+
+                // Initialize blockAnswers object with default values for each question
+                const initialBlockAnswers = {};
+                response.data.blocks.forEach((block) => {
+                    initialBlockAnswers[block.id] = {};
+                    block.questions.forEach((question) => {
+                        initialBlockAnswers[block.id][question] = 1; // Default score for each question
+                    });
                 });
-                setAnswers(initialAnswers);
+                setBlockAnswers(initialBlockAnswers);
             } catch (error) {
                 console.error(t('answerEvaluation.errorFetching'), error);
                 toast.error(t('answerEvaluation.errorLoading'));
@@ -42,12 +47,14 @@ const AnswerEvaluationPage = ({ nom }) => {
             const payload = {
                 evaluationId: evaluation.id,
                 userId,
-                entrepriseId: evaluation.entrepriseId,
-                answers,
+                blockAnswers: Object.entries(blockAnswers).map(([blockId, answers]) => ({
+                    blockId: parseInt(blockId, 10),
+                    answers: answers
+                })),
             };
             const response = await axiosInstance.post('/responses-formation', payload);
             toast.success(
-                `${t('answerEvaluation.successMessage')} ${response.data.percentage}%`
+                `${t('answerEvaluation.successMessage')} ${response.data.totalScore}%`
             );
             navigate(`${nom}/evaluation-formations`);
         } catch (error) {
@@ -56,10 +63,13 @@ const AnswerEvaluationPage = ({ nom }) => {
         }
     };
 
-    const handleChange = (question, value) => {
-        setAnswers((prev) => ({
+    const handleChange = (blockId, question, value) => {
+        setBlockAnswers((prev) => ({
             ...prev,
-            [question]: value,
+            [blockId]: {
+                ...prev[blockId],
+                [question]: value,
+            },
         }));
     };
 
@@ -76,21 +86,26 @@ const AnswerEvaluationPage = ({ nom }) => {
                         {evaluation.title}
                     </h1>
                     <div className="space-y-6">
-                        {evaluation.questions.map((question, index) => (
-                            <div key={index} className="mb-4">
-                                <p className="mb-2 text-lg font-medium text-gray-700">{question}</p>
-                                <select
-                                    className="w-full px-4 py-2 border rounded-lg bg-gray-50 text-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                                    value={answers[question]}
-                                    onChange={(e) =>
-                                        handleChange(question, parseInt(e.target.value, 10))
-                                    }
-                                >
-                                    <option value={1}>{t('answerEvaluation.option1')}</option>
-                                    <option value={2}>{t('answerEvaluation.option2')}</option>
-                                    <option value={3}>{t('answerEvaluation.option3')}</option>
-                                    <option value={4}>{t('answerEvaluation.option4')}</option>
-                                </select>
+                        {evaluation.blocks.map((block) => (
+                            <div key={block.id} className="mb-6">
+                                <h2 className="text-2xl font-semibold text-gray-700 mb-4">{block.title}</h2>
+                                {block.questions.map((question) => (
+                                    <div key={question} className="mb-4">
+                                        <p className="mb-2 text-lg font-medium text-gray-700">{question}</p>
+                                        <select
+                                            className="w-full px-4 py-2 border rounded-lg bg-gray-50 text-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                            value={blockAnswers[block.id]?.[question] || 1}
+                                            onChange={(e) =>
+                                                handleChange(block.id, question, parseInt(e.target.value, 10))
+                                            }
+                                        >
+                                            <option value={1}>{t('answerEvaluation.option1')}</option>
+                                            <option value={2}>{t('answerEvaluation.option2')}</option>
+                                            <option value={3}>{t('answerEvaluation.option3')}</option>
+                                            <option value={4}>{t('answerEvaluation.option4')}</option>
+                                        </select>
+                                    </div>
+                                ))}
                             </div>
                         ))}
                     </div>

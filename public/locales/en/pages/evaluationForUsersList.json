@@ -1,10 +1,13 @@
 {
   "evaluationList": {
     "title": "Your Evaluations",
+    "course": "Course",
+    "date": "Date",
     "loading": "Loading...",
     "noEvaluations": "No evaluations found.",
     "answerQuestions": "Answer Questions",
     "errorFetching": "Error fetching evaluations:",
-    "errorLoading": "Failed to load evaluations."
+    "errorLoading": "Failed to load evaluations.",
+    "completed": "Completed"
   }
 }

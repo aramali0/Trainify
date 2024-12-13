@@ -80,6 +80,7 @@ const LibraryPage = ({ nom, user, path }) => {
             if (libraryName) params.libraryName = libraryName;
             if (formationId) params.formationId = formationId; // Include formationId in the params
 
+            console.log("params: ", params);
             if (courseId != null) {
                 response = await axiosInstance.get(`/libraries/cour/${courseId}`, { params });
             } else {
@@ -100,6 +101,7 @@ const LibraryPage = ({ nom, user, path }) => {
                         break;
                 }
             }
+            console.log("response: ", response.data);
             setLibraries(response.data);
         } catch (error) {
             toast.error(translate("messages.fetchLibrariesError"));
@@ -108,6 +110,7 @@ const LibraryPage = ({ nom, user, path }) => {
 
  const handleFormationChange = (selectedOption) => {
         setFormationId(selectedOption ? selectedOption.value : null); // Update formationId
+        console.log("formation id: ", selectedOption.value);
     };
 
 const handleSearchChange = (e) => {
@@ -145,7 +148,8 @@ const handleSearchChange = (e) => {
                 toast.error(translate("messages.fetchDownloadAccessError"));
             }
         };
-
+        console.log("formation id: ", formationId);
+        console.log("libraryname: ", libraryName);
         getDownlaodAccess();
         courseId == null && fetchFormations();
         fetchLibraries();

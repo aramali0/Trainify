@@ -294,7 +294,7 @@ const Dashboard = ({ path, nom }) => {
                 <div className="grid grid-cols-1 md:grid-cols-2 text-center lg:grid-cols-3 gap-6">
                     <DashboardCard title={t('dashboard.score')} count={`${averageScore.toFixed(2)}%`} imgSrc={grow} link={`${nom}/latest-evaluations`} />
                     <DashboardCard title={t('dashboard.resources')} count={totalResources} imgSrc={graduation} link={`${nom}/library`} />
-                    <DashboardCard title={t('dashboard.resources')} count={totalResources} imgSrc={graduation} link={`${nom}/library`} />
+                    <DashboardCard title={t('dashboard.evaluations')} count={`${averageScore.toFixed(2)}%`} imgSrc={grow} link={`${nom}/evaluation-formations`} />
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">

@@ -14,6 +14,14 @@
     "successMessage": "تم إنشاء التقييم بنجاح.",
     "failMessage": "فشل في إنشاء التقييم.",
     "errorCreating": "خطأ في إنشاء التقييم:",
-    "submit": "إرسال"
+    "submit": "إرسال",
+    "courseLabel": "اختر الدورة",
+    "selectCourse": "يرجى اختيار دورة",
+    "blocksLabel": "كتل التقييم",
+    "blockTitlePlaceholder": "أدخل عنوان الكتلة",
+    "blockWeightagePlaceholder": "حدد وزن الكتلة (0-100)",
+    "addBlock": "إضافة كتلة",
+    "errorFetchingCourses": "حدث خطأ أثناء جلب الدورات. يرجى إعادة تحميل الصفحة.",
+    "totalWeightageError": "يجب أن يكون الوزن الإجمالي لجميع الكتل 100."
   }
 }

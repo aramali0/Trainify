@@ -14,6 +14,14 @@
     "successMessage": "Évaluation créée avec succès.",
     "failMessage": "Échec de la création de l'évaluation.",
     "errorCreating": "Erreur lors de la création de l'évaluation :",
-    "submit": "Soumettre"
-  }
+    "submit": "Soumettre",
+    "courseLabel": "Sélectionner un Cours",
+    "selectCourse": "Veuillez sélectionner un cours",
+    "blocksLabel": "Blocs d'Évaluation",
+    "blockTitlePlaceholder": "Entrez le titre du bloc",
+    "blockWeightagePlaceholder": "Définir le poids du bloc (0-100)",
+    "addBlock": "Ajouter un Bloc",
+    "errorFetchingCourses": "Erreur lors de la récupération des cours. Veuillez recharger la page.",
+    "totalWeightageError": "Le poids total de tous les blocs doit être égal à 100."
+}
 }
